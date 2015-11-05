@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-q9ouoL-tUZqmZtSHuLzLjA"
+    name="define_services_interaction,_diTx4OM4Ed6OoK0l17K4LA" guid="-q9ouoL-tUZqmZtSHuLzLjA"
+    authors="Andrea Delgado" changeDate="2010-11-29T11:30:58.958+0100" changeDescription="&#x9;&#x9;"
+    version="1.1">
+  <mainDescription>&lt;p>&#xD;
+    The invocation sequence of services is shown for each process or sub-process in a sequence diagram describing the&#xD;
+    interaction between the services involved. It will be an orchestration of services if there is an&amp;nbsp;organization&#xD;
+    that controls its, or a choreography if it involves more than one organization in a collaborative process with&#xD;
+    pre-defined communication with other parties.&lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>This insight is provided by a sequence diagram showing all the services, or various sequence diagrams&#xD;
+    showing different subsets of services corresponding to different sub-processes in the business&#xD;
+    process.&amp;nbsp;&lt;/span>&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Example of a sequence diagram showing an interaction of services for the sub-process &quot;Loan Authorization&quot; from a &quot;Grant&#xD;
+    Loan&quot; business process of a bank:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/sequencediagram.jpg&quot; width=&quot;600&quot; height=&quot;572&quot; />&lt;br />&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_1DIXYEiPEd-6ten92sIKgg" name="For each identified business process or sub-process trace the defined services implementing the selected activities"
+      guid="_1DIXYEiPEd-6ten92sIKgg"/>
+  <sections xmi:id="_KlnBYEiQEd-6ten92sIKgg" name="Create the corresponding sequence diagram to realize each business process by means of the defined services "
+      guid="_KlnBYEiQEd-6ten92sIKgg"/>
+  <sections xmi:id="_UkhhkEiQEd-6ten92sIKgg" name="In the sequence diagram the entities will be the defined services and the actors will be persons or organizations involved "
+      guid="_UkhhkEiQEd-6ten92sIKgg"/>
+  <purpose>To define the sequence of interaction between services needed to perform the identified business processes,&amp;nbsp;&#xD;
+clarifying the interaction of services.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

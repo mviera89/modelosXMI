@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-Z9KdJtq_FANdN4BHQ-9cHQ"
+    name="specify_services,_l-QkIOMwEd6OoK0l17K4LA" guid="-Z9KdJtq_FANdN4BHQ-9cHQ"
+    authors="Andrea Delgado" changeDate="2010-11-27T17:56:11.704+0100" version="1.1">
+  <mainDescription>&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>&lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>The specification of services corresponds to the definition of all the information needed to further&#xD;
+    implement them.&lt;/span>&lt;/span> &lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>This includes all the information in the defined Service Contract: interfaces, operations, input and&#xD;
+    output parameters, and pre and post conditions if needed.&lt;/span> Each operation in the interface must specify: a) name&#xD;
+    of the method, b) required parameters and for each one, its name, type and description, c) return value, indicating&#xD;
+    name, type and description, d) list of exceptions, e) brief description of the provided functionality, f)&#xD;
+    pre-conditions for the successful execution, g) post-conditions that have to be valid after execution. &lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>The information related to the in and out messages must be specified, indicating the parameters and data&#xD;
+    to be interchanged between the parties.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>Message Type definitions to be used in operations from the Reseller:&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/MessagesReseller.jpg&quot; width=&quot;521&quot; height=&quot;266&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>The choreography defined by the Service Contract (if any) must also be specified, based on the&#xD;
+    interaction between participants, interfaces, operations and parameters used.&amp;nbsp;&lt;/span>&amp;nbsp;Service&#xD;
+    Contract&amp;nbsp;with roles definition and corresponding choreography for the defined service ReceiveOrder of Reseller.&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;resources/ReceiveOrderServiceContractInterfsChoreog.jpg&quot; width=&quot;600&quot; height=&quot;350&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>In order for services to be generated in SoaML from the BPMN business process model with this&#xD;
+    information, the Architect must provide it in the BPMN business process model for the activities marked as&#xD;
+    services.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;br /></mainDescription>
+  <sections xmi:id="_sWNoYEiAEd-6ten92sIKgg" name="Clearly specify the functionality that the service provides "
+      guid="_sWNoYEiAEd-6ten92sIKgg"/>
+  <sections xmi:id="_coNecEiAEd-6ten92sIKgg" name="Identify interface/s provided by the service"
+      guid="_coNecEiAEd-6ten92sIKgg"/>
+  <sections xmi:id="_f6tJ8EiAEd-6ten92sIKgg" name="Identify operations provided by each interface "
+      guid="_f6tJ8EiAEd-6ten92sIKgg"/>
+  <sections xmi:id="_ly0z4EiAEd-6ten92sIKgg" name="Identify input/output parameters in each operation indicating name, type and description"
+      guid="_ly0z4EiAEd-6ten92sIKgg"/>
+  <sections xmi:id="_2ekYcEiAEd-6ten92sIKgg" name="Identify pre-conditions for the service execution "
+      guid="_2ekYcEiAEd-6ten92sIKgg"/>
+  <sections xmi:id="_5KTl8EiAEd-6ten92sIKgg" name="Identify post-conditions for the service execution"
+      guid="_5KTl8EiAEd-6ten92sIKgg"/>
+  <purpose>To specify services by defining for each one its contract with the interfaces it provides and its operations and&#xD;
+parameters. To define all the information for modeling the service in SoaML using the diagrams for Service Contract,&#xD;
+Interfaces and associated Choreograpy.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-Z5ijwAfjhz7Zk-OUyqtWEA"
+    name="assign_services_to_components,_-OOD4OM3Ed6OoK0l17K4LA" guid="-Z5ijwAfjhz7Zk-OUyqtWEA"
+    authors="Andrea Delgado" changeDate="2010-11-27T18:33:55.197+0100" version="1.1">
+  <mainDescription>&lt;p>&#xD;
+    To assign services to components the question of whom (which component) will be provided for the services defined by&#xD;
+    the specified interfaces must be answered. The existing services also count if there are components providing the&#xD;
+    required functionality, or if an intermediary service could be developed to provide it using existing services. &lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>For each service, it is necessary to define a component with which to implement it. This might be an&#xD;
+    atomic component, an existing component, or a composite component which uses or has several other internal components.&#xD;
+    The Architect uses the information concerning existing services found in the catalogue, and the definitions of the&#xD;
+    service design to associate each component with the service that it will implement.&lt;/span> In &lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>SoaML it means modeling the participant component diagram with which to define the implementation of&#xD;
+    participants and services&lt;/span>&lt;font face=&quot;Times&quot;>, defining the new components to be generated and, if the component&#xD;
+    exists, defining adapters or wrappers to use it, providing the modifications needed to invoke them.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font face=&quot;Times&quot;>Example of component diagram taken from the SoaML standard:&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;img alt=&quot;&quot; src=&quot;./resources/AsignarComponentes.jpg&quot; width=&quot;600&quot; height=&quot;433&quot; />&lt;br /></mainDescription>
+  <sections xmi:id="_ODBkcEiFEd-6ten92sIKgg" name="Define components to be implemented for providing the specified services"
+      guid="_ODBkcEiFEd-6ten92sIKgg"/>
+  <sections xmi:id="_uM1qcEiOEd-6ten92sIKgg" name="Specify each component indicating the services and business rules it implements"
+      guid="_uM1qcEiOEd-6ten92sIKgg"/>
+  <sections xmi:id="_CuUKcEiPEd-6ten92sIKgg" name="Identify other components that the specified component uses "
+      guid="_CuUKcEiPEd-6ten92sIKgg"/>
+  <purpose>To define the components to be implemented for providing the specified services. In &lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+ lang=&quot;EN-US&quot;>SoaML it means modeling the participant component diagram with which to define the implementation of&#xD;
+participants and services.&lt;/span></purpose>
+</org.eclipse.epf.uma:TaskDescription>

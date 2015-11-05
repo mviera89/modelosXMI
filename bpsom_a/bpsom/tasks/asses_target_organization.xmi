@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-ZFcWRpJxmETaZcxKQb85YQ"
+    name=",_osAMgOMfEd6OoK0l17K4LA" guid="-ZFcWRpJxmETaZcxKQb85YQ" authors="Andrea Delgado"
+    changeDate="2010-11-27T16:05:36.522+0100" version="1.1">
+  <mainDescription>The current state of the Organization in which the application will be implemented should be described, in terms of their&#xD;
+current business processes, tools, skills of people, attitudes of people, customers, competition, technological challenges,&#xD;
+problems and areas of improvement, clearly identifying those stakeholders involved in the business modeling effort. &lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+ lang=&quot;EN-US&quot;>The OMG Business Motivation Model (BMM) can also be used to express the goals, strategy and the&#xD;
+organization’s other business information, which then is linked to the definition of SoaML services.&lt;/span></mainDescription>
+  <keyConsiderations>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+ lang=&quot;EN-US&quot;>If the software area belongs to the organization then, if documents exist that provide the needed insight&#xD;
+into the area of business, business goals, operation, employees, technologies used in the organization, among others, these&#xD;
+can be used rather than their being produced again.&lt;/span></keyConsiderations>
+  <sections xmi:id="_J9U74OMjEd6OoK0l17K4LA" name="Identify business processes context"
+      guid="_J9U74OMjEd6OoK0l17K4LA"/>
+  <sections xmi:id="_YHAzYOMjEd6OoK0l17K4LA" name="Identify technological contex "
+      guid="_YHAzYOMjEd6OoK0l17K4LA"/>
+  <sections xmi:id="_khTw4OMjEd6OoK0l17K4LA" name="Identify human context " guid="_khTw4OMjEd6OoK0l17K4LA"/>
+  <sections xmi:id="_awFHYOMjEd6OoK0l17K4LA" name="Identify problems and improvement opportunities"
+      guid="_awFHYOMjEd6OoK0l17K4LA"/>
+  <sections xmi:id="_eMVy4OMjEd6OoK0l17K4LA" name="Identify stakeholders for the business modeling effort"
+      guid="_eMVy4OMjEd6OoK0l17K4LA"/>
+  <purpose>&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;WIDOWS: 2; TEXT-TRANSFORM: none; TEXT-INDENT: 0px; BORDER-COLLAPSE: separate; FONT: medium 'Times New Roman'; WHITE-SPACE: normal; ORPHANS: 2; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;&#xD;
+     class=&quot;Apple-style-span&quot;>&lt;span style=&quot;LINE-HEIGHT: 24px; FONT-FAMILY: Arial, sans-serif; FONT-SIZE: 16px&quot;&#xD;
+    class=&quot;Apple-style-span&quot;>&lt;span style=&quot;BACKGROUND-COLOR: rgb(255,255,255)&quot;&#xD;
+    onmouseover=&quot;this.style.backgroundColor='#ebeff9'&quot; title=&quot;Organización.&quot;&#xD;
+    onmouseout=&quot;this.style.backgroundColor='#fff'&quot;>&lt;font size=&quot;2&quot;>To involve the project team with the organization for&#xD;
+    which the development is being&amp;nbsp; carried out, in issues such as: the area of business, operation, employees, etc.&#xD;
+    of the organization.&lt;br />&#xD;
+    &lt;/font>&lt;br />&#xD;
+    &lt;/span>&lt;/span>&lt;/span>&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

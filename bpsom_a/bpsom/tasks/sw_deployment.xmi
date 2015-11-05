@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="--NEV1a4itVbR0RvsJ7TRtg"
+    name="sw_deployment,_YPg7wEfDEd-iNY7TQq4TSw" guid="--NEV1a4itVbR0RvsJ7TRtg" changeDate="2010-11-29T12:07:16.687+0100"
+    version="version 1.1">
+  <mainDescription>According to the software base development process of the organization the software system developed (including the&#xD;
+services implemented) is deployed into the clients environment. &amp;nbsp;</mainDescription>
+  <purpose>To deploy the software system developed into the clients environment.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

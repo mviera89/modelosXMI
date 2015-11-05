@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-2KK-w_7pVVvaqZiQpvGKbQ"
+    name=",_rvHbYOMjEd6OoK0l17K4LA" guid="-2KK-w_7pVVvaqZiQpvGKbQ" authors="Andrea Delgado "
+    changeDate="2010-11-27T16:09:48.949+0100" version="1.1">
+  <mainDescription>&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>The business processes description must include: including participants and actors involved, control flow&#xD;
+    with sequence of activities and messages between pools, flow decisions and business rules.&amp;nbsp;It is recommended to&#xD;
+    use process patterns (workflow patterns) to help in various modeling aspects of business processes. The boundaries of&#xD;
+    business are clearly stated, indicating who and what interacts with the organization, specifying processes both in&#xD;
+    natural language and graphically using a Business Process Modeler tool (BizAgi, ARIS, Visual Paradigm, etc.). QVT&#xD;
+    transformations are defined to generate services models specified in the OMG SoaML standard from business process&#xD;
+    models specified in BPMN, that can be executed in the Eclipse environment.&lt;/span>&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>Example of a BPMN busines process model for a Reseller (adapted from Weske, 2007):&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;img alt=&quot;&quot; src=&quot;resources/ResellerBusinessProcessAchicado.jpg&quot; width=&quot;600&quot; height=&quot;451&quot; />&lt;br />&#xD;
+&lt;br /></mainDescription>
+  <keyConsiderations>It is recommended to use process patterns (workflow patterns, van der Aalst et. al, 2003) to help in various modeling&#xD;
+aspects of business processes, reusing knowledge and best solutions.</keyConsiderations>
+  <sections xmi:id="_xsoQQEh8Ed-6ten92sIKgg" name="Identify participants and actors involved"
+      guid="_xsoQQEh8Ed-6ten92sIKgg"/>
+  <sections xmi:id="_F0-CEEh-Ed-6ten92sIKgg" name="Identify activities to be performed "
+      guid="_F0-CEEh-Ed-6ten92sIKgg"/>
+  <sections xmi:id="_H_W2AEh-Ed-6ten92sIKgg" name="Identify the sequence of activities realization"
+      guid="_H_W2AEh-Ed-6ten92sIKgg"/>
+  <sections xmi:id="_TTrp8Eh-Ed-6ten92sIKgg" name="Identify decision nodes in the flow"
+      guid="_TTrp8Eh-Ed-6ten92sIKgg"/>
+  <sections xmi:id="_7iemYPo5Ed-iy5x8bu83hQ" name="Identify message interaction with other participants (if any)"
+      guid="_7iemYPo5Ed-iy5x8bu83hQ"/>
+  <sections xmi:id="_dR4_gEh-Ed-6ten92sIKgg" name="Identify business rules" guid="_dR4_gEh-Ed-6ten92sIKgg"/>
+  <purpose>&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>To understand and describe the business processes in the organization, mainly those related to the&#xD;
+    application being developed, specifying the business process models using&amp;nbsp;the Business Process Modeling Notation&#xD;
+    (BPMN)&lt;/span>.&#xD;
+&lt;/p></purpose>
+  <alternatives>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+ lang=&quot;EN-US&quot;>The notation used to specify the business process models from which to generate SoaML services models is&#xD;
+BPMN. Other notations could be used, but the QVT transformations defined could not then be executed.&lt;/span></alternatives>
+</org.eclipse.epf.uma:TaskDescription>

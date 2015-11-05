@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-0k89H-5aWSSJjGjhjQJctQ"
+    name="implement_services,_hdEQcEfDEd-iNY7TQq4TSw" guid="-0k89H-5aWSSJjGjhjQJctQ"
+    authors="Andrea Delgado " changeDate="2010-04-15T15:13:33.925+0200" version="1.0">
+  <mainDescription>To implement the described services&amp;nbsp;taking into account the type of service, the designed interfaces, the interaction&#xD;
+with other services (with or without a repository of services, binding in development or execution time).</mainDescription>
+  <sections xmi:id="_2JK88EiQEd-6ten92sIKgg" name="For each service recall the defined interfaces with its operations, parameters, pre and post conditions from the services document "
+      guid="_2JK88EiQEd-6ten92sIKgg"/>
+  <sections xmi:id="_99qM8EiQEd-6ten92sIKgg" name="Implement the service defining if invocations to other services will be through a services repository or not, and the time of binding for the invocation (development, execution)"
+      guid="_99qM8EiQEd-6ten92sIKgg"/>
+  <sections xmi:id="_XqA2YEiREd-6ten92sIKgg" name="Implement the service defining how invocations to other software pieces will be handled, and the time of binding for the invocation (development, execution)"
+      guid="_XqA2YEiREd-6ten92sIKgg"/>
+  <purpose>To implement the described services.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI epf:version="1.5.0" xmi:version="2.0" xmlns:epf="http://www.eclipse.org/epf" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI">
+<org.eclipse.epf.uma.resourcemanager:ResourceManager guid="_TJVNUevFEdyp6czxLiQq9g" xmi:id="_TJVNUevFEdyp6czxLiQq9g">
+<subManagers href="uma://_HtQ6kOMfEd6OoK0l17K4LA#_HtvbsOMfEd6OoK0l17K4LA" xmi:id="_HtvbsOMfEd6OoK0l17K4LA">
+</subManagers>
+<resourceDescriptors id="_TJVNUOvFEdyp6czxLiQq9g" uri="" xmi:id="_TJVNUuvFEdyp6czxLiQq9g">
+</resourceDescriptors>
+<resourceDescriptors id="_HtQ6kOMfEd6OoK0l17K4LA" uri="bpsom/plugin.xmi" xmi:id="_HtvbseMfEd6OoK0l17K4LA">
+</resourceDescriptors>
+</org.eclipse.epf.uma.resourcemanager:ResourceManager>
+<org.eclipse.epf.uma:MethodLibrary guid="_TJVNUOvFEdyp6czxLiQq9g" name="EPFPracLib_20080306" xmi:id="_TJVNUOvFEdyp6czxLiQq9g">
+<methodElementProperty value="0" xmi:id="_JizxIHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_MRPloEFXEdy9ENCpSugIjA" xmi:id="_JizxIXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.default.cat_def.base" xmi:id="_JizxInZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_vsno4EKmEdyrauqpmnA8jQ" xmi:id="_JizxI3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.default.nav_view.base" xmi:id="_JizxJHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_iVydgENdEdy245g62lfWcA" xmi:id="_JizxJXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.default.release_copyright.base" xmi:id="_JizxJnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_A118oMYaEdyXeo04os5BOw" xmi:id="_JizxJ3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.default.role_def.base" xmi:id="_JizxKHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_fRdVEMYbEdyXeo04os5BOw" xmi:id="_JizxKXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.default.tool_def.base" xmi:id="_JizxKnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_WCUhAO8KEdmKSqa_gSYthg" xmi:id="_JizxK3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.default.uma_concept.base" xmi:id="_JizxLHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_14Ft0M3pEdyuBO4ZIzcyig" xmi:id="_JizxLXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.gen.common.assign" xmi:id="_JizxLnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_ji3-gEMXEdyP_Jn83ylwUQ" xmi:id="_JizxL3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.gen.common.base" xmi:id="_JizxMHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_CX-9AM3qEdyuBO4ZIzcyig" xmi:id="_JizxMXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.mgmt.common.assign" xmi:id="_JizxMnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_0TmecJ-VEdy3Nc4rvuj7bA" xmi:id="_JizxM3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.mgmt.common.extend_supp" xmi:id="_JizxNHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_vJYucEfUEdyiPI8btkmvmw" xmi:id="_JizxNXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.mgmt.slot.base" xmi:id="_JizxNnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_LdRtkM3qEdyuBO4ZIzcyig" xmi:id="_JizxN3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.tech.common.assign" xmi:id="_JizxOHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_OOB2AAouEdyhlpBPrduOMw" xmi:id="_JizxOXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.tech.common.extend_supp" xmi:id="_JizxOnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_-bv0ELXuEduGP_98XMd0fg" xmi:id="_JizxO3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.tech.slot.base" xmi:id="_JizxPHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_Nh8H8K0EEdyKsPiG2Ur1fQ" xmi:id="_JizxPXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="meth_mgmt.review_status.base" xmi:id="_JizxPnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_iNwFsMhNEdygFZkm1d5NtQ" xmi:id="_JizxP3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.iterative_dev.assign" xmi:id="_JizxQHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_qqyzAJ6WEdyQN-zRFaRrCQ" xmi:id="_JizxQXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.iterative_dev.base" xmi:id="_JizxQnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_4gXdoL8BEdyWX5Yd-9QZ1A" xmi:id="_JizxQ3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.risk_value_lifecycle.base" xmi:id="_JizxRHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_NBRHwMh3EdygFZkm1d5NtQ" xmi:id="_JizxRXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.two_level_project_planning.assign" xmi:id="_JizxRnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_nKS10J6YEdyQN-zRFaRrCQ" xmi:id="_JizxR3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.two_level_project_planning.base" xmi:id="_JizxSHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_40sbAJ6YEdyQN-zRFaRrCQ" xmi:id="_JizxSXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.whole_team.base" xmi:id="_JizxSnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_IItp4MuXEdyLOriywSJkoQ" xmi:id="_JizxS3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.concurrent_testing.assign" xmi:id="_JizxTHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_Hz9OMG5KEdyAHIxjZ9kpqw" xmi:id="_JizxTXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.concurrent_testing.base" xmi:id="_JizxTnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_h_9roM3PEdyKkus0T68H3Q" xmi:id="_JizxT3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.continuous_integration.assign" xmi:id="_JizxUHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_D-ExQMktEdygFZkm1d5NtQ" xmi:id="_JizxUXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.continuous_integration.base" xmi:id="_JizxUnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_GxBjAM2sEdym_ZFqrJcXUg" xmi:id="_JizxU3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.evolutionary_arch.assign" xmi:id="_JizxVHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_4gaS4LPREduocbW-TPTq7A" xmi:id="_JizxVXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.evolutionary_arch.base" xmi:id="_JizxVnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_XPLD8MudEdyRPtFYRAKVDg" xmi:id="_JizxV3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.evolutionary_design.assign" xmi:id="_JizxWHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_Z2cK0LPPEduocbW-TPTq7A" xmi:id="_JizxWXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.evolutionary_design.base" xmi:id="_JizxWnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_NjNCEMrmEdyd6uFrFHNXhA" xmi:id="_JizxW3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.shared_vision.assign" xmi:id="_JizxXHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_Y9TKMLS9EduDY8LNbMCDBA" xmi:id="_JizxXXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.shared_vision.base" xmi:id="_JizxXnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_00zMMMt1EdyRPtFYRAKVDg" xmi:id="_JizxX3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.test_driven_development.assign" xmi:id="_JizxYHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_DZ1rEI7-Edy7q8CKc_B8eg" xmi:id="_JizxYXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.test_driven_development.base" xmi:id="_JizxYnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_HYAA4MriEdyd6uFrFHNXhA" xmi:id="_JizxY3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.use_case_driven_dev.assign" xmi:id="_JizxZHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_GbYfULPaEduocbW-TPTq7A" xmi:id="_JizxZXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.use_case_driven_dev.base" xmi:id="_JizxZnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_Z7teANQ1EdyQ89W1tgswSQ" xmi:id="_JizxZ3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="process.openup.base" xmi:id="_JizxaHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_4ulTgMg7EdyXeo04os5BOw" xmi:id="_JizxaXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="publish.openup.base" xmi:id="_JizxanZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_44o4AOvVEdyp6czxLiQq9g" xmi:id="_Jizxa3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.team_change_mgmt.base" xmi:id="_JizxbHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_ugihsOxXEdyCFeiQwJE7Vg" xmi:id="_JizxbXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.team_change_mgmt.assign" xmi:id="_JizxbnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_bIIs0FRFEd2CWscN8Mx6rg" xmi:id="_Jizxb3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="publish.all_epf_practices.base" xmi:id="_JizxcHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_Q_mBoGphEd24CboUCnKL3A" xmi:id="_JizxcXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.mgmt.common.base" xmi:id="_JizxcnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_Qyp8YGpiEd24CboUCnKL3A" xmi:id="_Jizxc3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="core.tech.common.base" xmi:id="_JizxdHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_VVRjYHoCEd2ozs6whO3m5w" xmi:id="_JizxdXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.abrd.assign" xmi:id="_JizxdnZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_XLuWYHn8Ed2ozs6whO3m5w" xmi:id="_Jizxd3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.abrd.base" xmi:id="_JizxeHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_xco1IMVNEd2pfdXgw7I2qQ" xmi:id="_JizxeXZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="publish.abrd.base" xmi:id="_JizxenZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="_Pnn0sMruEd2sX5aq6os4oQ" xmi:id="_Jizxe3ZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodElementProperty value="process.abrd.base" xmi:id="_JizxfHZZEd60ePfv-2f7tg">
+</methodElementProperty>
+<methodPlugins href="uma://_HtQ6kOMfEd6OoK0l17K4LA#_HtQ6kOMfEd6OoK0l17K4LA" xmi:id="_HtQ6kOMfEd6OoK0l17K4LA">
+</methodPlugins>
+<methodElementProperty value="0">
+</methodElementProperty>
+<methodElementProperty value="_MRPloEFXEdy9ENCpSugIjA">
+</methodElementProperty>
+<methodElementProperty value="core.default.cat_def.base">
+</methodElementProperty>
+<methodElementProperty value="_vsno4EKmEdyrauqpmnA8jQ">
+</methodElementProperty>
+<methodElementProperty value="core.default.nav_view.base">
+</methodElementProperty>
+<methodElementProperty value="_iVydgENdEdy245g62lfWcA">
+</methodElementProperty>
+<methodElementProperty value="core.default.release_copyright.base">
+</methodElementProperty>
+<methodElementProperty value="_A118oMYaEdyXeo04os5BOw">
+</methodElementProperty>
+<methodElementProperty value="core.default.role_def.base">
+</methodElementProperty>
+<methodElementProperty value="_fRdVEMYbEdyXeo04os5BOw">
+</methodElementProperty>
+<methodElementProperty value="core.default.tool_def.base">
+</methodElementProperty>
+<methodElementProperty value="_WCUhAO8KEdmKSqa_gSYthg">
+</methodElementProperty>
+<methodElementProperty value="core.default.uma_concept.base">
+</methodElementProperty>
+<methodElementProperty value="_14Ft0M3pEdyuBO4ZIzcyig">
+</methodElementProperty>
+<methodElementProperty value="core.gen.common.assign">
+</methodElementProperty>
+<methodElementProperty value="_ji3-gEMXEdyP_Jn83ylwUQ">
+</methodElementProperty>
+<methodElementProperty value="core.gen.common.base">
+</methodElementProperty>
+<methodElementProperty value="_CX-9AM3qEdyuBO4ZIzcyig">
+</methodElementProperty>
+<methodElementProperty value="core.mgmt.common.assign">
+</methodElementProperty>
+<methodElementProperty value="_0TmecJ-VEdy3Nc4rvuj7bA">
+</methodElementProperty>
+<methodElementProperty value="core.mgmt.common.extend_supp">
+</methodElementProperty>
+<methodElementProperty value="_vJYucEfUEdyiPI8btkmvmw">
+</methodElementProperty>
+<methodElementProperty value="core.mgmt.slot.base">
+</methodElementProperty>
+<methodElementProperty value="_LdRtkM3qEdyuBO4ZIzcyig">
+</methodElementProperty>
+<methodElementProperty value="core.tech.common.assign">
+</methodElementProperty>
+<methodElementProperty value="_OOB2AAouEdyhlpBPrduOMw">
+</methodElementProperty>
+<methodElementProperty value="core.tech.common.extend_supp">
+</methodElementProperty>
+<methodElementProperty value="_-bv0ELXuEduGP_98XMd0fg">
+</methodElementProperty>
+<methodElementProperty value="core.tech.slot.base">
+</methodElementProperty>
+<methodElementProperty value="_Nh8H8K0EEdyKsPiG2Ur1fQ">
+</methodElementProperty>
+<methodElementProperty value="meth_mgmt.review_status.base">
+</methodElementProperty>
+<methodElementProperty value="_iNwFsMhNEdygFZkm1d5NtQ">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.iterative_dev.assign">
+</methodElementProperty>
+<methodElementProperty value="_qqyzAJ6WEdyQN-zRFaRrCQ">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.iterative_dev.base">
+</methodElementProperty>
+<methodElementProperty value="_4gXdoL8BEdyWX5Yd-9QZ1A">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.risk_value_lifecycle.base">
+</methodElementProperty>
+<methodElementProperty value="_NBRHwMh3EdygFZkm1d5NtQ">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.release_planning.assign">
+</methodElementProperty>
+<methodElementProperty value="_nKS10J6YEdyQN-zRFaRrCQ">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.release_planning.base">
+</methodElementProperty>
+<methodElementProperty value="_40sbAJ6YEdyQN-zRFaRrCQ">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.whole_team.base">
+</methodElementProperty>
+<methodElementProperty value="_IItp4MuXEdyLOriywSJkoQ">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.concurrent_testing.assign">
+</methodElementProperty>
+<methodElementProperty value="_Hz9OMG5KEdyAHIxjZ9kpqw">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.concurrent_testing.base">
+</methodElementProperty>
+<methodElementProperty value="_h_9roM3PEdyKkus0T68H3Q">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.continuous_integration.assign">
+</methodElementProperty>
+<methodElementProperty value="_D-ExQMktEdygFZkm1d5NtQ">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.continuous_integration.base">
+</methodElementProperty>
+<methodElementProperty value="_GxBjAM2sEdym_ZFqrJcXUg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.evolutionary_arch.assign">
+</methodElementProperty>
+<methodElementProperty value="_4gaS4LPREduocbW-TPTq7A">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.evolutionary_arch.base">
+</methodElementProperty>
+<methodElementProperty value="_XPLD8MudEdyRPtFYRAKVDg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.evolutionary_design.assign">
+</methodElementProperty>
+<methodElementProperty value="_Z2cK0LPPEduocbW-TPTq7A">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.evolutionary_design.base">
+</methodElementProperty>
+<methodElementProperty value="_NjNCEMrmEdyd6uFrFHNXhA">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.shared_vision.assign">
+</methodElementProperty>
+<methodElementProperty value="_Y9TKMLS9EduDY8LNbMCDBA">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.shared_vision.base">
+</methodElementProperty>
+<methodElementProperty value="_00zMMMt1EdyRPtFYRAKVDg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.test_driven_development.assign">
+</methodElementProperty>
+<methodElementProperty value="_DZ1rEI7-Edy7q8CKc_B8eg">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.test_driven_development.base">
+</methodElementProperty>
+<methodElementProperty value="_HYAA4MriEdyd6uFrFHNXhA">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.use_case_driven_dev.assign">
+</methodElementProperty>
+<methodElementProperty value="_GbYfULPaEduocbW-TPTq7A">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.use_case_driven_dev.base">
+</methodElementProperty>
+<methodElementProperty value="_Z7teANQ1EdyQ89W1tgswSQ">
+</methodElementProperty>
+<methodElementProperty value="process.openup.base">
+</methodElementProperty>
+<methodElementProperty value="_4ulTgMg7EdyXeo04os5BOw">
+</methodElementProperty>
+<methodElementProperty value="publish.openup.base">
+</methodElementProperty>
+<methodElementProperty value="_44o4AOvVEdyp6czxLiQq9g">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.team_change_mgmt.base">
+</methodElementProperty>
+<methodElementProperty value="_ugihsOxXEdyCFeiQwJE7Vg">
+</methodElementProperty>
+<methodElementProperty value="practice.mgmt.team_change_mgmt.assign">
+</methodElementProperty>
+<methodElementProperty value="_bIIs0FRFEd2CWscN8Mx6rg">
+</methodElementProperty>
+<methodElementProperty value="publish.all_epf_practices.base">
+</methodElementProperty>
+<methodElementProperty value="_Q_mBoGphEd24CboUCnKL3A">
+</methodElementProperty>
+<methodElementProperty value="core.mgmt.common.base">
+</methodElementProperty>
+<methodElementProperty value="_Qyp8YGpiEd24CboUCnKL3A">
+</methodElementProperty>
+<methodElementProperty value="core.tech.common.base">
+</methodElementProperty>
+<methodElementProperty value="_VVRjYHoCEd2ozs6whO3m5w">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.abrd.assign">
+</methodElementProperty>
+<methodElementProperty value="_XLuWYHn8Ed2ozs6whO3m5w">
+</methodElementProperty>
+<methodElementProperty value="practice.tech.abrd.base">
+</methodElementProperty>
+<methodElementProperty value="_xco1IMVNEd2pfdXgw7I2qQ">
+</methodElementProperty>
+<methodElementProperty value="publish.abrd.base">
+</methodElementProperty>
+<methodElementProperty value="_Pnn0sMruEd2sX5aq6os4oQ">
+</methodElementProperty>
+<methodElementProperty value="process.abrd.base">
+</methodElementProperty>
+<methodElementProperty value="_HtQ6kOMfEd6OoK0l17K4LA">
+</methodElementProperty>
+<methodElementProperty value="bpsom">
+</methodElementProperty>
+<methodElementProperty value="_cOTmMEe7Ed-iNY7TQq4TSw">
+</methodElementProperty>
+<methodElementProperty value="publish.bpsom">
+</methodElementProperty>
+</org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>

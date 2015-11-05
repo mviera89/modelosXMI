@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-d7oMjm93xT83Ar4C_hXn7g"
+    name=",_1u19cOMvEd6OoK0l17K4LA" guid="-d7oMjm93xT83Ar4C_hXn7g" authors="Andrea Delgado "
+    changeDate="2010-11-27T16:59:13.805+0100" version="1.1">
+  <mainDescription>&lt;p style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=&quot;MsoNormal&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot;>&lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>&lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>&lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>Services represent features related to business concepts, business process and their sub-processes and&#xD;
+    required functionalities, which have to be provided by services mapped to &lt;font face=&quot;Arial&quot;>software&#xD;
+    subsystems.&lt;/font>&lt;/span>&lt;/span>&lt;/span>&lt;/font>&amp;nbsp;&lt;font face=&quot;Arial&quot;>&lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>&lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>The use of SoaML in this activity implies defining the Services Architecture (SA) diagram which specifies&#xD;
+    the participants, the contracts for the services and the roles they play in each one as provider or consumer of the&#xD;
+    service.&lt;/span>&lt;/span>&lt;/font> &lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>&lt;font face=&quot;Arial&quot;>To identify the services to support the business process, we look at each interchanged&#xD;
+    message between the pools, first defining which activities will be supported by services, and setting the activity type&#xD;
+    to “Service”. This identification is carried out from the point of view of the provider of the service. Upon&#xD;
+    considering the direction of the interchanged messages, we therefore define that the activity to which the message is&#xD;
+    an incoming message is that to be supported by a service. The activity from which the message is an outcoming message&#xD;
+    is therefore the consumer of the service. The pool containing each activity will define the participant that provides&#xD;
+    or consumes the service, depending on where the activity is supported or invokes the defined service. This&#xD;
+    information&lt;/font> &lt;font face=&quot;Arial&quot;>&lt;font face=&quot;Arial&quot;>will then be set in the Service Contract for the defined&#xD;
+    service, indicating the consumer and provider roles as defined.&lt;/font> &lt;span lang=&quot;EN-US&quot;>&lt;font face=&quot;Arial&quot;>For each&#xD;
+    general Participant, its internal participants are also identified in correspondence with its internal defined Lanes,&#xD;
+    and the internal Architecture for the Participant corresponding to the organization in which the development effort is&#xD;
+    carried out, can be later defined using an specific Service Architecture diagram for that participant&#xD;
+    only&lt;/font>.&lt;/span>&lt;/font>&lt;/span> &lt;font face=&quot;Times New Roman&quot;>QVT transformations are defined to generate services&#xD;
+    models specified in the OMG SoaML standard from business process models specified in BPMN, that can be executed in the&#xD;
+    Eclipse environment.&lt;/font>&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;br />&#xD;
+&lt;p style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=&quot;MsoNormal&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot;>&lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>&lt;font face=&quot;Arial&quot;>SoaML Services Architecture diagram for the Reseller business&#xD;
+    process&lt;/font>:&lt;/span>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=&quot;MsoNormal&quot;>&#xD;
+&lt;/p>&#xD;
+&lt;p style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=&quot;MsoNormal&quot;>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./resources/ServicesArchitectureReseller.jpg&quot; width=&quot;600&quot; height=&quot;375&quot; />&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=&quot;MsoNormal&quot;>&#xD;
+    &lt;br style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=&quot;MsoNormal&quot; />&#xD;
+    Other view in the Services Architecture diagram shows some of the participants defined along with their ports for&#xD;
+    providing (Service)&amp;nbsp;and consuming (Request)&amp;nbsp;identified services, and its interfaces (provided and consumed)&#xD;
+    corresponding to each port. &amp;nbsp;&amp;nbsp;&lt;br />&#xD;
+    &lt;br style=&quot;MARGIN: 0cm 0cm 0pt&quot; class=&quot;MsoNormal&quot; />&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./resources/ParticipantsArchs.jpg&quot; width=&quot;600&quot; height=&quot;199&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;WIDOWS: 2; TEXT-TRANSFORM: none; TEXT-INDENT: 0px; BORDER-COLLAPSE: separate; FONT: medium 'Times New Roman'; WHITE-SPACE: normal; ORPHANS: 2; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;&#xD;
+     class=&quot;Apple-style-span&quot;>&lt;span&#xD;
+    style=&quot;TEXT-ALIGN: left; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; FONT-SIZE: 13px&quot;&#xD;
+    class=&quot;Apple-style-span&quot;>&lt;span class=&quot;Apple-converted-space&quot;>T&lt;/span>he categorization of services into a conceptual&#xD;
+    hierarchy is helpful for avoiding their proliferation in an indiscriminate manner, which is known as &quot;services&#xD;
+    syndrome&quot;, and can be done analyzing the service obtained (atomic, composed).&lt;/span>&lt;/span>&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>Services models are specified using the OMG SoaML standard&amp;nbsp;which is an UML profile for services modeling providing a&#xD;
+metamodel an stereotypes specifc for services.For this activity the SoaML Services Architecture diagram has to be modeled&#xD;
+using some UML tool that also provides the profile (Cameo SOA+&amp;nbsp;Magic Draw, Modelio, etc.). &amp;nbsp;&amp;nbsp;</keyConsiderations>
+  <sections xmi:id="_Dwz8gEh_Ed-6ten92sIKgg" name="Identify services provided by the organization from the business process message flow "
+      guid="_Dwz8gEh_Ed-6ten92sIKgg"/>
+  <sections xmi:id="_sHWwoPpDEd-iy5x8bu83hQ" name="Identifiy services consumed by the organization from the business process message flow "
+      guid="_sHWwoPpDEd-iy5x8bu83hQ"/>
+  <sections xmi:id="_cdi8AEh_Ed-6ten92sIKgg" name="Identify activities involved in the business process message flow that need software support and mark them with &quot;Service&quot; BPMN stereotype in the BPMN model. "
+      guid="_cdi8AEh_Ed-6ten92sIKgg"/>
+  <sections xmi:id="_kltV8Eh_Ed-6ten92sIKgg" name="Clearly define the functionality associated to the identified service"
+      guid="_kltV8Eh_Ed-6ten92sIKgg"/>
+  <sections xmi:id="_pozcYEh_Ed-6ten92sIKgg" name="Classify the service according to the hierarchy used indicating if it is atomic or composed"
+      guid="_pozcYEh_Ed-6ten92sIKgg"/>
+  <sections xmi:id="_7lItQPpDEd-iy5x8bu83hQ" name="Identify internal services in the organization needed to fullfil the external services provided and consumed "
+      guid="_7lItQPpDEd-iy5x8bu83hQ"/>
+  <purpose>&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: ES; mso-bidi-language: AR-SA&quot;&#xD;
+     lang=&quot;EN-US&quot;>&lt;font face=&quot;Arial&quot;>To identify the services needed to perform the business processes modeled in the&#xD;
+    Business Modeling Discipline, classifying them by type of service.&amp;nbsp;To define the Services Architecture diagram&#xD;
+    specified in SoaML identifying participants, services to be provided to other parties and consumed from other parties&#xD;
+    based on interchanged messages, and service contracts&amp;nbsp;to define the roles in the services&#xD;
+    interaction.&lt;/font>&lt;/span>&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

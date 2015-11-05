@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_HtvbsOMfEd6OoK0l17K4LA"
+      guid="_HtvbsOMfEd6OoK0l17K4LA">
+    <subManagers xmi:id="_80HwgONPEd6OoK0l17K4LA" href="uma://_8y7dsONPEd6OoK0l17K4LA#_80HwgONPEd6OoK0l17K4LA"/>
+    <subManagers xmi:id="_AMWQkONQEd6OoK0l17K4LA" href="uma://_AKwVIONQEd6OoK0l17K4LA#_AMWQkONQEd6OoK0l17K4LA"/>
+    <subManagers xmi:id="_IDrZMONQEd6OoK0l17K4LA" href="uma://_ICXxoONQEd6OoK0l17K4LA#_IDrZMONQEd6OoK0l17K4LA"/>
+    <subManagers xmi:id="_J7eBQONQEd6OoK0l17K4LA" href="uma://_J53ewONQEd6OoK0l17K4LA#_J7eBQONQEd6OoK0l17K4LA"/>
+    <subManagers xmi:id="_Sf4zYEerEd-iTvGQFwAspw" href="uma://_Se7xIEerEd-iTvGQFwAspw#_Sf4zYEerEd-iTvGQFwAspw"/>
+    <resourceDescriptors xmi:id="_rvf14OMjEd6OoK0l17K4LA" id="-ZFcWRpJxmETaZcxKQb85YQ"
+        uri="tasks/asses_target_organization.xmi"/>
+    <resourceDescriptors xmi:id="_4iHagOMoEd6OoK0l17K4LA" id="-2KK-w_7pVVvaqZiQpvGKbQ"
+        uri="tasks/identify_business_processes.xmi"/>
+    <resourceDescriptors xmi:id="_4iKd0OMoEd6OoK0l17K4LA" id="-_pERkgwcESDINtiNcosZHA"
+        uri="workproducts/target_organization_assesment.xmi"/>
+    <resourceDescriptors xmi:id="_4iMTAOMoEd6OoK0l17K4LA" id="-Wuue_zHqw6-P6OMKGhHb1g"
+        uri="workproducts/business_processes_document.xmi"/>
+    <resourceDescriptors xmi:id="_7yBPkOMpEd6OoK0l17K4LA" id="-Z8itL0-8aWhzEnKNUcnlRw"
+        uri="guidances/templates/business_processes_specification.xmi"/>
+    <resourceDescriptors xmi:id="_l-qz0OMwEd6OoK0l17K4LA" id="-d7oMjm93xT83Ar4C_hXn7g"
+        uri="tasks/identify_categorize_services.xmi"/>
+    <resourceDescriptors xmi:id="_8zISAONPEd6OoK0l17K4LA" id="_8y7dsONPEd6OoK0l17K4LA"
+        uri="capabilitypatterns/Inception%20iteration/model.xmi"/>
+    <resourceDescriptors xmi:id="_ALAMwONQEd6OoK0l17K4LA" id="_AKwVIONQEd6OoK0l17K4LA"
+        uri="capabilitypatterns/Elaboration%20iteration/model.xmi"/>
+    <resourceDescriptors xmi:id="_ICrToONQEd6OoK0l17K4LA" id="_ICXxoONQEd6OoK0l17K4LA"
+        uri="capabilitypatterns/Construction%20iteration/model.xmi"/>
+    <resourceDescriptors xmi:id="_J6HWYONQEd6OoK0l17K4LA" id="_J53ewONQEd6OoK0l17K4LA"
+        uri="capabilitypatterns/Transition%20iteration/model.xmi"/>
+    <resourceDescriptors xmi:id="_Se-0cEerEd-iTvGQFwAspw" id="_Se7xIEerEd-iTvGQFwAspw"
+        uri="deliveryprocesses/bpsom/model.xmi"/>
+    <resourceDescriptors xmi:id="_Asa7UEe3Ed-b3fBMR8tiAQ" id="-QzpQEt0przJQ9GK39C8DIQ"
+        uri="customcategories/bpsom.xmi"/>
+    <resourceDescriptors xmi:id="_XD4d0Ee9Ed-iNY7TQq4TSw" id="-KyA4lnDhCql3pl5bqiC-2A"
+        uri="guidances/supportingmaterials/intro_bpsom.xmi"/>
+    <resourceDescriptors xmi:id="_C4woQEiBEd-6ten92sIKgg" id="-Z9KdJtq_FANdN4BHQ-9cHQ"
+        uri="tasks/specify_services.xmi"/>
+    <resourceDescriptors xmi:id="_VEZnYEiDEd-6ten92sIKgg" id="-B7_HeXAE5Nm77I-HsocADA"
+        uri="tasks/investigate_existing_services.xmi"/>
+    <resourceDescriptors xmi:id="_HhGkAEiPEd-6ten92sIKgg" id="-Z5ijwAfjhz7Zk-OUyqtWEA"
+        uri="tasks/assign_services_to_components.xmi"/>
+    <resourceDescriptors xmi:id="_wZ8lwEiPEd-6ten92sIKgg" id="-q9ouoL-tUZqmZtSHuLzLjA"
+        uri="tasks/define_services_interaction.xmi"/>
+    <resourceDescriptors xmi:id="_krJU8EiSEd-6ten92sIKgg" id="-0SIXvWJCBMtQRgE8COsW2g"
+        uri="tasks/requirements_capture.xmi"/>
+    <resourceDescriptors xmi:id="_krM_UEiSEd-6ten92sIKgg" id="--NEV1a4itVbR0RvsJ7TRtg"
+        uri="tasks/sw_deployment.xmi"/>
+    <resourceDescriptors xmi:id="_krO0gEiSEd-6ten92sIKgg" id="-0k89H-5aWSSJjGjhjQJctQ"
+        uri="tasks/implement_services.xmi"/>
+    <resourceDescriptors xmi:id="_zCLigPuoEd-4HOr1nlpC9Q" id="-yXzFSPNY9WWQZ05jPJVeog"
+        uri="tasks/services_testing.xmi"/>
+    <resourceDescriptors xmi:id="_NpkQ0PupEd-4HOr1nlpC9Q" id="-HUjYP1aVeN0Swv2pOR1KOg"
+        uri="workproducts/software_architecture_document.xmi"/>
+    <resourceDescriptors xmi:id="_Nple8PupEd-4HOr1nlpC9Q" id="-kaTY82nHG5ol5bIZxVbLMg"
+        uri="workproducts/requirements_document.xmi"/>
+    <resourceDescriptors xmi:id="_NpmtEPupEd-4HOr1nlpC9Q" id="-rqo8TpZy1gLGY6EMpzIlqg"
+        uri="workproducts/meetings_with_clients.xmi"/>
+    <resourceDescriptors xmi:id="_Npn7MPupEd-4HOr1nlpC9Q" id="-Dw0fc7eWM55hjk_lr1v31g"
+        uri="workproducts/design_document.xmi"/>
+    <resourceDescriptors xmi:id="_NppwYPupEd-4HOr1nlpC9Q" id="-rLume0emhyX6ruCcnTadCQ"
+        uri="workproducts/implementation_document.xmi"/>
+    <resourceDescriptors xmi:id="_NpvP8PupEd-4HOr1nlpC9Q" id="--HYOYizyRsFCsuxPfW_oAQ"
+        uri="workproducts/service_installed.xmi"/>
+    <resourceDescriptors xmi:id="_NpxFIPupEd-4HOr1nlpC9Q" id="-LUfPdfX7bgJk8BDYigvMrA"
+        uri="workproducts/testing_reports.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_HtQ6kOMfEd6OoK0l17K4LA" name="bpsom"
+      guid="_HtQ6kOMfEd6OoK0l17K4LA" briefDescription="Business Processes Service Oriented Methodology (BPSOM) for service development from business processes. "
+      authors="Andrea Delgado, 2005-2010" changeDate="2010-11-29T16:06:35.002+0100"
+      version="version 1.1">
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HtQ6keMfEd6OoK0l17K4LA"
+        name="Content" guid="_HtQ6keMfEd6OoK0l17K4LA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HtQ6kuMfEd6OoK0l17K4LA"
+          name="Categories" guid="_HtQ6kuMfEd6OoK0l17K4LA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HtRhoOMfEd6OoK0l17K4LA"
+            name="Domains" guid="_HtRhoOMfEd6OoK0l17K4LA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HtRhoeMfEd6OoK0l17K4LA"
+            name="Disciplines" guid="_HtRhoeMfEd6OoK0l17K4LA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_zyC2YOMrEd6OoK0l17K4LA"
+              name="business_modeling" guid="_zyC2YOMrEd6OoK0l17K4LA" presentationName="Business Modeling"
+              tasks="_osAMgOMfEd6OoK0l17K4LA _rvHbYOMjEd6OoK0l17K4LA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_7ONF8OMrEd6OoK0l17K4LA"
+              name="services_design" guid="_7ONF8OMrEd6OoK0l17K4LA" presentationName="Design"
+              tasks="_1u19cOMvEd6OoK0l17K4LA _l-QkIOMwEd6OoK0l17K4LA _wrA9kOM3Ed6OoK0l17K4LA _-OOD4OM3Ed6OoK0l17K4LA _diTx4OM4Ed6OoK0l17K4LA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_ICTDgOMsEd6OoK0l17K4LA"
+              name="services_development" guid="_ICTDgOMsEd6OoK0l17K4LA" presentationName="Development"
+              tasks="_hdEQcEfDEd-iNY7TQq4TSw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HtRhouMfEd6OoK0l17K4LA"
+            name="RoleSets" guid="_HtRhouMfEd6OoK0l17K4LA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HtRho-MfEd6OoK0l17K4LA"
+            name="WP Types" guid="_HtRho-MfEd6OoK0l17K4LA">
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_MyajkOMsEd6OoK0l17K4LA"
+              name="assesment" guid="_MyajkOMsEd6OoK0l17K4LA" presentationName="Assesment"
+              workProducts="_7ir6cOMmEd6OoK0l17K4LA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_T_GMsOMsEd6OoK0l17K4LA"
+              name="specification" guid="_T_GMsOMsEd6OoK0l17K4LA" presentationName="Specification"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HtRhpOMfEd6OoK0l17K4LA"
+            name="Tools" guid="_HtRhpOMfEd6OoK0l17K4LA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HtRhpeMfEd6OoK0l17K4LA"
+            name="StandardCategories" guid="_HtRhpeMfEd6OoK0l17K4LA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HtRhpuMfEd6OoK0l17K4LA"
+            name="CustomCategories" guid="_HtRhpuMfEd6OoK0l17K4LA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HtRhp-MfEd6OoK0l17K4LA"
+              name="Hidden" guid="_HtRhp-MfEd6OoK0l17K4LA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_HtRhqOMfEd6OoK0l17K4LA"
+                name="Custom Categories" guid="_HtRhqOMfEd6OoK0l17K4LA" categorizedElements="_X38tkOMsEd6OoK0l17K4LA"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_X38tkOMsEd6OoK0l17K4LA"
+              name="bpsom" guid="_X38tkOMsEd6OoK0l17K4LA" presentationName="BPSOM"
+              briefDescription="Business Process Service Oriented Methodology (BPSOM) provides a guide for service oriented development from business processes, that can be added as a plug-in to the existing base software development process of the organization. It provides guides to derive and generate services models specified in OMG SoaML standard from business process specified in OMG BPMN standard. It also provides the definition of QVT transformations to automate this derivation as much as possible, using the Eclipse environment. "
+              categorizedElements="_AG92IEe9Ed-iNY7TQq4TSw _yPMuIOMsEd6OoK0l17K4LA _znhL8OMsEd6OoK0l17K4LA _1q71MOMsEd6OoK0l17K4LA _jM-MoONOEd6OoK0l17K4LA _NOUnkEe1Ed-iTvGQFwAspw">
+            <methodElementProperty xmi:id="_UBu8sPu9Ed-_COJkNTJgNA" name="PUBLISH_CATEGORY"
+                value="true"/>
+            <presentation xmi:id="-QzpQEt0przJQ9GK39C8DIQ" href="uma://-QzpQEt0przJQ9GK39C8DIQ#-QzpQEt0przJQ9GK39C8DIQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_yPMuIOMsEd6OoK0l17K4LA"
+              name="disciplines" guid="_yPMuIOMsEd6OoK0l17K4LA" presentationName="Disciplines"
+              shapeicon="customcategories/resources/disciplinegroup.gif" nodeicon="customcategories/resources/disciplinegroup_50.gif"
+              categorizedElements="_zyC2YOMrEd6OoK0l17K4LA _7ONF8OMrEd6OoK0l17K4LA _ICTDgOMsEd6OoK0l17K4LA">
+            <methodElementProperty xmi:id="_TiCV4OMvEd6OoK0l17K4LA" name="include"
+                value="Discipline"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_znhL8OMsEd6OoK0l17K4LA"
+              name="work_products" guid="_znhL8OMsEd6OoK0l17K4LA" presentationName="Work products"
+              shapeicon="customcategories/resources/WorkProducts.gif" nodeicon="customcategories/resources/WorkProducts.gif"
+              categorizedElements="_bBVYAOM6Ed6OoK0l17K4LA _vySecOM6Ed6OoK0l17K4LA _4jGMwOM6Ed6OoK0l17K4LA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_1q71MOMsEd6OoK0l17K4LA"
+              name="roles" guid="_1q71MOMsEd6OoK0l17K4LA" presentationName="Roles"
+              shapeicon="customcategories/resources/roleset.gif" nodeicon="customcategories/resources/roleset_50.gif"
+              categorizedElements="_3dMfMOM7Ed6OoK0l17K4LA _LE63QOM9Ed6OoK0l17K4LA _ssT6EOM8Ed6OoK0l17K4LA _x4Y9YOM8Ed6OoK0l17K4LA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_bBVYAOM6Ed6OoK0l17K4LA"
+              name="business_modeling" guid="_bBVYAOM6Ed6OoK0l17K4LA" presentationName="Business Modeling"
+              categorizedElements="_LuLRoOMnEd6OoK0l17K4LA _7ir6cOMmEd6OoK0l17K4LA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_vySecOM6Ed6OoK0l17K4LA"
+              name="services_design" guid="_vySecOM6Ed6OoK0l17K4LA" presentationName="Design"
+              categorizedElements="_N4bXIOMxEd6OoK0l17K4LA _TL04gOMzEd6OoK0l17K4LA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_4jGMwOM6Ed6OoK0l17K4LA"
+              name="services_development" guid="_4jGMwOM6Ed6OoK0l17K4LA" presentationName="Development"
+              categorizedElements="_o6dUQEexEd-iTvGQFwAspw"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_jM-MoONOEd6OoK0l17K4LA"
+              name="life_cycle" guid="_jM-MoONOEd6OoK0l17K4LA" presentationName="Lifecycle">
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_Se7xIEerEd-iTvGQFwAspw#_Se7xIUerEd-iTvGQFwAspw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_NOUnkEe1Ed-iTvGQFwAspw"
+              name="guidance" guid="_NOUnkEe1Ed-iTvGQFwAspw" presentationName="Guidance"
+              shapeicon="customcategories/resources/template.gif" nodeicon="customcategories/resources/templatechic.gif"
+              categorizedElements="_luMPwEe1Ed-iTvGQFwAspw"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_luMPwEe1Ed-iTvGQFwAspw"
+              name="templates" guid="_luMPwEe1Ed-iTvGQFwAspw" presentationName="Templates"
+              shapeicon="customcategories/resources/template.gif" nodeicon="customcategories/resources/templatechic.gif"
+              categorizedElements="_I-lM8OMpEd6OoK0l17K4LA _zler8OMpEd6OoK0l17K4LA"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HtRhqeMfEd6OoK0l17K4LA"
+          name="CoreContent" guid="_HtRhqeMfEd6OoK0l17K4LA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cdVQMOMfEd6OoK0l17K4LA"
+            name="business_modeling_package" guid="_cdVQMOMfEd6OoK0l17K4LA" presentationName="Business Modeling ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_osAMgOMfEd6OoK0l17K4LA"
+              name="asses_target_organization" guid="_osAMgOMfEd6OoK0l17K4LA" presentationName="BM1 - Asses the Target Organization "
+              briefDescription="The current state of the Organization in which the application will be implemented should be described, in terms of their current business processes, tools, skills of people, attitudes of people, customers, competition, technological challenges, problems and areas of improvement, among others. "
+              performedBy="_3dMfMOM7Ed6OoK0l17K4LA _LE63QOM9Ed6OoK0l17K4LA" mandatoryInput="_8FE_YOMyEd6OoK0l17K4LA"
+              output="_7ir6cOMmEd6OoK0l17K4LA" additionallyPerformedBy="_ssT6EOM8Ed6OoK0l17K4LA">
+            <presentation xmi:id="-ZFcWRpJxmETaZcxKQb85YQ" href="uma://-ZFcWRpJxmETaZcxKQb85YQ#-ZFcWRpJxmETaZcxKQb85YQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rvHbYOMjEd6OoK0l17K4LA"
+              name="identify_business_processes" guid="_rvHbYOMjEd6OoK0l17K4LA" presentationName="BM2 - Identify Business Processes "
+              briefDescription="To understand and describe the business processes in the organization, mainly those related to the application being developed, specifying the business process models using the Business Process Modeling Notation (BPMN), including participants and actors involved, control flow with sequence of activities and messages between pools, flow decisions and business rules. The use of process patterns (workflow patterns) is recommended to help in various modeling aspects of business processes.&#xD;&#xA;"
+              performedBy="_3dMfMOM7Ed6OoK0l17K4LA _LE63QOM9Ed6OoK0l17K4LA" mandatoryInput="_7ir6cOMmEd6OoK0l17K4LA _8FE_YOMyEd6OoK0l17K4LA"
+              output="_LuLRoOMnEd6OoK0l17K4LA" additionallyPerformedBy="_ssT6EOM8Ed6OoK0l17K4LA">
+            <presentation xmi:id="-2KK-w_7pVVvaqZiQpvGKbQ" href="uma://-2KK-w_7pVVvaqZiQpvGKbQ#-2KK-w_7pVVvaqZiQpvGKbQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_7ir6cOMmEd6OoK0l17K4LA"
+              name="target_organization_assesment" guid="_7ir6cOMmEd6OoK0l17K4LA"
+              presentationName="Assesment of the Target Organization">
+            <presentation xmi:id="-_pERkgwcESDINtiNcosZHA" href="uma://-_pERkgwcESDINtiNcosZHA#-_pERkgwcESDINtiNcosZHA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_LuLRoOMnEd6OoK0l17K4LA"
+              name="business_processes_document" guid="_LuLRoOMnEd6OoK0l17K4LA" presentationName="Business Processes document">
+            <presentation xmi:id="-Wuue_zHqw6-P6OMKGhHb1g" href="uma://-Wuue_zHqw6-P6OMKGhHb1g#-Wuue_zHqw6-P6OMKGhHb1g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_I-lM8OMpEd6OoK0l17K4LA"
+              name="target_organization_assestment" guid="_I-lM8OMpEd6OoK0l17K4LA"
+              presentationName="Assesment of the Target Organization"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_zler8OMpEd6OoK0l17K4LA"
+              name="business_processes_specification" guid="_zler8OMpEd6OoK0l17K4LA"
+              presentationName="Business Processes Specification">
+            <presentation xmi:id="-Z8itL0-8aWhzEnKNUcnlRw" href="uma://-Z8itL0-8aWhzEnKNUcnlRw#-Z8itL0-8aWhzEnKNUcnlRw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_3dMfMOM7Ed6OoK0l17K4LA"
+              name="analyst" guid="_3dMfMOM7Ed6OoK0l17K4LA" presentationName="Analyst"
+              responsibleFor="_7ir6cOMmEd6OoK0l17K4LA _LuLRoOMnEd6OoK0l17K4LA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_LE63QOM9Ed6OoK0l17K4LA"
+              name="business_analyst" guid="_LE63QOM9Ed6OoK0l17K4LA" presentationName="Business Analyst"
+              briefDescription="&#x9;"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-N1KsOMpEd6OoK0l17K4LA"
+            name="services_design_package" guid="_-N1KsOMpEd6OoK0l17K4LA" presentationName="Services Design ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_1u19cOMvEd6OoK0l17K4LA"
+              name="identify_categorize_services" guid="_1u19cOMvEd6OoK0l17K4LA" presentationName="D1 - Identify and categorize services"
+              briefDescription="To identify the services needed to perform the business processes modeled in the Business Modeling Discipline, classifying them by type of service. To define the Services Architecture diagram specified in OMG SoaML standard identifying participants, services to be provided to other parties and consumed from other parties based on interchanged messages, and service contracts to define the roles in the services interaction. The BPMN business process models has to be marked with additional information such as defining as &quot;Service&quot; the type of the activities to be supported by services, to be generated by means of the defined QVT transformations from BPMN to SoaML.  &#xD;&#xA;"
+              performedBy="_ssT6EOM8Ed6OoK0l17K4LA" mandatoryInput="_LuLRoOMnEd6OoK0l17K4LA _470IYOMyEd6OoK0l17K4LA _1E2d4OMyEd6OoK0l17K4LA _N4bXIOMxEd6OoK0l17K4LA"
+              output="_N4bXIOMxEd6OoK0l17K4LA _1E2d4OMyEd6OoK0l17K4LA" additionallyPerformedBy="_3dMfMOM7Ed6OoK0l17K4LA _x4Y9YOM8Ed6OoK0l17K4LA">
+            <presentation xmi:id="-d7oMjm93xT83Ar4C_hXn7g" href="uma://-d7oMjm93xT83Ar4C_hXn7g#-d7oMjm93xT83Ar4C_hXn7g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_l-QkIOMwEd6OoK0l17K4LA"
+              name="specify_services" guid="_l-QkIOMwEd6OoK0l17K4LA" presentationName="D2 - Specify services"
+              briefDescription="To specify services by defining for each one its contract with the interfaces it provides and its operations and parameters. To define all the information for modeling the service in SoaML using the diagrams for Service Contract, Interfaces and associated Choreograpy. "
+              performedBy="_ssT6EOM8Ed6OoK0l17K4LA" mandatoryInput="_N4bXIOMxEd6OoK0l17K4LA"
+              output="_N4bXIOMxEd6OoK0l17K4LA" additionallyPerformedBy="_3dMfMOM7Ed6OoK0l17K4LA">
+            <presentation xmi:id="-Z9KdJtq_FANdN4BHQ-9cHQ" href="uma://-Z9KdJtq_FANdN4BHQ-9cHQ#-Z9KdJtq_FANdN4BHQ-9cHQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_N4bXIOMxEd6OoK0l17K4LA"
+              name="services_document" guid="_N4bXIOMxEd6OoK0l17K4LA" presentationName="Services document"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_TL04gOMzEd6OoK0l17K4LA"
+              name="services_catalogue" guid="_TL04gOMzEd6OoK0l17K4LA" presentationName="Services catalogue"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_wrA9kOM3Ed6OoK0l17K4LA"
+              name="investigate_existing_services" guid="_wrA9kOM3Ed6OoK0l17K4LA"
+              presentationName="D3 - Investigate existing services" briefDescription="To find services that are already implemented in the organization and can be reused in the application under development.To keep track of the services, their contracts and associated software systems (implementation) are register in a central Services Catalogue of services."
+              performedBy="_ssT6EOM8Ed6OoK0l17K4LA" mandatoryInput="_N4bXIOMxEd6OoK0l17K4LA _TL04gOMzEd6OoK0l17K4LA"
+              output="_N4bXIOMxEd6OoK0l17K4LA _TL04gOMzEd6OoK0l17K4LA" additionallyPerformedBy="_3dMfMOM7Ed6OoK0l17K4LA">
+            <presentation xmi:id="-B7_HeXAE5Nm77I-HsocADA" href="uma://-B7_HeXAE5Nm77I-HsocADA#-B7_HeXAE5Nm77I-HsocADA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-OOD4OM3Ed6OoK0l17K4LA"
+              name="assign_services_to_components" guid="_-OOD4OM3Ed6OoK0l17K4LA"
+              presentationName="D4 - Assign services to components" briefDescription="To define the components to be implemented for providing the specified services. For each service, it is necessary to define a component with which to implement it. This might be an atomic component, an existing component, or a composite component which uses or has several other internal components. In SoaML it means modeling the participant component diagram with which to define the implementation of participants and services. "
+              performedBy="_ssT6EOM8Ed6OoK0l17K4LA" mandatoryInput="_N4bXIOMxEd6OoK0l17K4LA _P1dnYOM4Ed6OoK0l17K4LA"
+              output="_N4bXIOMxEd6OoK0l17K4LA _SDch4OM4Ed6OoK0l17K4LA" additionallyPerformedBy="_x4Y9YOM8Ed6OoK0l17K4LA">
+            <presentation xmi:id="-Z5ijwAfjhz7Zk-OUyqtWEA" href="uma://-Z5ijwAfjhz7Zk-OUyqtWEA#-Z5ijwAfjhz7Zk-OUyqtWEA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_diTx4OM4Ed6OoK0l17K4LA"
+              name="define_services_interaction" guid="_diTx4OM4Ed6OoK0l17K4LA" presentationName="D5 - Define services interaction"
+              briefDescription="To define the sequence of interaction between services needed to perform the identified business processes,  clarifying the interaction of services. "
+              performedBy="_ssT6EOM8Ed6OoK0l17K4LA" mandatoryInput="_470IYOMyEd6OoK0l17K4LA _LuLRoOMnEd6OoK0l17K4LA _N4bXIOMxEd6OoK0l17K4LA"
+              output="_N4bXIOMxEd6OoK0l17K4LA _SDch4OM4Ed6OoK0l17K4LA" additionallyPerformedBy="_3dMfMOM7Ed6OoK0l17K4LA _x4Y9YOM8Ed6OoK0l17K4LA">
+            <presentation xmi:id="-q9ouoL-tUZqmZtSHuLzLjA" href="uma://-q9ouoL-tUZqmZtSHuLzLjA#-q9ouoL-tUZqmZtSHuLzLjA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_ssT6EOM8Ed6OoK0l17K4LA"
+              name="architect" guid="_ssT6EOM8Ed6OoK0l17K4LA" presentationName="Architect"
+              responsibleFor="_N4bXIOMxEd6OoK0l17K4LA _TL04gOMzEd6OoK0l17K4LA"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mbmVgOMyEd6OoK0l17K4LA"
+            name="base_development_process_package" guid="_mbmVgOMyEd6OoK0l17K4LA"
+            presentationName="Base software development process">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_1E2d4OMyEd6OoK0l17K4LA"
+              name="software_architecture_document" guid="_1E2d4OMyEd6OoK0l17K4LA"
+              presentationName="Software Architecture document">
+            <presentation xmi:id="-HUjYP1aVeN0Swv2pOR1KOg" href="uma://-HUjYP1aVeN0Swv2pOR1KOg#-HUjYP1aVeN0Swv2pOR1KOg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_470IYOMyEd6OoK0l17K4LA"
+              name="requirements_document" guid="_470IYOMyEd6OoK0l17K4LA" presentationName="Requirements document">
+            <presentation xmi:id="-kaTY82nHG5ol5bIZxVbLMg" href="uma://-kaTY82nHG5ol5bIZxVbLMg#-kaTY82nHG5ol5bIZxVbLMg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_8FE_YOMyEd6OoK0l17K4LA"
+              name="meetings_with_clients" guid="_8FE_YOMyEd6OoK0l17K4LA" presentationName="Minutes of meetings with clients ">
+            <presentation xmi:id="-rqo8TpZy1gLGY6EMpzIlqg" href="uma://-rqo8TpZy1gLGY6EMpzIlqg#-rqo8TpZy1gLGY6EMpzIlqg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_P1dnYOM4Ed6OoK0l17K4LA"
+              name="design_document" guid="_P1dnYOM4Ed6OoK0l17K4LA" presentationName="Design document">
+            <presentation xmi:id="-Dw0fc7eWM55hjk_lr1v31g" href="uma://-Dw0fc7eWM55hjk_lr1v31g#-Dw0fc7eWM55hjk_lr1v31g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_SDch4OM4Ed6OoK0l17K4LA"
+              name="implementation_document" guid="_SDch4OM4Ed6OoK0l17K4LA" presentationName="Implementation document">
+            <presentation xmi:id="-rLume0emhyX6ruCcnTadCQ" href="uma://-rLume0emhyX6ruCcnTadCQ#-rLume0emhyX6ruCcnTadCQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_fX0tIEfBEd-iNY7TQq4TSw"
+              name="requirements_capture" guid="_fX0tIEfBEd-iNY7TQq4TSw" presentationName="Requirements Capture"
+              performedBy="_3dMfMOM7Ed6OoK0l17K4LA" mandatoryInput="_8FE_YOMyEd6OoK0l17K4LA _470IYOMyEd6OoK0l17K4LA"
+              output="_470IYOMyEd6OoK0l17K4LA" additionallyPerformedBy="_ssT6EOM8Ed6OoK0l17K4LA">
+            <presentation xmi:id="-0SIXvWJCBMtQRgE8COsW2g" href="uma://-0SIXvWJCBMtQRgE8COsW2g#-0SIXvWJCBMtQRgE8COsW2g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YPg7wEfDEd-iNY7TQq4TSw"
+              name="sw_deployment" guid="_YPg7wEfDEd-iNY7TQq4TSw" presentationName="Software deployment"
+              performedBy="_x4Y9YOM8Ed6OoK0l17K4LA" mandatoryInput="_o6dUQEexEd-iTvGQFwAspw _1E2d4OMyEd6OoK0l17K4LA"
+              output="_kvaSMEu5Ed-vjd_3xeIJwQ" additionallyPerformedBy="_ssT6EOM8Ed6OoK0l17K4LA _3dMfMOM7Ed6OoK0l17K4LA"
+              optionalInput="_SDch4OM4Ed6OoK0l17K4LA">
+            <presentation xmi:id="--NEV1a4itVbR0RvsJ7TRtg" href="uma://--NEV1a4itVbR0RvsJ7TRtg#--NEV1a4itVbR0RvsJ7TRtg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kvaSMEu5Ed-vjd_3xeIJwQ"
+              name="service_installed" guid="_kvaSMEu5Ed-vjd_3xeIJwQ" presentationName="Service installed">
+            <presentation xmi:id="--HYOYizyRsFCsuxPfW_oAQ" href="uma://--HYOYizyRsFCsuxPfW_oAQ#--HYOYizyRsFCsuxPfW_oAQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_bAYWYPuoEd-4HOr1nlpC9Q"
+              name="services_testing" guid="_bAYWYPuoEd-4HOr1nlpC9Q" presentationName="Services testing"
+              performedBy="_m_HHUPuqEd-4HOr1nlpC9Q" mandatoryInput="_o6dUQEexEd-iTvGQFwAspw _470IYOMyEd6OoK0l17K4LA _N4bXIOMxEd6OoK0l17K4LA"
+              output="_62RJ4PuoEd-4HOr1nlpC9Q" additionallyPerformedBy="_x4Y9YOM8Ed6OoK0l17K4LA">
+            <presentation xmi:id="-yXzFSPNY9WWQZ05jPJVeog" href="uma://-yXzFSPNY9WWQZ05jPJVeog#-yXzFSPNY9WWQZ05jPJVeog"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_62RJ4PuoEd-4HOr1nlpC9Q"
+              name="testing_reports" guid="_62RJ4PuoEd-4HOr1nlpC9Q" presentationName="Testing reports">
+            <presentation xmi:id="-LUfPdfX7bgJk8BDYigvMrA" href="uma://-LUfPdfX7bgJk8BDYigvMrA#-LUfPdfX7bgJk8BDYigvMrA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_m_HHUPuqEd-4HOr1nlpC9Q"
+              name="tester" guid="_m_HHUPuqEd-4HOr1nlpC9Q" presentationName="Tester"
+              responsibleFor="_62RJ4PuoEd-4HOr1nlpC9Q"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QK85wOM5Ed6OoK0l17K4LA"
+            name="implementation_package" guid="_QK85wOM5Ed6OoK0l17K4LA" presentationName="Services Implementation">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_x4Y9YOM8Ed6OoK0l17K4LA"
+              name="developer" guid="_x4Y9YOM8Ed6OoK0l17K4LA" presentationName="Developer"
+              responsibleFor="_SDch4OM4Ed6OoK0l17K4LA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_o6dUQEexEd-iTvGQFwAspw"
+              name="service_implemented" guid="_o6dUQEexEd-iTvGQFwAspw" presentationName="Service Implemented"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_hdEQcEfDEd-iNY7TQq4TSw"
+              name="implement_services" guid="_hdEQcEfDEd-iNY7TQq4TSw" presentationName="I1 - Implement services"
+              performedBy="_x4Y9YOM8Ed6OoK0l17K4LA" mandatoryInput="_N4bXIOMxEd6OoK0l17K4LA _P1dnYOM4Ed6OoK0l17K4LA _SDch4OM4Ed6OoK0l17K4LA"
+              output="_o6dUQEexEd-iTvGQFwAspw">
+            <presentation xmi:id="-0k89H-5aWSSJjGjhjQJctQ" href="uma://-0k89H-5aWSSJjGjhjQJctQ#-0k89H-5aWSSJjGjhjQJctQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1V78gEe8Ed-iNY7TQq4TSw"
+            name="bpsom_guidance" guid="_1V78gEe8Ed-iNY7TQq4TSw">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_AG92IEe9Ed-iNY7TQq4TSw"
+              name="intro_bpsom" guid="_AG92IEe9Ed-iNY7TQq4TSw" presentationName="BPSOM introduction"
+              briefDescription="Business Process Service Oriented Methodology (BPSOM) provides a guide for service oriented development from business processes, that can be added as a plug-in to the existing base software development process of the organization. It provides guides to derive and generate services models specified in OMG SoaML standard from business process specified in OMG BPMN standard. It also provides the definition of QVT transformations to automate this derivation as much as possible, using the Eclipse environment. "
+              shapeicon="guidances/supportingmaterials/resources/mic.gif" nodeicon="guidances/supportingmaterials/resources/mic.gif">
+            <presentation xmi:id="-KyA4lnDhCql3pl5bqiC-2A" href="uma://-KyA4lnDhCql3pl5bqiC-2A#-KyA4lnDhCql3pl5bqiC-2A"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_HtRhquMfEd6OoK0l17K4LA"
+          name="CapabilityPatterns" guid="_HtRhquMfEd6OoK0l17K4LA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6IkwQONPEd6OoK0l17K4LA"
+            name="Phase iteration templates" guid="_6IkwQONPEd6OoK0l17K4LA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_8y7dsONPEd6OoK0l17K4LA"
+              href="uma://_8y7dsONPEd6OoK0l17K4LA#_8y7dsONPEd6OoK0l17K4LA"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_AKwVIONQEd6OoK0l17K4LA"
+              href="uma://_AKwVIONQEd6OoK0l17K4LA#_AKwVIONQEd6OoK0l17K4LA"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_ICXxoONQEd6OoK0l17K4LA"
+              href="uma://_ICXxoONQEd6OoK0l17K4LA#_ICXxoONQEd6OoK0l17K4LA"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_J53ewONQEd6OoK0l17K4LA"
+              href="uma://_J53ewONQEd6OoK0l17K4LA#_J53ewONQEd6OoK0l17K4LA"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_HtRhq-MfEd6OoK0l17K4LA"
+        name="DeliveryProcesses" guid="_HtRhq-MfEd6OoK0l17K4LA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_Se7xIEerEd-iTvGQFwAspw"
+          href="uma://_Se7xIEerEd-iTvGQFwAspw#_Se7xIEerEd-iTvGQFwAspw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_HtRhrOMfEd6OoK0l17K4LA"
+        name="ProcessContributions" guid="_HtRhrOMfEd6OoK0l17K4LA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

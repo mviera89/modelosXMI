@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-rqo8TpZy1gLGY6EMpzIlqg"
+    name="meetings_with_clients,_8FE_YOMyEd6OoK0l17K4LA" guid="-rqo8TpZy1gLGY6EMpzIlqg"
+    changeDate="2010-11-29T12:09:03.884+0100" version="version 1.1"/>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-Wuue_zHqw6-P6OMKGhHb1g"
+    name="new_artifact,_LuLRoOMnEd6OoK0l17K4LA" guid="-Wuue_zHqw6-P6OMKGhHb1g" authors="Andrea Delgado"
+    changeDate="2009-12-07T12:59:31.966+0100" version="1.0">
+  <purpose>To specify business processes in the organization by means of business process models using a valid notation (Recomendded&#xD;
+the Business Process Modeling Notation)</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>
