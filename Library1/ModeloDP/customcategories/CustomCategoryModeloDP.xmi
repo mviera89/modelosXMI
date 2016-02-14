@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0" xmi:id="-rSI-7G6Vuv4kVLpxMcOljQ"
+    name="new_custom_category,_ebwGoNK0EeWyCYG0_iINEw" guid="-rSI-7G6Vuv4kVLpxMcOljQ"
+    authors="Marcela Viera." changeDate="2016-02-13T21:47:42.893-0300" changeDescription="Change description CustomCategoryModeloDP."
+    version="Version 1">
+  <mainDescription>Main description CustomCategoryModeloDP.&lt;br /></mainDescription>
+  <keyConsiderations>Key considerations CustomCategoryModeloDP.&lt;br /></keyConsiderations>
+</org.eclipse.epf.uma:ContentDescription>

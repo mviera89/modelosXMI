@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-RMlEU7Zo35SEun_NEMewzA"
+      name="Modelo1DP,_DFXMAdKuEeWyCYG0_iINEw" guid="-RMlEU7Zo35SEun_NEMewzA">
+    <mainDescription>Main description Modelo1DP.&lt;br /></mainDescription>
+    <externalId>id1</externalId>
+    <keyConsiderations>Considerations Modelo1DP.&lt;br /></keyConsiderations>
+    <purpose>Purpose Modelo1DP.&lt;br /></purpose>
+    <alternatives>Alternatives Modelo1DP.&lt;br /></alternatives>
+    <howtoStaff>Staff Modelo1DP.&lt;br /></howtoStaff>
+    <scope>Scope Modelo1DP.&lt;br /></scope>
+    <usageNotes>Usage Notes Modelo1DP.&lt;br /></usageNotes>
+    <scale>Scale Modelo1DP.&lt;br /></scale>
+    <projectCharacteristics>Características Modelo1DP.&lt;br /></projectCharacteristics>
+    <riskLevel>Risk level Modelo1DP.&lt;br /></riskLevel>
+    <estimatingTechnique>Técnicas Modelo1DP.&lt;br /></estimatingTechnique>
+    <projectMemberExpertise>Members Modelo1DP.&lt;br /></projectMemberExpertise>
+    <typeOfContract>Contact Modelo1DP.&lt;br /></typeOfContract>
+  </org.eclipse.epf.uma:DeliveryProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-GPNcK7eKYzbu-z-XqGV_rA" name="Task113,__VadkNKvEeWyCYG0_iINEw"
+      guid="-GPNcK7eKYzbu-z-XqGV_rA">
+    <externalId>ExternalIdTask113.</externalId>
+    <keyConsiderations>Key considerations Task113.&lt;br /></keyConsiderations>
+    <usageGuidance>&lt;br /></usageGuidance>
+    <refinedDescription>Refined description Task113.&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-wZrnwfJuNL9vam4Z63Ip_g" name="Activity111,_236s0dKvEeWyCYG0_iINEw"
+      guid="-wZrnwfJuNL9vam4Z63Ip_g">
+    <mainDescription>Main description Activity111.&lt;br /></mainDescription>
+    <externalId>External id Activity111.</externalId>
+    <keyConsiderations>Key considerations Activity111&lt;br /></keyConsiderations>
+    <usageGuidance>Usage guidance Activity111.&lt;br /></usageGuidance>
+    <purpose>Purpose Activity111.&lt;br /></purpose>
+    <alternatives>Alternatives Activity111.&lt;br /></alternatives>
+    <howtoStaff>Staff Activity111.&lt;br /></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-GkJwQTCoJussyaJZ_FbBMg" name="Task1111,_4uQjYNKvEeWyCYG0_iINEw"
+      guid="-GkJwQTCoJussyaJZ_FbBMg">
+    <externalId>Extermal id Task1111.</externalId>
+    <keyConsiderations>Key considerations Task1111.&lt;br /></keyConsiderations>
+    <usageGuidance>Usage guidance Task1111.&lt;br /></usageGuidance>
+    <refinedDescription>Refined Task1111.&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-c6thR17wMjfKHEX6qsAbNw" name="Activity112,_7ZNGsdKvEeWyCYG0_iINEw"
+      guid="-c6thR17wMjfKHEX6qsAbNw">
+    <mainDescription>Main description Activity112.&lt;br /></mainDescription>
+    <externalId>External Activity112.</externalId>
+    <keyConsiderations>Key considerations Activity112.&lt;br /></keyConsiderations>
+    <usageGuidance>Usage guidance Activity112.&lt;br /></usageGuidance>
+    <purpose>Purpose Activity112.&lt;br /></purpose>
+    <alternatives>Aleternatives Activity112.&lt;br /></alternatives>
+    <howtoStaff>Staff Activity112.&lt;br /></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-Armr4avJZj0r3I9g9yovFg" name="Iteration11,_zwPxQdKvEeWyCYG0_iINEw"
+      guid="-Armr4avJZj0r3I9g9yovFg">
+    <mainDescription>Main description Iteration11.&lt;br /></mainDescription>
+    <externalId>External id Iteration11.</externalId>
+    <keyConsiderations>Key considerations Iteration11.&lt;br /></keyConsiderations>
+    <usageGuidance>Usage guidancer Iteration11.&lt;br /></usageGuidance>
+    <purpose>Purpose Iteration11.&lt;br /></purpose>
+    <alternatives>Alternatives Iteration11.&lt;br /></alternatives>
+    <howtoStaff>Staff Iteration11.&lt;br /></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-c_ENNuXOPjoKOArTt2X3LA" name="Phase1,_w_drsdKvEeWyCYG0_iINEw"
+      guid="-c_ENNuXOPjoKOArTt2X3LA">
+    <mainDescription>Main description Phase1.&lt;br /></mainDescription>
+    <externalId>External id Phase1.</externalId>
+    <keyConsiderations>Key considerations Phase1.&lt;br /></keyConsiderations>
+    <usageGuidance>Usage guidance Phase1.&lt;br /></usageGuidance>
+    <purpose>Purpose Phase1.&lt;br /></purpose>
+    <alternatives>Alternatives Phase1.&lt;br /></alternatives>
+    <howtoStaff>Staff Phase1.&lt;br /></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-qFtmPUBW260SnxSlY3xaOg" name="Phase2,_yfRRkdKvEeWyCYG0_iINEw"
+      guid="-qFtmPUBW260SnxSlY3xaOg">
+    <mainDescription>Main description Phase2.&lt;br /></mainDescription>
+    <externalId>External id Phase2.</externalId>
+    <keyConsiderations>Key considerations Phase2.&lt;br /></keyConsiderations>
+    <usageGuidance>Usage guidance Phase2.&lt;br /></usageGuidance>
+    <purpose>Purpose Phase2.&lt;br /></purpose>
+    <alternatives>Alternatives Phase2.&lt;br /></alternatives>
+    <howtoStaff>Staff Phase2&lt;strong>.&lt;/strong>&lt;br /></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QRmc6ZGnONoproFw_SO_XQ" name="Task21,_81A9YNKvEeWyCYG0_iINEw"
+      guid="-QRmc6ZGnONoproFw_SO_XQ">
+    <externalId>External id Task21.</externalId>
+    <keyConsiderations>Key considerations Task21.&lt;br /></keyConsiderations>
+    <usageGuidance>Usage guidance Task21.&lt;br /></usageGuidance>
+    <refinedDescription>Refined description Task21.&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HS3dNN1vpPK-dgYvCrORoQ" name="Task22,_903Q0NKvEeWyCYG0_iINEw"
+      guid="-HS3dNN1vpPK-dgYvCrORoQ">
+    <externalId>External id Task22.</externalId>
+    <keyConsiderations>Key considerations Task22.&lt;br /></keyConsiderations>
+    <usageGuidance>Usage guidance Task22.&lt;br /></usageGuidance>
+    <refinedDescription>Refined description Task22.&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Vcw3NFrTOlEa3JTC9y8-uw" name="Rol1,_tH4EMNKxEeWyCYG0_iINEw"
+      guid="-Vcw3NFrTOlEa3JTC9y8-uw">
+    <externalId>External id Rol1.</externalId>
+    <keyConsiderations>Key considerations Rol1.&lt;br /></keyConsiderations>
+    <usageGuidance>Usage guidance Rol1.&lt;br /></usageGuidance>
+    <refinedDescription>Refined description Rol1.&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WdWzRlVyIus0tlPN86edIA" name="Rol2,_uwlucNKxEeWyCYG0_iINEw"
+      guid="-WdWzRlVyIus0tlPN86edIA">
+    <externalId>External id Rol2.</externalId>
+    <keyConsiderations>Key considerations Rol2.&lt;br /></keyConsiderations>
+    <usageGuidance>Usage guidance Rol2.&lt;br /></usageGuidance>
+    <refinedDescription>Refined description Rol2.&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-sAl73GF56eQygDu9DZQu5Q" name="wp1,_HYZKoNKyEeWyCYG0_iINEw"
+      guid="-sAl73GF56eQygDu9DZQu5Q">
+    <externalId>External id wp1.</externalId>
+    <keyConsiderations>Key considerations wp1.&lt;br /></keyConsiderations>
+    <usageGuidance>Usage guidance wp1.&lt;br /></usageGuidance>
+    <refinedDescription>Refined description wp1.&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-djEfa59scSvvhTrfXOcOeQ" name="wp2,_IUqloNKyEeWyCYG0_iINEw"
+      guid="-djEfa59scSvvhTrfXOcOeQ">
+    <externalId>External id wp2.</externalId>
+    <keyConsiderations>Key considerations wp2.&lt;br /></keyConsiderations>
+    <usageGuidance>Usage guidance wp2.&lt;br /></usageGuidance>
+    <refinedDescription>Refined description wp2.&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AROGyXUZQjzN24gYikATHg" name="wp3,_mCzpgNKyEeWyCYG0_iINEw"
+      guid="-AROGyXUZQjzN24gYikATHg">
+    <externalId>External id wp3.</externalId>
+    <keyConsiderations>Key considerations wp3.&lt;br /></keyConsiderations>
+    <usageGuidance>Usage guidance wp3.&lt;br /></usageGuidance>
+    <refinedDescription>Refined description wp3.&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-u1xfrxu5q1ztROaVNhwPtQ" name=",_vwfPwNKyEeWyCYG0_iINEw"
+      guid="-u1xfrxu5q1ztROaVNhwPtQ">
+    <externalId>External id Rol3.</externalId>
+    <keyConsiderations>Key considerations Rol3.&lt;br /></keyConsiderations>
+    <usageGuidance>Usage guidance Rol3.&lt;br /></usageGuidance>
+    <refinedDescription>Refined description Rol3.&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:org.eclipse.epf.diagram.model="http://www.eclipse.org/epf/diagram/1.0.0/diagram.ecore"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML">
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_-IuOsNK0EeWyCYG0_iINEw"
+      autoLayout="true">
+    <linkedElement xmi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_DFXMANKuEeWyCYG0_iINEw#_DFXMAdKuEeWyCYG0_iINEw"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_-JBJoNK0EeWyCYG0_iINEw" type="ADD" element="_-IuOsNK0EeWyCYG0_iINEw"
+      name="Modelo1DP" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_-JBJodK0EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_-JBJotK0EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_-JBJo9K0EeWyCYG0_iINEw"/>
+  </notation:Diagram>
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="__ojpwNK0EeWyCYG0_iINEw"
+      autoLayout="true">
+    <linkedElement xmi:type="org.eclipse.epf.uma:Activity" href="uma://_DFXMANKuEeWyCYG0_iINEw#_7ZNGsdKvEeWyCYG0_iINEw"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="__ojpwdK0EeWyCYG0_iINEw" type="ADD" element="__ojpwNK0EeWyCYG0_iINEw"
+      name="Activity112" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="__ojpwtK0EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="__ojpw9K0EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="__ojpxNK0EeWyCYG0_iINEw"/>
+  </notation:Diagram>
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="__pmLkNK0EeWyCYG0_iINEw"
+      autoLayout="true">
+    <linkedElement xmi:type="org.eclipse.epf.uma:Phase" href="uma://_DFXMANKuEeWyCYG0_iINEw#_w_drsdKvEeWyCYG0_iINEw"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="__pmLkdK0EeWyCYG0_iINEw" type="ADD" element="__pmLkNK0EeWyCYG0_iINEw"
+      name="Phase1" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="__pmLktK0EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="__pmLk9K0EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="__pmLlNK0EeWyCYG0_iINEw"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_mFRnUNK1EeWyCYG0_iINEw" name="Modelo1DP">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mFeboNK1EeWyCYG0_iINEw" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mFebodK1EeWyCYG0_iINEw"
+          key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_DFXMAdKuEeWyCYG0_iINEw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mFebotK1EeWyCYG0_iINEw"
+          key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_mYGcsNK1EeWyCYG0_iINEw" name="Phase1"
+        outgoing="_mYIR4NK1EeWyCYG0_iINEw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mYGcsdK1EeWyCYG0_iINEw"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mYGcstK1EeWyCYG0_iINEw"
+            key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_w_drsdKvEeWyCYG0_iINEw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mYGcs9K1EeWyCYG0_iINEw"
+            key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_mYGctNK1EeWyCYG0_iINEw" name="Phase2"
+        incoming="_mYIR4NK1EeWyCYG0_iINEw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mYGctdK1EeWyCYG0_iINEw"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mYGcttK1EeWyCYG0_iINEw"
+            key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_yfRRkdKvEeWyCYG0_iINEw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mYGct9K1EeWyCYG0_iINEw"
+            key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mYIR4NK1EeWyCYG0_iINEw" source="_mYGcsNK1EeWyCYG0_iINEw"
+        target="_mYGctNK1EeWyCYG0_iINEw"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_mGST8NK1EeWyCYG0_iINEw" type="AD" element="_mFRnUNK1EeWyCYG0_iINEw"
+      name="Modelo1DP" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_mGST8dK1EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_mGST8tK1EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_mGST89K1EeWyCYG0_iINEw"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_nuuRYNK1EeWyCYG0_iINEw" name="Phase1">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nuuRYdK1EeWyCYG0_iINEw" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nuu4cNK1EeWyCYG0_iINEw"
+          key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_w_drsdKvEeWyCYG0_iINEw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nuu4cdK1EeWyCYG0_iINEw"
+          key="type" value="Phase"/>
+    </eAnnotations>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_nvj-4NK1EeWyCYG0_iINEw" name="Iteration11">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nvkl8NK1EeWyCYG0_iINEw"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nvkl8dK1EeWyCYG0_iINEw"
+            key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_zwPxQdKvEeWyCYG0_iINEw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nvkl8tK1EeWyCYG0_iINEw"
+            key="type" value="Iteration"/>
+      </eAnnotations>
+    </node>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_nuu4ctK1EeWyCYG0_iINEw" type="AD" element="_nuuRYNK1EeWyCYG0_iINEw"
+      name="Phase1" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_nuu4c9K1EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_nuu4dNK1EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_nuu4ddK1EeWyCYG0_iINEw"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_oISA4NK1EeWyCYG0_iINEw" name="Iteration11">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oISA4dK1EeWyCYG0_iINEw" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oISA4tK1EeWyCYG0_iINEw"
+          key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_zwPxQdKvEeWyCYG0_iINEw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oISA49K1EeWyCYG0_iINEw"
+          key="type" value="Iteration"/>
+    </eAnnotations>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_oIp0UNK1EeWyCYG0_iINEw" name="Activity111"
+        outgoing="_oIqbadK1EeWyCYG0_iINEw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oIp0UdK1EeWyCYG0_iINEw"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oIp0UtK1EeWyCYG0_iINEw"
+            key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_236s0dKvEeWyCYG0_iINEw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oIp0U9K1EeWyCYG0_iINEw"
+            key="type" value="Activity"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_oIqbYNK1EeWyCYG0_iINEw" name="Activity112"
+        outgoing="_oIqbaNK1EeWyCYG0_iINEw" incoming="_oIqbadK1EeWyCYG0_iINEw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oIqbYdK1EeWyCYG0_iINEw"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oIqbYtK1EeWyCYG0_iINEw"
+            key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_7ZNGsdKvEeWyCYG0_iINEw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oIqbY9K1EeWyCYG0_iINEw"
+            key="type" value="Activity"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_oIqbZNK1EeWyCYG0_iINEw" name="Task113"
+        incoming="_oIqbaNK1EeWyCYG0_iINEw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oIqbZdK1EeWyCYG0_iINEw"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oIqbZtK1EeWyCYG0_iINEw"
+            key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#__VadkNKvEeWyCYG0_iINEw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oIqbZ9K1EeWyCYG0_iINEw"
+            key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oIqbaNK1EeWyCYG0_iINEw" source="_oIqbYNK1EeWyCYG0_iINEw"
+        target="_oIqbZNK1EeWyCYG0_iINEw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oIqbadK1EeWyCYG0_iINEw" source="_oIp0UNK1EeWyCYG0_iINEw"
+        target="_oIqbYNK1EeWyCYG0_iINEw"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_oISn8NK1EeWyCYG0_iINEw" type="AD" element="_oISA4NK1EeWyCYG0_iINEw"
+      name="Iteration11" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_oISn8dK1EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_oISn8tK1EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_oISn89K1EeWyCYG0_iINEw"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_ou-0gNK1EeWyCYG0_iINEw" name="Activity111">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ou-0gdK1EeWyCYG0_iINEw" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ou-0gtK1EeWyCYG0_iINEw"
+          key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_236s0dKvEeWyCYG0_iINEw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ou-0g9K1EeWyCYG0_iINEw"
+          key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_ovNeANK1EeWyCYG0_iINEw" name="Task1111"
+        outgoing="_ovNeCNK1EeWyCYG0_iINEw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ovNeAdK1EeWyCYG0_iINEw"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ovNeAtK1EeWyCYG0_iINEw"
+            key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_4uQjYNKvEeWyCYG0_iINEw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ovNeA9K1EeWyCYG0_iINEw"
+            key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_ovNeBNK1EeWyCYG0_iINEw" name="Task1112"
+        incoming="_ovNeCNK1EeWyCYG0_iINEw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ovNeBdK1EeWyCYG0_iINEw"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ovNeBtK1EeWyCYG0_iINEw"
+            key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_6CnHMNKvEeWyCYG0_iINEw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ovNeB9K1EeWyCYG0_iINEw"
+            key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ovNeCNK1EeWyCYG0_iINEw" source="_ovNeANK1EeWyCYG0_iINEw"
+        target="_ovNeBNK1EeWyCYG0_iINEw"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_ou-0hNK1EeWyCYG0_iINEw" type="AD" element="_ou-0gNK1EeWyCYG0_iINEw"
+      name="Activity111" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_ou_bkNK1EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_ou_bkdK1EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_ou_bktK1EeWyCYG0_iINEw"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_pheBYNK1EeWyCYG0_iINEw" name="Activity112">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pheBYdK1EeWyCYG0_iINEw" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pheBYtK1EeWyCYG0_iINEw"
+          key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_7ZNGsdKvEeWyCYG0_iINEw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pheBY9K1EeWyCYG0_iINEw"
+          key="type" value="Activity"/>
+    </eAnnotations>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_pheBZNK1EeWyCYG0_iINEw" type="AD" element="_pheBYNK1EeWyCYG0_iINEw"
+      name="Activity112" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_pheBZdK1EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_pheBZtK1EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_pheBZ9K1EeWyCYG0_iINEw"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_rrqBANK1EeWyCYG0_iINEw" name="Phase2">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rrqBAdK1EeWyCYG0_iINEw" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rrqBAtK1EeWyCYG0_iINEw"
+          key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_yfRRkdKvEeWyCYG0_iINEw"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rrqBA9K1EeWyCYG0_iINEw"
+          key="type" value="Phase"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_rsiKwNK1EeWyCYG0_iINEw" name="Task21"
+        outgoing="_rsjY4NK1EeWyCYG0_iINEw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rsiKwdK1EeWyCYG0_iINEw"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rsiKwtK1EeWyCYG0_iINEw"
+            key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_81A9YNKvEeWyCYG0_iINEw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rsiKw9K1EeWyCYG0_iINEw"
+            key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_rsix0NK1EeWyCYG0_iINEw" name="Task22"
+        incoming="_rsjY4NK1EeWyCYG0_iINEw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rsix0dK1EeWyCYG0_iINEw"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rsix0tK1EeWyCYG0_iINEw"
+            key="uri" value="uma://_DFXMANKuEeWyCYG0_iINEw#_903Q0NKvEeWyCYG0_iINEw"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rsix09K1EeWyCYG0_iINEw"
+            key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rsjY4NK1EeWyCYG0_iINEw" source="_rsiKwNK1EeWyCYG0_iINEw"
+        target="_rsix0NK1EeWyCYG0_iINEw"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_rrqoENK1EeWyCYG0_iINEw" type="AD" element="_rrqBANK1EeWyCYG0_iINEw"
+      name="Phase2" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_rrqoEdK1EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_rrqoEtK1EeWyCYG0_iINEw"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_rrqoE9K1EeWyCYG0_iINEw"/>
+  </notation:Diagram>
+</xmi:XMI>

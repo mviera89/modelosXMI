@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_DIoicdKuEeWyCYG0_iINEw"
+      guid="_DIoicdKuEeWyCYG0_iINEw">
+    <resourceDescriptors xmi:id="_DIoictKuEeWyCYG0_iINEw" id="-RMlEU7Zo35SEun_NEMewzA"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_T3XesNKwEeWyCYG0_iINEw" id="-GPNcK7eKYzbu-z-XqGV_rA"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_RItDkdKxEeWyCYG0_iINEw" id="-wZrnwfJuNL9vam4Z63Ip_g"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_RItDktKxEeWyCYG0_iINEw" id="-GkJwQTCoJussyaJZ_FbBMg"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_RItDk9KxEeWyCYG0_iINEw" id="-c6thR17wMjfKHEX6qsAbNw"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_RItDlNKxEeWyCYG0_iINEw" id="-Armr4avJZj0r3I9g9yovFg"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_RItDldKxEeWyCYG0_iINEw" id="-c_ENNuXOPjoKOArTt2X3LA"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_-LU-IdKxEeWyCYG0_iINEw" id="-qFtmPUBW260SnxSlY3xaOg"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_-LevINKxEeWyCYG0_iINEw" id="-QRmc6ZGnONoproFw_SO_XQ"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_-LevIdKxEeWyCYG0_iINEw" id="-HS3dNN1vpPK-dgYvCrORoQ"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_-LevItKxEeWyCYG0_iINEw" id="-Vcw3NFrTOlEa3JTC9y8-uw"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dm_60dKyEeWyCYG0_iINEw" id="-WdWzRlVyIus0tlPN86edIA"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dm_60tKyEeWyCYG0_iINEw" id="-sAl73GF56eQygDu9DZQu5Q"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_dm_609KyEeWyCYG0_iINEw" id="-djEfa59scSvvhTrfXOcOeQ"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_4FNfAdKyEeWyCYG0_iINEw" id="-AROGyXUZQjzN24gYikATHg"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_4FWo8NKyEeWyCYG0_iINEw" id="-u1xfrxu5q1ztROaVNhwPtQ"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_DFXMANKuEeWyCYG0_iINEw" name="Modelo1DP"
+      guid="_DFXMANKuEeWyCYG0_iINEw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_w_drsNKvEeWyCYG0_iINEw"
+        name="Phase1" guid="_w_drsNKvEeWyCYG0_iINEw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zwPxQNKvEeWyCYG0_iINEw"
+          name="Iteration11" guid="_zwPxQNKvEeWyCYG0_iINEw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_236s0NKvEeWyCYG0_iINEw"
+            name="Activity111" guid="_236s0NKvEeWyCYG0_iINEw">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_236s0dKvEeWyCYG0_iINEw"
+              name="Activity111" guid="_236s0dKvEeWyCYG0_iINEw" briefDescription="Bief description Activity111."
+              presentationName="Activity111" prefix="Prefix Activity111." superActivities="_zwPxQdKvEeWyCYG0_iINEw"
+              breakdownElements="_4uQjYNKvEeWyCYG0_iINEw _6CnHMNKvEeWyCYG0_iINEw">
+            <presentation xmi:id="-wZrnwfJuNL9vam4Z63Ip_g" href="uma://-RMlEU7Zo35SEun_NEMewzA#-wZrnwfJuNL9vam4Z63Ip_g"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4uQjYNKvEeWyCYG0_iINEw"
+              name="Task1111" guid="_4uQjYNKvEeWyCYG0_iINEw" briefDescription="Bief description Task1111."
+              presentationName="Task1111" prefix="Prefix Task1111." superActivities="_236s0dKvEeWyCYG0_iINEw"
+              additionallyPerformedBy="_uwlucNKxEeWyCYG0_iINEw" assistedBy="_vwfPwNKyEeWyCYG0_iINEw"
+              externalInput="_mCzpgNKyEeWyCYG0_iINEw" mandatoryInput="_HYZKoNKyEeWyCYG0_iINEw"
+              optionalInput="_IUqloNKyEeWyCYG0_iINEw" output="_HYZKoNKyEeWyCYG0_iINEw"
+              performedPrimarilyBy="_tH4EMNKxEeWyCYG0_iINEw">
+            <presentation xmi:id="-GkJwQTCoJussyaJZ_FbBMg" href="uma://-RMlEU7Zo35SEun_NEMewzA#-GkJwQTCoJussyaJZ_FbBMg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6CnHMNKvEeWyCYG0_iINEw"
+              name="Task1112" guid="_6CnHMNKvEeWyCYG0_iINEw" presentationName="Task1112"
+              superActivities="_236s0dKvEeWyCYG0_iINEw" linkToPredecessor="_fbM8ANK1EeWyCYG0_iINEw"
+              additionallyPerformedBy="_vwfPwNKyEeWyCYG0_iINEw" assistedBy="_tH4EMNKxEeWyCYG0_iINEw"
+              externalInput="_HYZKoNKyEeWyCYG0_iINEw" mandatoryInput="_IUqloNKyEeWyCYG0_iINEw"
+              optionalInput="_mCzpgNKyEeWyCYG0_iINEw" output="_IUqloNKyEeWyCYG0_iINEw"
+              performedPrimarilyBy="_uwlucNKxEeWyCYG0_iINEw"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_fbM8ANK1EeWyCYG0_iINEw"
+              guid="_fbM8ANK1EeWyCYG0_iINEw" pred="_4uQjYNKvEeWyCYG0_iINEw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7ZNGsNKvEeWyCYG0_iINEw"
+            name="Activity112" guid="_7ZNGsNKvEeWyCYG0_iINEw">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_7ZNGsdKvEeWyCYG0_iINEw"
+              name="Activity112" guid="_7ZNGsdKvEeWyCYG0_iINEw" briefDescription="Bief description Activity112."
+              presentationName="Activity112" prefix="Prefix Activity112." superActivities="_zwPxQdKvEeWyCYG0_iINEw"
+              linkToPredecessor="_gt-LcNK1EeWyCYG0_iINEw">
+            <presentation xmi:id="-c6thR17wMjfKHEX6qsAbNw" href="uma://-RMlEU7Zo35SEun_NEMewzA#-c6thR17wMjfKHEX6qsAbNw"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_gt-LcNK1EeWyCYG0_iINEw"
+              guid="_gt-LcNK1EeWyCYG0_iINEw" pred="_236s0dKvEeWyCYG0_iINEw"/>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_zwPxQdKvEeWyCYG0_iINEw"
+            name="Iteration11" guid="_zwPxQdKvEeWyCYG0_iINEw" briefDescription="Bief description Iteration11."
+            presentationName="Iteration11" prefix="Prefix Iteration11." superActivities="_w_drsdKvEeWyCYG0_iINEw"
+            isRepeatable="true" breakdownElements="_236s0dKvEeWyCYG0_iINEw _7ZNGsdKvEeWyCYG0_iINEw __VadkNKvEeWyCYG0_iINEw">
+          <presentation xmi:id="-Armr4avJZj0r3I9g9yovFg" href="uma://-RMlEU7Zo35SEun_NEMewzA#-Armr4avJZj0r3I9g9yovFg"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="__VadkNKvEeWyCYG0_iINEw"
+            name="Task113" guid="__VadkNKvEeWyCYG0_iINEw" briefDescription="Bief description Task113."
+            presentationName="Task113" prefix="Prefix Task113." superActivities="_zwPxQdKvEeWyCYG0_iINEw"
+            linkToPredecessor="_hTM_cNK1EeWyCYG0_iINEw" additionallyPerformedBy="_tH4EMNKxEeWyCYG0_iINEw"
+            assistedBy="_uwlucNKxEeWyCYG0_iINEw" externalInput="_IUqloNKyEeWyCYG0_iINEw"
+            mandatoryInput="_mCzpgNKyEeWyCYG0_iINEw" optionalInput="_HYZKoNKyEeWyCYG0_iINEw"
+            output="_mCzpgNKyEeWyCYG0_iINEw" performedPrimarilyBy="_vwfPwNKyEeWyCYG0_iINEw">
+          <presentation xmi:id="-GPNcK7eKYzbu-z-XqGV_rA" href="uma://-RMlEU7Zo35SEun_NEMewzA#-GPNcK7eKYzbu-z-XqGV_rA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_hTM_cNK1EeWyCYG0_iINEw"
+            guid="_hTM_cNK1EeWyCYG0_iINEw" pred="_7ZNGsdKvEeWyCYG0_iINEw"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_w_drsdKvEeWyCYG0_iINEw"
+          name="Phase1" guid="_w_drsdKvEeWyCYG0_iINEw" briefDescription="Bief description Phase1."
+          presentationName="Phase1" prefix="Prefix Phase1." superActivities="_DFXMAdKuEeWyCYG0_iINEw"
+          breakdownElements="_zwPxQdKvEeWyCYG0_iINEw">
+        <presentation xmi:id="-c_ENNuXOPjoKOArTt2X3LA" href="uma://-RMlEU7Zo35SEun_NEMewzA#-c_ENNuXOPjoKOArTt2X3LA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_yfRRkNKvEeWyCYG0_iINEw"
+        name="Phase2" guid="_yfRRkNKvEeWyCYG0_iINEw">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_yfRRkdKvEeWyCYG0_iINEw"
+          name="Phase2" guid="_yfRRkdKvEeWyCYG0_iINEw" briefDescription="Bief description Phase2."
+          presentationName="Phase2" prefix="Prefix Phase2." superActivities="_DFXMAdKuEeWyCYG0_iINEw"
+          linkToPredecessor="_jdwygNK1EeWyCYG0_iINEw" breakdownElements="_81A9YNKvEeWyCYG0_iINEw _903Q0NKvEeWyCYG0_iINEw">
+        <presentation xmi:id="-qFtmPUBW260SnxSlY3xaOg" href="uma://-RMlEU7Zo35SEun_NEMewzA#-qFtmPUBW260SnxSlY3xaOg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_81A9YNKvEeWyCYG0_iINEw"
+          name="Task21" guid="_81A9YNKvEeWyCYG0_iINEw" briefDescription="Bief description Task21."
+          presentationName="Task21" prefix="Prefix Task21." superActivities="_yfRRkdKvEeWyCYG0_iINEw"
+          additionallyPerformedBy="_uwlucNKxEeWyCYG0_iINEw _vwfPwNKyEeWyCYG0_iINEw"
+          externalInput="_mCzpgNKyEeWyCYG0_iINEw" mandatoryInput="_HYZKoNKyEeWyCYG0_iINEw _IUqloNKyEeWyCYG0_iINEw"
+          output="_HYZKoNKyEeWyCYG0_iINEw" performedPrimarilyBy="_tH4EMNKxEeWyCYG0_iINEw">
+        <presentation xmi:id="-QRmc6ZGnONoproFw_SO_XQ" href="uma://-RMlEU7Zo35SEun_NEMewzA#-QRmc6ZGnONoproFw_SO_XQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_903Q0NKvEeWyCYG0_iINEw"
+          name="Task22" guid="_903Q0NKvEeWyCYG0_iINEw" briefDescription="Bief description Task22."
+          presentationName="Task22" prefix="Prefix Task22." superActivities="_yfRRkdKvEeWyCYG0_iINEw"
+          linkToPredecessor="_kMm1gNK1EeWyCYG0_iINEw" assistedBy="_tH4EMNKxEeWyCYG0_iINEw _uwlucNKxEeWyCYG0_iINEw"
+          mandatoryInput="_mCzpgNKyEeWyCYG0_iINEw" performedPrimarilyBy="_vwfPwNKyEeWyCYG0_iINEw">
+        <presentation xmi:id="-HS3dNN1vpPK-dgYvCrORoQ" href="uma://-RMlEU7Zo35SEun_NEMewzA#-HS3dNN1vpPK-dgYvCrORoQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_jdwygNK1EeWyCYG0_iINEw"
+          guid="_jdwygNK1EeWyCYG0_iINEw" pred="_w_drsdKvEeWyCYG0_iINEw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_kMm1gNK1EeWyCYG0_iINEw"
+          guid="_kMm1gNK1EeWyCYG0_iINEw" pred="_81A9YNKvEeWyCYG0_iINEw"/>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_tH4EMNKxEeWyCYG0_iINEw"
+        name="Rol1" guid="_tH4EMNKxEeWyCYG0_iINEw" briefDescription="Bief description Rol1"
+        presentationName="Rol1" prefix="Prefix Rol1." isPlanned="false" superActivities="_DFXMAdKuEeWyCYG0_iINEw"
+        responsibleFor="_HYZKoNKyEeWyCYG0_iINEw">
+      <presentation xmi:id="-Vcw3NFrTOlEa3JTC9y8-uw" href="uma://-RMlEU7Zo35SEun_NEMewzA#-Vcw3NFrTOlEa3JTC9y8-uw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_uwlucNKxEeWyCYG0_iINEw"
+        name="Rol2" guid="_uwlucNKxEeWyCYG0_iINEw" briefDescription="Bief description Rol2."
+        presentationName="Rol2" prefix="Prefix Rol2." isPlanned="false" superActivities="_DFXMAdKuEeWyCYG0_iINEw"
+        responsibleFor="_IUqloNKyEeWyCYG0_iINEw">
+      <presentation xmi:id="-WdWzRlVyIus0tlPN86edIA" href="uma://-RMlEU7Zo35SEun_NEMewzA#-WdWzRlVyIus0tlPN86edIA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_HYZKoNKyEeWyCYG0_iINEw"
+        name="wp1" guid="_HYZKoNKyEeWyCYG0_iINEw" briefDescription="Bief description wp1."
+        presentationName="wp1" prefix="Prefix wp1." isPlanned="false" superActivities="_DFXMAdKuEeWyCYG0_iINEw">
+      <presentation xmi:id="-sAl73GF56eQygDu9DZQu5Q" href="uma://-RMlEU7Zo35SEun_NEMewzA#-sAl73GF56eQygDu9DZQu5Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_IUqloNKyEeWyCYG0_iINEw"
+        name="wp2" guid="_IUqloNKyEeWyCYG0_iINEw" briefDescription="Bief description wp2."
+        presentationName="wp2" prefix="Prefix wp2." isPlanned="false" superActivities="_DFXMAdKuEeWyCYG0_iINEw">
+      <presentation xmi:id="-djEfa59scSvvhTrfXOcOeQ" href="uma://-RMlEU7Zo35SEun_NEMewzA#-djEfa59scSvvhTrfXOcOeQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_mCzpgNKyEeWyCYG0_iINEw"
+        name="wp3" guid="_mCzpgNKyEeWyCYG0_iINEw" briefDescription="Bief description wp3."
+        presentationName="wp3" prefix="Prefix wp3." isPlanned="false" superActivities="_DFXMAdKuEeWyCYG0_iINEw">
+      <presentation xmi:id="-AROGyXUZQjzN24gYikATHg" href="uma://-RMlEU7Zo35SEun_NEMewzA#-AROGyXUZQjzN24gYikATHg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_vwfPwNKyEeWyCYG0_iINEw"
+        name="Rol3" guid="_vwfPwNKyEeWyCYG0_iINEw" briefDescription="Bief description Rol3."
+        presentationName="Rol3" prefix="Prefix Rol3." isPlanned="false" superActivities="_DFXMAdKuEeWyCYG0_iINEw"
+        responsibleFor="_mCzpgNKyEeWyCYG0_iINEw">
+      <presentation xmi:id="-u1xfrxu5q1ztROaVNhwPtQ" href="uma://-RMlEU7Zo35SEun_NEMewzA#-u1xfrxu5q1ztROaVNhwPtQ"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_DFXMAdKuEeWyCYG0_iINEw"
+        name="Modelo1DP" guid="_DFXMAdKuEeWyCYG0_iINEw" briefDescription="Bief descfription Modelo1DP."
+        presentationName="Modelo1DP" breakdownElements="_w_drsdKvEeWyCYG0_iINEw _yfRRkdKvEeWyCYG0_iINEw _tH4EMNKxEeWyCYG0_iINEw _uwlucNKxEeWyCYG0_iINEw _HYZKoNKyEeWyCYG0_iINEw _IUqloNKyEeWyCYG0_iINEw _mCzpgNKyEeWyCYG0_iINEw _vwfPwNKyEeWyCYG0_iINEw">
+      <presentation xmi:id="-RMlEU7Zo35SEun_NEMewzA" href="uma://-RMlEU7Zo35SEun_NEMewzA#-RMlEU7Zo35SEun_NEMewzA"/>
+      <defaultContext href="uma://_fWc4gdKtEeWyCYG0_iINEw#_sdoKINKtEeWyCYG0_iINEw"/>
+      <validContext href="uma://_fWc4gdKtEeWyCYG0_iINEw#_sdoKINKtEeWyCYG0_iINEw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>
