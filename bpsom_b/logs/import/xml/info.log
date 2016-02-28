@@ -1,0 +1,110 @@
+Loading xml library ...
+create target library elements ...
+copying all feature values for target library elements ...
+ === processing element MethodLibrary: EPFPracLib_20080306
+ === processing element MethodPlugin: bpsom
+ === processing element ContentCategoryPackage: ContentCategories
+ === processing element CustomCategory: bpsom
+ === processing element ContentDescription: bpsom,_X38tkOMsEd6OoK0l17K4LA
+ === processing element CustomCategory: disciplines
+ === processing element CustomCategory: work_products
+ === processing element CustomCategory: roles
+ === processing element CustomCategory: life_cycle
+ === processing element CustomCategory: guidance
+ === processing element ProcessPackage: Phase iteration templates
+ === processing element ProcessComponent: Inception iteration
+ === processing element CapabilityPattern: Inception iteration
+ === processing element ProcessDescription: Inception iteration,_8y7dseNPEd6OoK0l17K4LA
+ === processing element TaskDescriptor: asses_target_organization
+ === processing element WorkProductDescriptor: meetings_with_clients
+ === processing element WorkProductDescriptor: target_organization_assesment
+ === processing element TaskDescriptor: identify_business_processes
+ === processing element RoleDescriptor: business_analyst
+ === processing element WorkProductDescriptor: business_processes_document
+ === processing element TaskDescriptor: identify_categorize_services
+ === processing element RoleDescriptor: architect
+ === processing element RoleDescriptor: developer
+ === processing element WorkProductDescriptor: requirements_document
+ === processing element WorkProductDescriptor: software_architecture_document
+ === processing element WorkProductDescriptor: services_document
+ === processing element TaskDescriptor: requirements_capture
+ === processing element RoleDescriptor: analyst
+ === processing element ProcessComponent: Elaboration iteration
+ === processing element CapabilityPattern: Elaboration iteration
+ === processing element ProcessDescription: Elaboration iteration,_AKwVIeNQEd6OoK0l17K4LA
+ === processing element TaskDescriptor: identify_business_processes
+ === processing element RoleDescriptor: analyst
+ === processing element RoleDescriptor: business_analyst
+ === processing element WorkProductDescriptor: target_organization_assesment
+ === processing element WorkProductDescriptor: business_processes_document
+ === processing element TaskDescriptor: identify_categorize_services
+ === processing element WorkProductDescriptor: requirements_document
+ === processing element WorkProductDescriptor: software_architecture_document
+ === processing element WorkProductDescriptor: services_document
+ === processing element TaskDescriptor: specify_services
+ === processing element TaskDescriptor: investigate_existing_services
+ === processing element WorkProductDescriptor: services_catalogue
+ === processing element TaskDescriptor: assign_services_to_components
+ === processing element RoleDescriptor: architect
+ === processing element WorkProductDescriptor: design_document
+ === processing element WorkProductDescriptor: implementation_document
+ === processing element TaskDescriptor: define_services_interaction
+ === processing element TaskDescriptor: implement_services
+ === processing element RoleDescriptor: developer
+ === processing element TaskDescriptor: sw_deployment
+ === processing element WorkProductDescriptor: service_implemented
+ === processing element WorkProductDescriptor: service_installed
+ === processing element TaskDescriptor: requirements_capture
+ === processing element WorkProductDescriptor: meetings_with_clients
+ === processing element TaskDescriptor: Services testing
+ === processing element RoleDescriptor: tester
+ === processing element WorkProductDescriptor: Testing reports
+ === processing element ProcessComponent: Construction iteration
+ === processing element CapabilityPattern: Construction iteration
+ === processing element ProcessDescription: Construction iteration,_ICXxoeNQEd6OoK0l17K4LA
+ === processing element TaskDescriptor: specify_services
+ === processing element WorkProductDescriptor: services_document
+ === processing element TaskDescriptor: assign_services_to_components
+ === processing element RoleDescriptor: architect
+ === processing element WorkProductDescriptor: design_document
+ === processing element WorkProductDescriptor: implementation_document
+ === processing element TaskDescriptor: define_services_interaction
+ === processing element RoleDescriptor: analyst
+ === processing element WorkProductDescriptor: requirements_document
+ === processing element WorkProductDescriptor: business_processes_document
+ === processing element TaskDescriptor: implement_services
+ === processing element WorkProductDescriptor: service_implemented
+ === processing element TaskDescriptor: sw_deployment
+ === processing element RoleDescriptor: developer
+ === processing element WorkProductDescriptor: software_architecture_document
+ === processing element WorkProductDescriptor: service_installed
+ === processing element TaskDescriptor: Services testing
+ === processing element RoleDescriptor: tester
+ === processing element WorkProductDescriptor: testing_reports
+ === processing element ProcessComponent: Transition iteration
+ === processing element CapabilityPattern: Transition iteration
+ === processing element ProcessDescription: Transition iteration,_J53eweNQEd6OoK0l17K4LA
+ === processing element WorkProductDescriptor: implementation_document
+ === processing element TaskDescriptor: sw_deployment
+ === processing element RoleDescriptor: developer
+ === processing element RoleDescriptor: architect
+ === processing element WorkProductDescriptor: service_implemented
+ === processing element WorkProductDescriptor: software_architecture_document
+ === processing element WorkProductDescriptor: service_installed
+ === processing element ProcessComponent: bpsom
+ === processing element DeliveryProcess: bpsom
+ === processing element DeliveryProcessDescription: bpsom,_Se7xIUerEd-iTvGQFwAspw
+ === processing element Phase: Inception
+ === processing element CapabilityPattern: Inception iteration
+ === processing element Phase: Elaboration
+ === processing element CapabilityPattern: Elaboration iteration
+ === processing element Phase: Construction
+ === processing element CapabilityPattern: Construction iteration
+ === processing element Phase: Transition
+ === processing element CapabilityPattern: Transition iteration
+ === processing element MethodConfiguration: bpsom
+fix the target library ...
+delete unneeded elements ...
+saving target library ...
+re-open target library ...
+import completed successfully ...

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_GBt-QN0IEeW5EvNAvt2Zcw"
+      guid="_GBt-QN0IEeW5EvNAvt2Zcw">
+    <resourceDescriptors xmi:id="_GBt-Qd0IEeW5EvNAvt2Zcw" id="-cuiwQWNL7qh7WKU4sOvX4w"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_GAOJcN0IEeW5EvNAvt2Zcw" name="dp"
+      guid="_GAOJcN0IEeW5EvNAvt2Zcw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_HZJrQN0IEeW5EvNAvt2Zcw"
+        name="a" guid="_HZJrQN0IEeW5EvNAvt2Zcw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_HZKSUN0IEeW5EvNAvt2Zcw"
+          name="a" guid="_HZKSUN0IEeW5EvNAvt2Zcw" presentationName="a" superActivities="_GAOJcd0IEeW5EvNAvt2Zcw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_IH3ycN0IEeW5EvNAvt2Zcw"
+        name="b" guid="_IH3ycN0IEeW5EvNAvt2Zcw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_IH4ZgN0IEeW5EvNAvt2Zcw"
+          name="b" guid="_IH4ZgN0IEeW5EvNAvt2Zcw" presentationName="b" superActivities="_GAOJcd0IEeW5EvNAvt2Zcw"
+          linkToPredecessor="_JJ2M0N0IEeW5EvNAvt2Zcw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_JJ2M0N0IEeW5EvNAvt2Zcw"
+          guid="_JJ2M0N0IEeW5EvNAvt2Zcw" pred="_HZKSUN0IEeW5EvNAvt2Zcw"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_GAOJcd0IEeW5EvNAvt2Zcw"
+        name="dp" guid="_GAOJcd0IEeW5EvNAvt2Zcw" presentationName="dp" processLineName="aa"
+        breakdownElements="_HZKSUN0IEeW5EvNAvt2Zcw _IH4ZgN0IEeW5EvNAvt2Zcw">
+      <presentation xmi:id="-cuiwQWNL7qh7WKU4sOvX4w" href="uma://-cuiwQWNL7qh7WKU4sOvX4w#-cuiwQWNL7qh7WKU4sOvX4w"/>
+      <defaultContext href="uma://_r4HsUdT9EeWkJYvxcgESxg#_Doh5UN0IEeW5EvNAvt2Zcw"/>
+      <validContext href="uma://_r4HsUdT9EeWkJYvxcgESxg#_Doh5UN0IEeW5EvNAvt2Zcw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_SZrnMN0NEeW5EvNAvt2Zcw"
+      guid="_SZrnMN0NEeW5EvNAvt2Zcw">
+    <resourceDescriptors xmi:id="_SZrnMd0NEeW5EvNAvt2Zcw" id="-_D-DwGLVMUAoixdY6bwbQw"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_ICXxoONQEd6OoK0l17K4LA" name="Construction iteration"
+      guid="_ICXxoONQEd6OoK0l17K4LA">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_5jSWcEerEd-iTvGQFwAspw"
+        name="specify_services" guid="_5jSWcEerEd-iTvGQFwAspw" presentationName="D2 - Specify services"
+        isPlanned="true" superActivities="_ICXxoeNQEd6OoK0l17K4LA" additionallyPerformedBy="_5jS9gUerEd-iTvGQFwAspw"
+        mandatoryInput="_5jS9gkerEd-iTvGQFwAspw" output="_5jS9gkerEd-iTvGQFwAspw"
+        performedPrimarilyBy="_5jS9gEerEd-iTvGQFwAspw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_5jS9gkerEd-iTvGQFwAspw"
+        name="services_document" guid="_5jS9gkerEd-iTvGQFwAspw" presentationName="Services document"
+        superActivities="_ICXxoeNQEd6OoK0l17K4LA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_7JGdsEerEd-iTvGQFwAspw"
+        name="assign_services_to_components" guid="_7JGdsEerEd-iTvGQFwAspw" presentationName="D4 - Assign services to components"
+        isPlanned="true" superActivities="_ICXxoeNQEd6OoK0l17K4LA" additionallyPerformedBy="_7JHEwEerEd-iTvGQFwAspw"
+        mandatoryInput="_5jS9gkerEd-iTvGQFwAspw _7JHEwUerEd-iTvGQFwAspw" output="_5jS9gkerEd-iTvGQFwAspw _7JHEwkerEd-iTvGQFwAspw"
+        performedPrimarilyBy="_5jS9gEerEd-iTvGQFwAspw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_5jS9gEerEd-iTvGQFwAspw"
+        name="architect" guid="_5jS9gEerEd-iTvGQFwAspw" presentationName="Architect"
+        superActivities="_ICXxoeNQEd6OoK0l17K4LA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7JHEwUerEd-iTvGQFwAspw"
+        name="design_document" guid="_7JHEwUerEd-iTvGQFwAspw" presentationName="Design document"
+        superActivities="_ICXxoeNQEd6OoK0l17K4LA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7JHEwkerEd-iTvGQFwAspw"
+        name="implementation_document" guid="_7JHEwkerEd-iTvGQFwAspw" presentationName="Implementation document"
+        superActivities="_ICXxoeNQEd6OoK0l17K4LA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_8sbRoEerEd-iTvGQFwAspw"
+        name="define_services_interaction" guid="_8sbRoEerEd-iTvGQFwAspw" presentationName="D5 - Define services interaction"
+        isPlanned="true" superActivities="_ICXxoeNQEd6OoK0l17K4LA" additionallyPerformedBy="_5jS9gUerEd-iTvGQFwAspw _7JHEwEerEd-iTvGQFwAspw"
+        mandatoryInput="_8sb4sEerEd-iTvGQFwAspw _8sb4sUerEd-iTvGQFwAspw _5jS9gkerEd-iTvGQFwAspw"
+        output="_5jS9gkerEd-iTvGQFwAspw _7JHEwkerEd-iTvGQFwAspw" performedPrimarilyBy="_5jS9gEerEd-iTvGQFwAspw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_5jS9gUerEd-iTvGQFwAspw"
+        name="analyst" guid="_5jS9gUerEd-iTvGQFwAspw" presentationName="Analyst" superActivities="_ICXxoeNQEd6OoK0l17K4LA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_8sb4sEerEd-iTvGQFwAspw"
+        name="requirements_document" guid="_8sb4sEerEd-iTvGQFwAspw" presentationName="Requirements document"
+        superActivities="_ICXxoeNQEd6OoK0l17K4LA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_8sb4sUerEd-iTvGQFwAspw"
+        name="business_processes_document" guid="_8sb4sUerEd-iTvGQFwAspw" presentationName="Business Processes document"
+        superActivities="_ICXxoeNQEd6OoK0l17K4LA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_xTJYUEfDEd-iNY7TQq4TSw"
+        name="implement_services" guid="_xTJYUEfDEd-iNY7TQq4TSw" presentationName="I1 - Implement services"
+        isPlanned="true" superActivities="_ICXxoeNQEd6OoK0l17K4LA" mandatoryInput="_7JHEwUerEd-iTvGQFwAspw _7JHEwkerEd-iTvGQFwAspw _5jS9gkerEd-iTvGQFwAspw"
+        output="_DjYfcPuzEd-If8QJW3dCdw" performedPrimarilyBy="_7JHEwEerEd-iTvGQFwAspw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_DjYfcPuzEd-If8QJW3dCdw"
+        name="service_implemented" guid="_DjYfcPuzEd-If8QJW3dCdw" presentationName="Service Implemented"
+        superActivities="_ICXxoeNQEd6OoK0l17K4LA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_0CIuIEfDEd-iNY7TQq4TSw"
+        name="sw_deployment" guid="_0CIuIEfDEd-iNY7TQq4TSw" presentationName="Software deployment"
+        isPlanned="true" superActivities="_ICXxoeNQEd6OoK0l17K4LA" additionallyPerformedBy="_5jS9gEerEd-iTvGQFwAspw"
+        mandatoryInput="_DjYfcPuzEd-If8QJW3dCdw _acjIMPu2Ed-If8QJW3dCdw" optionalInput="_7JHEwkerEd-iTvGQFwAspw"
+        output="__hf-YPuyEd-If8QJW3dCdw" performedPrimarilyBy="_7JHEwEerEd-iTvGQFwAspw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_7JHEwEerEd-iTvGQFwAspw"
+        name="developer" guid="_7JHEwEerEd-iTvGQFwAspw" presentationName="Developer"
+        superActivities="_ICXxoeNQEd6OoK0l17K4LA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_acjIMPu2Ed-If8QJW3dCdw"
+        name="software_architecture_document" guid="_acjIMPu2Ed-If8QJW3dCdw" presentationName="Software Architecture document"
+        superActivities="_ICXxoeNQEd6OoK0l17K4LA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="__hf-YPuyEd-If8QJW3dCdw"
+        name="service_installed" guid="__hf-YPuyEd-If8QJW3dCdw" presentationName="Service installed"
+        superActivities="_ICXxoeNQEd6OoK0l17K4LA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_f_gtYPupEd-4HOr1nlpC9Q"
+        name="Services testing" guid="_f_gtYPupEd-4HOr1nlpC9Q" presentationName="Services testing"
+        isPlanned="true" superActivities="_ICXxoeNQEd6OoK0l17K4LA" additionallyPerformedBy="_7JHEwEerEd-iTvGQFwAspw"
+        mandatoryInput="_8sb4sEerEd-iTvGQFwAspw _DjYfcPuzEd-If8QJW3dCdw _5jS9gkerEd-iTvGQFwAspw"
+        output="_IdatUPuvEd-4HOr1nlpC9Q" performedPrimarilyBy="_VuiBQPuzEd-If8QJW3dCdw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_VuiBQPuzEd-If8QJW3dCdw"
+        name="tester" guid="_VuiBQPuzEd-If8QJW3dCdw" presentationName="Tester" superActivities="_ICXxoeNQEd6OoK0l17K4LA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_IdatUPuvEd-4HOr1nlpC9Q"
+        name="testing_reports" guid="_IdatUPuvEd-4HOr1nlpC9Q" presentationName="Testing reports"
+        superActivities="_ICXxoeNQEd6OoK0l17K4LA"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_ICXxoeNQEd6OoK0l17K4LA"
+        name="Construction iteration" guid="_ICXxoeNQEd6OoK0l17K4LA" presentationName="Construction iteration"
+        breakdownElements="_5jSWcEerEd-iTvGQFwAspw _5jS9gkerEd-iTvGQFwAspw _7JGdsEerEd-iTvGQFwAspw _5jS9gEerEd-iTvGQFwAspw _7JHEwUerEd-iTvGQFwAspw _7JHEwkerEd-iTvGQFwAspw _8sbRoEerEd-iTvGQFwAspw _5jS9gUerEd-iTvGQFwAspw _8sb4sEerEd-iTvGQFwAspw _8sb4sUerEd-iTvGQFwAspw _xTJYUEfDEd-iNY7TQq4TSw _DjYfcPuzEd-If8QJW3dCdw _0CIuIEfDEd-iNY7TQq4TSw _7JHEwEerEd-iTvGQFwAspw _acjIMPu2Ed-If8QJW3dCdw __hf-YPuyEd-If8QJW3dCdw _f_gtYPupEd-4HOr1nlpC9Q _VuiBQPuzEd-If8QJW3dCdw _IdatUPuvEd-4HOr1nlpC9Q">
+      <presentation xmi:id="-_D-DwGLVMUAoixdY6bwbQw" href="uma://-_D-DwGLVMUAoixdY6bwbQw#-_D-DwGLVMUAoixdY6bwbQw"/>
+      <defaultContext href="uma://_TJVNUOvFEdyp6czxLiQq9g#_9He0YOMuEd6OoK0l17K4LA"/>
+      <validContext href="uma://_TJVNUOvFEdyp6czxLiQq9g#_9He0YOMuEd6OoK0l17K4LA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

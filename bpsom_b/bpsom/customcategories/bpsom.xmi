@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0" xmi:id="-QzpQEt0przJQ9GK39C8DIQ"
+    name="bpsom,_X38tkOMsEd6OoK0l17K4LA" guid="-QzpQEt0przJQ9GK39C8DIQ" authors="Andrea Delgado, 2005 - 2010 "
+    changeDate="2010-11-29T14:34:03.000-0300" version="version 1.1">
+  <mainDescription>&lt;p>
+    Business Process Service Oriented Methodology (BPSOM) provides a guide for service oriented development from business
+    processes, that can be added as a plug-in to the existing base software development process of the organization. The
+    objective is to use the way in which people work as the basis for the software development adding specific elements to
+    guide the generation of services from business processes.
+&lt;/p>
+&lt;p>
+    &amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;./resources/BPSOMandswprocess80.jpg&quot; width=&quot;600&quot; height=&quot;532&quot; />
+&lt;/p>
+&lt;p>
+    BPSOM defines activities, deliverables and roles in three key Disciplines: Business Modeling, Design and
+    Implementation, and a lifecycle based on the Unified Process (UP) to guide the development in an iterative and
+    incrementally way.
+&lt;/p>
+&lt;p>
+    The activities defined in the Business Modeling Discipline emphasize the definition and modeling of business processes
+    (using the BPMN OMG notation standard) not only as first input for the development process but as key asset of the
+    organization.
+&lt;/p>
+&lt;p>
+    From these models, the activities defined in the Design Discipline guide the service oriented development by
+    identifying services from activities, sub-process or complete business processes,&amp;nbsp;specifying them including
+    interfaces provided and required, parameters,&amp;nbsp;pre and post conditions, among&amp;nbsp;others.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    A specific activity is defined to reuse existing services in the organization, complete or parcially, then to assign
+    components to defined services and to specify services interaction, in choreographies or orchestrations depending on
+    the business process control flow. Finally services realizing business processes, as defined in the Design Discipline,
+    are implemented in the Implementation Discipline.
+&lt;/p>
+&lt;p>
+    General activities from the base software development process are assumed to exist to carry out needed activities such
+    as the requirements capture, or the software testing and deployment.
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

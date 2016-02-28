@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_mlR-0d0CEeW5EvNAvt2Zcw"
+      guid="_mlR-0d0CEeW5EvNAvt2Zcw">
+    <subManagers xmi:id="_SY5kEN0NEeW5EvNAvt2Zcw" href="uma://_HtQ6kOMfEd6OoK0l17K4LA#_SY5kEN0NEeW5EvNAvt2Zcw"/>
+    <resourceDescriptors xmi:id="_mlR-0t0CEeW5EvNAvt2Zcw" id="_mlR-0N0CEeW5EvNAvt2Zcw"
+        uri=""/>
+    <resourceDescriptors xmi:id="_YiqRQN0FEeW5EvNAvt2Zcw" id="_r4HsUdT9EeWkJYvxcgESxg"
+        uri=""/>
+    <resourceDescriptors xmi:id="_nTedYN0JEeW5EvNAvt2Zcw" id="_fWc4gdKtEeWyCYG0_iINEw"
+        uri=""/>
+    <resourceDescriptors xmi:id="_5imgQN0JEeW5EvNAvt2Zcw" id="_TJVNUOvFEdyp6czxLiQq9g"
+        uri=""/>
+    <resourceDescriptors xmi:id="_SY5kEd0NEeW5EvNAvt2Zcw" id="_HtQ6kOMfEd6OoK0l17K4LA"
+        uri="bpsom/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_TJVNUOvFEdyp6czxLiQq9g" name="EPFPracLib_20080306"
+      guid="_TJVNUOvFEdyp6czxLiQq9g">
+    <methodPlugins xmi:id="_HtQ6kOMfEd6OoK0l17K4LA" href="uma://_HtQ6kOMfEd6OoK0l17K4LA#_HtQ6kOMfEd6OoK0l17K4LA"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>

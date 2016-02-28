@@ -1,0 +1,18 @@
+Process 'Inception iteration' does not have a valid container. The container is of type 'Phase', which is not a process package.
+Process 'Elaboration iteration' does not have a valid container. The container is of type 'Phase', which is not a process package.
+Process 'Construction iteration' does not have a valid container. The container is of type 'Phase', which is not a process package.
+Process 'Transition iteration' does not have a valid container. The container is of type 'Phase', which is not a process package.
+Error setting reference for feature categorizedElement: no element with id _AG92IEe9Ed-iNY7TQq4TSw
+Error setting reference for feature categorizedElement: no element with id _zyC2YOMrEd6OoK0l17K4LA
+Error setting reference for feature categorizedElement: no element with id _7ONF8OMrEd6OoK0l17K4LA
+Error setting reference for feature categorizedElement: no element with id _ICTDgOMsEd6OoK0l17K4LA
+Error setting reference for feature categorizedElement: no element with id _bBVYAOM6Ed6OoK0l17K4LA
+Error setting reference for feature categorizedElement: no element with id _vySecOM6Ed6OoK0l17K4LA
+Error setting reference for feature categorizedElement: no element with id _4jGMwOM6Ed6OoK0l17K4LA
+Error setting reference for feature categorizedElement: no element with id _3dMfMOM7Ed6OoK0l17K4LA
+Error setting reference for feature categorizedElement: no element with id _LE63QOM9Ed6OoK0l17K4LA
+Error setting reference for feature categorizedElement: no element with id _ssT6EOM8Ed6OoK0l17K4LA
+Error setting reference for feature categorizedElement: no element with id _x4Y9YOM8Ed6OoK0l17K4LA
+Error setting reference for feature categorizedElement: no element with id _luMPwEe1Ed-iTvGQFwAspw
+Error setting reference for feature methodPackageSelection: no element with id _J3AlUNK2EeWyCYG0_iINEw
+Error setting attribute for object MethodLibrary:EPFPracLib_20080306, feature tool, and value epf=1.2.0org.eclipse.epf.uma.impl.MethodLibraryImpl@4ff005 (name: EPFPracLib_20080306) (guid: _TJVNUOvFEdyp6czxLiQq9g, briefDescription: , suppressed: false, orderingGuide: ) (authors: , changeDate: null, changeDescription: , version: )
