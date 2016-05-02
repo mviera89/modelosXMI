@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uma:MethodLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uma="http://www.eclipse.org/epf/uma/1.0.3" name="EPFPracLib_20080306" briefDescription="" id="_TJVNUOvFEdyp6czxLiQq9g" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" tool="epf=1.2.0">
+	<MethodPlugin name="bpsom" briefDescription="Business Processes Service Oriented Methodology (BPSOM) for service development from business processes. " id="_HtQ6kOMfEd6OoK0l17K4LA" orderingGuide="" suppressed="false" authors="Andrea Delgado, 2005-2010" changeDate="2010-11-29T16:06:35" changeDescription="" version="version 1.1" userChangeable="true">
+		<MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_J3AlUNK2EeWyCYG0_iINEw">
+			<ContentCategory xsi:type="uma:CustomCategory" name="bpsom" briefDescription="Business Process Service Oriented Methodology (BPSOM) provides a guide for service oriented development from business processes, that can be added as a plug-in to the existing base software development process of the organization. It provides guides to derive and generate services models specified in OMG SoaML standard from business process specified in OMG BPMN standard. It also provides the definition of QVT transformations to automate this derivation as much as possible, using the Eclipse environment. " id="_X38tkOMsEd6OoK0l17K4LA" orderingGuide="" suppressed="false" presentationName="BPSOM" variabilityType="na">
+				<MethodElementProperty name="PUBLISH_CATEGORY" value="true"/>
+				<Presentation name="bpsom,_X38tkOMsEd6OoK0l17K4LA" briefDescription="" id="-QzpQEt0przJQ9GK39C8DIQ" orderingGuide="" suppressed="false" authors="Andrea Delgado, 2005 - 2010 " changeDate="2010-11-29T14:34:03" changeDescription="" version="version 1.1" externalId="">
+					<MainDescription><![CDATA[<p>
+    Business Process Service Oriented Methodology (BPSOM) provides a guide for service oriented development from business
+    processes, that can be added as a plug-in to the existing base software development process of the organization. The
+    objective is to use the way in which people work as the basis for the software development adding specific elements to
+    guide the generation of services from business processes.
+</p>
+<p>
+    &nbsp;<img alt="" src="bpsom/customcategories/resources/BPSOMandswprocess80.jpg" width="600" height="532" />
+</p>
+<p>
+    BPSOM defines activities, deliverables and roles in three key Disciplines: Business Modeling, Design and
+    Implementation, and a lifecycle based on the Unified Process (UP) to guide the development in an iterative and
+    incrementally way.
+</p>
+<p>
+    The activities defined in the Business Modeling Discipline emphasize the definition and modeling of business processes
+    (using the BPMN OMG notation standard) not only as first input for the development process but as key asset of the
+    organization.
+</p>
+<p>
+    From these models, the activities defined in the Design Discipline guide the service oriented development by
+    identifying services from activities, sub-process or complete business processes,&nbsp;specifying them including
+    interfaces provided and required, parameters,&nbsp;pre and post conditions, among&nbsp;others.&nbsp;
+</p>
+<p>
+    A specific activity is defined to reuse existing services in the organization, complete or parcially, then to assign
+    components to defined services and to specify services interaction, in choreographies or orchestrations depending on
+    the business process control flow. Finally services realizing business processes, as defined in the Design Discipline,
+    are implemented in the Implementation Discipline.
+</p>
+<p>
+    General activities from the base software development process are assumed to exist to carry out needed activities such
+    as the requirements capture, or the software testing and deployment.
+</p>]]></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+				</Presentation>
+				<CategorizedElement>_AG92IEe9Ed-iNY7TQq4TSw</CategorizedElement>
+				<CategorizedElement>_yPMuIOMsEd6OoK0l17K4LA</CategorizedElement>
+				<CategorizedElement>_znhL8OMsEd6OoK0l17K4LA</CategorizedElement>
+				<CategorizedElement>_1q71MOMsEd6OoK0l17K4LA</CategorizedElement>
+				<CategorizedElement>_jM-MoONOEd6OoK0l17K4LA</CategorizedElement>
+				<CategorizedElement>_NOUnkEe1Ed-iTvGQFwAspw</CategorizedElement>
+			</ContentCategory>
+			<ContentCategory xsi:type="uma:CustomCategory" name="life_cycle" briefDescription="" id="_jM-MoONOEd6OoK0l17K4LA" orderingGuide="" presentationName="Lifecycle" suppressed="false" variabilityType="na">
+				<CategorizedElement>_Se7xIUerEd-iTvGQFwAspw</CategorizedElement>
+			</ContentCategory>
+			<ContentCategory xsi:type="uma:CustomCategory" name="services_development" briefDescription="" id="_4jGMwOM6Ed6OoK0l17K4LA" orderingGuide="" presentationName="Development" suppressed="false" variabilityType="na">
+				<CategorizedElement>_o6dUQEexEd-iTvGQFwAspw</CategorizedElement>
+			</ContentCategory>
+			<ContentCategory xsi:type="uma:Discipline" name="services_development" briefDescription="" id="_ICTDgOMsEd6OoK0l17K4LA" orderingGuide="" presentationName="Development" suppressed="false" variabilityType="na">
+				<Task>_hdEQcEfDEd-iNY7TQq4TSw</Task>
+			</ContentCategory>
+			<ContentCategory xsi:type="uma:CustomCategory" name="business_modeling" briefDescription="" id="_bBVYAOM6Ed6OoK0l17K4LA" orderingGuide="" presentationName="Business Modeling" suppressed="false" variabilityType="na">
+				<CategorizedElement>_LuLRoOMnEd6OoK0l17K4LA</CategorizedElement>
+				<CategorizedElement>_7ir6cOMmEd6OoK0l17K4LA</CategorizedElement>
+			</ContentCategory>
+			<ContentCategory xsi:type="uma:CustomCategory" name="disciplines" briefDescription="" id="_yPMuIOMsEd6OoK0l17K4LA" orderingGuide="" presentationName="Disciplines" suppressed="false" nodeicon="bpsom/customcategories/resources/disciplinegroup_50.gif" shapeicon="bpsom/customcategories/resources/disciplinegroup.gif" variabilityType="na">
+				<MethodElementProperty name="include" value="Discipline"/>
+				<CategorizedElement>_zyC2YOMrEd6OoK0l17K4LA</CategorizedElement>
+				<CategorizedElement>_7ONF8OMrEd6OoK0l17K4LA</CategorizedElement>
+				<CategorizedElement>_ICTDgOMsEd6OoK0l17K4LA</CategorizedElement>
+			</ContentCategory>
+			<ContentCategory xsi:type="uma:Discipline" name="business_modeling" briefDescription="" id="_zyC2YOMrEd6OoK0l17K4LA" orderingGuide="" presentationName="Business Modeling" suppressed="false" variabilityType="na">
+				<Task>_osAMgOMfEd6OoK0l17K4LA</Task>
+				<Task>_rvHbYOMjEd6OoK0l17K4LA</Task>
+			</ContentCategory>
+			<ContentCategory xsi:type="uma:CustomCategory" name="templates" briefDescription="" id="_luMPwEe1Ed-iTvGQFwAspw" orderingGuide="" presentationName="Templates" suppressed="false" nodeicon="bpsom/customcategories/resources/templatechic.gif" shapeicon="bpsom/customcategories/resources/template.gif" variabilityType="na">
+				<CategorizedElement>_I-lM8OMpEd6OoK0l17K4LA</CategorizedElement>
+				<CategorizedElement>_zler8OMpEd6OoK0l17K4LA</CategorizedElement>
+			</ContentCategory>
+			<ContentCategory xsi:type="uma:Discipline" name="services_design" briefDescription="" id="_7ONF8OMrEd6OoK0l17K4LA" orderingGuide="" presentationName="Design" suppressed="false" variabilityType="na">
+				<Task>_1u19cOMvEd6OoK0l17K4LA</Task>
+				<Task>_l-QkIOMwEd6OoK0l17K4LA</Task>
+				<Task>_wrA9kOM3Ed6OoK0l17K4LA</Task>
+				<Task>_-OOD4OM3Ed6OoK0l17K4LA</Task>
+				<Task>_diTx4OM4Ed6OoK0l17K4LA</Task>
+			</ContentCategory>
+			<ContentCategory xsi:type="uma:CustomCategory" name="services_design" briefDescription="" id="_vySecOM6Ed6OoK0l17K4LA" orderingGuide="" presentationName="Design" suppressed="false" variabilityType="na">
+				<CategorizedElement>_N4bXIOMxEd6OoK0l17K4LA</CategorizedElement>
+				<CategorizedElement>_TL04gOMzEd6OoK0l17K4LA</CategorizedElement>
+			</ContentCategory>
+			<ContentCategory xsi:type="uma:CustomCategory" name="work_products" briefDescription="" id="_znhL8OMsEd6OoK0l17K4LA" orderingGuide="" presentationName="Work products" suppressed="false" nodeicon="bpsom/customcategories/resources/WorkProducts.gif" shapeicon="bpsom/customcategories/resources/WorkProducts.gif" variabilityType="na">
+				<CategorizedElement>_bBVYAOM6Ed6OoK0l17K4LA</CategorizedElement>
+				<CategorizedElement>_vySecOM6Ed6OoK0l17K4LA</CategorizedElement>
+				<CategorizedElement>_4jGMwOM6Ed6OoK0l17K4LA</CategorizedElement>
+			</ContentCategory>
+			<ContentCategory xsi:type="uma:CustomCategory" name="guidance" briefDescription="" id="_NOUnkEe1Ed-iTvGQFwAspw" orderingGuide="" presentationName="Guidance" suppressed="false" nodeicon="bpsom/customcategories/resources/templatechic.gif" shapeicon="bpsom/customcategories/resources/template.gif" variabilityType="na">
+				<CategorizedElement>_luMPwEe1Ed-iTvGQFwAspw</CategorizedElement>
+			</ContentCategory>
+			<ContentCategory xsi:type="uma:CustomCategory" name="roles" briefDescription="" id="_1q71MOMsEd6OoK0l17K4LA" orderingGuide="" presentationName="Roles" suppressed="false" nodeicon="bpsom/customcategories/resources/roleset_50.gif" shapeicon="bpsom/customcategories/resources/roleset.gif" variabilityType="na">
+				<CategorizedElement>_3dMfMOM7Ed6OoK0l17K4LA</CategorizedElement>
+				<CategorizedElement>_LE63QOM9Ed6OoK0l17K4LA</CategorizedElement>
+				<CategorizedElement>_ssT6EOM8Ed6OoK0l17K4LA</CategorizedElement>
+				<CategorizedElement>_x4Y9YOM8Ed6OoK0l17K4LA</CategorizedElement>
+			</ContentCategory>
+		</MethodPackage>
+		<MethodPackage xsi:type="uma:ContentPackage" name="services_design_package" briefDescription="" id="_-N1KsOMpEd6OoK0l17K4LA" orderingGuide="" suppressed="false" global="false">
+			<ContentElement xsi:type="uma:Task" name="define_services_interaction" briefDescription="To define the sequence of interaction between services needed to perform the identified business processes,  clarifying the interaction of services. " id="_diTx4OM4Ed6OoK0l17K4LA" orderingGuide="" presentationName="D5 - Define services interaction" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:TaskDescription" name="define_services_interaction,_diTx4OM4Ed6OoK0l17K4LA" briefDescription="" id="-q9ouoL-tUZqmZtSHuLzLjA" orderingGuide="" suppressed="false" authors="Andrea Delgado" changeDate="2010-11-29T11:30:58" changeDescription="" version="1.1" externalId="">
+					<MainDescription><![CDATA[<p>
+    The invocation sequence of services is shown for each process or sub-process in a sequence diagram describing the
+    interaction between the services involved. It will be an orchestration of services if there is an&nbsp;organization
+    that controls its, or a choreography if it involves more than one organization in a collaborative process with
+    pre-defined communication with other parties.<span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">This insight is provided by a sequence diagram showing all the services, or various sequence diagrams
+    showing different subsets of services corresponding to different sub-processes in the business
+    process.&nbsp;</span>&nbsp;&nbsp;&nbsp;
+</p>
+<p>
+    Example of a sequence diagram showing an interaction of services for the sub-process "Loan Authorization" from a "Grant
+    Loan" business process of a bank:
+</p>
+<p>
+    <img alt="" src="bpsom/tasks/resources/sequencediagram.jpg" width="600" height="572" /><br />
+    &nbsp;
+</p>]]></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Section name="For each identified business process or sub-process trace the defined services implementing the selected activities" briefDescription="" id="_1DIXYEiPEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Create the corresponding sequence diagram to realize each business process by means of the defined services " briefDescription="" id="_KlnBYEiQEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="In the sequence diagram the entities will be the defined services and the actors will be persons or organizations involved " briefDescription="" id="_UkhhkEiQEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Alternatives></Alternatives>
+					<Purpose><![CDATA[To define the sequence of interaction between services needed to perform the identified business processes,&nbsp;
+clarifying the interaction of services.]]></Purpose>
+				</Presentation>
+				<PerformedBy>_ssT6EOM8Ed6OoK0l17K4LA</PerformedBy>
+				<AdditionallyPerformedBy>_3dMfMOM7Ed6OoK0l17K4LA</AdditionallyPerformedBy>
+				<AdditionallyPerformedBy>_x4Y9YOM8Ed6OoK0l17K4LA</AdditionallyPerformedBy>
+				<MandatoryInput>_470IYOMyEd6OoK0l17K4LA</MandatoryInput>
+				<MandatoryInput>_LuLRoOMnEd6OoK0l17K4LA</MandatoryInput>
+				<MandatoryInput>_N4bXIOMxEd6OoK0l17K4LA</MandatoryInput>
+				<Output>_N4bXIOMxEd6OoK0l17K4LA</Output>
+				<Output>_SDch4OM4Ed6OoK0l17K4LA</Output>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Task" name="identify_categorize_services" briefDescription="To identify the services needed to perform the business processes modeled in the Business Modeling Discipline, classifying them by type of service. To define the Services Architecture diagram specified in OMG SoaML standard identifying participants, services to be provided to other parties and consumed from other parties based on interchanged messages, and service contracts to define the roles in the services interaction. The BPMN business process models has to be marked with additional information such as defining as 'Service' the type of the activities to be supported by services, to be generated by means of the defined QVT transformations from BPMN to SoaML.  
+" id="_1u19cOMvEd6OoK0l17K4LA" orderingGuide="" presentationName="D1 - Identify and categorize services" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:TaskDescription" name=",_1u19cOMvEd6OoK0l17K4LA" briefDescription="" id="-d7oMjm93xT83Ar4C_hXn7g" orderingGuide="" suppressed="false" authors="Andrea Delgado " changeDate="2010-11-27T16:59:13" changeDescription="" version="1.1" externalId="">
+					<MainDescription><![CDATA[<p style="MARGIN: 0cm 0cm 0pt" class="MsoNormal">
+    <font face="Arial"><span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US"><span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US"><span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">Services represent features related to business concepts, business process and their sub-processes and
+    required functionalities, which have to be provided by services mapped to <font face="Arial">software
+    subsystems.</font></span></span></span></font>&nbsp;<font face="Arial"><span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US"><span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">The use of SoaML in this activity implies defining the Services Architecture (SA) diagram which specifies
+    the participants, the contracts for the services and the roles they play in each one as provider or consumer of the
+    service.</span></span></font> <span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US"><font face="Arial">To identify the services to support the business process, we look at each interchanged
+    message between the pools, first defining which activities will be supported by services, and setting the activity type
+    to “Service”. This identification is carried out from the point of view of the provider of the service. Upon
+    considering the direction of the interchanged messages, we therefore define that the activity to which the message is
+    an incoming message is that to be supported by a service. The activity from which the message is an outcoming message
+    is therefore the consumer of the service. The pool containing each activity will define the participant that provides
+    or consumes the service, depending on where the activity is supported or invokes the defined service. This
+    information</font> <font face="Arial"><font face="Arial">will then be set in the Service Contract for the defined
+    service, indicating the consumer and provider roles as defined.</font> <span lang="EN-US"><font face="Arial">For each
+    general Participant, its internal participants are also identified in correspondence with its internal defined Lanes,
+    and the internal Architecture for the Participant corresponding to the organization in which the development effort is
+    carried out, can be later defined using an specific Service Architecture diagram for that participant
+    only</font>.</span></font></span> <font face="Times New Roman">QVT transformations are defined to generate services
+    models specified in the OMG SoaML standard from business process models specified in BPMN, that can be executed in the
+    Eclipse environment.</font>&nbsp;
+</p>
+<br />
+<p style="MARGIN: 0cm 0cm 0pt" class="MsoNormal">
+    <font face="Arial"><span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US"><font face="Arial">SoaML Services Architecture diagram for the Reseller business
+    process</font>:</span></font>
+</p>
+<p style="MARGIN: 0cm 0cm 0pt" class="MsoNormal">
+</p>
+<p style="MARGIN: 0cm 0cm 0pt" class="MsoNormal">
+    <img alt="" src="bpsom/tasks/resources/ServicesArchitectureReseller.jpg" width="600" height="375" />&nbsp;
+</p>
+<p style="MARGIN: 0cm 0cm 0pt" class="MsoNormal">
+    <br style="MARGIN: 0cm 0cm 0pt" class="MsoNormal" />
+    Other view in the Services Architecture diagram shows some of the participants defined along with their ports for
+    providing (Service)&nbsp;and consuming (Request)&nbsp;identified services, and its interfaces (provided and consumed)
+    corresponding to each port. &nbsp;&nbsp;<br />
+    <br style="MARGIN: 0cm 0cm 0pt" class="MsoNormal" />
+    <img alt="" src="bpsom/tasks/resources/ParticipantsArchs.jpg" width="600" height="199" />
+</p>
+<p>
+    <span
+    style="WIDOWS: 2; TEXT-TRANSFORM: none; TEXT-INDENT: 0px; BORDER-COLLAPSE: separate; FONT: medium 'Times New Roman'; WHITE-SPACE: normal; ORPHANS: 2; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px"
+     class="Apple-style-span"><span
+    style="TEXT-ALIGN: left; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; FONT-SIZE: 13px"
+    class="Apple-style-span"><span class="Apple-converted-space">T</span>he categorization of services into a conceptual
+    hierarchy is helpful for avoiding their proliferation in an indiscriminate manner, which is known as "services
+    syndrome", and can be done analyzing the service obtained (atomic, composed).</span></span>
+</p>]]></MainDescription>
+					<KeyConsiderations><![CDATA[Services models are specified using the OMG SoaML standard&nbsp;which is an UML profile for services modeling providing a
+metamodel an stereotypes specifc for services.For this activity the SoaML Services Architecture diagram has to be modeled
+using some UML tool that also provides the profile (Cameo SOA+&nbsp;Magic Draw, Modelio, etc.). &nbsp;&nbsp;]]></KeyConsiderations>
+					<Section name="Identify services provided by the organization from the business process message flow " briefDescription="" id="_Dwz8gEh_Ed-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identifiy services consumed by the organization from the business process message flow " briefDescription="" id="_sHWwoPpDEd-iy5x8bu83hQ" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify activities involved in the business process message flow that need software support and mark them with 'Service' BPMN stereotype in the BPMN model. " briefDescription="" id="_cdi8AEh_Ed-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Clearly define the functionality associated to the identified service" briefDescription="" id="_kltV8Eh_Ed-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Classify the service according to the hierarchy used indicating if it is atomic or composed" briefDescription="" id="_pozcYEh_Ed-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify internal services in the organization needed to fullfil the external services provided and consumed " briefDescription="" id="_7lItQPpDEd-iy5x8bu83hQ" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Alternatives></Alternatives>
+					<Purpose><![CDATA[<p>
+    <span
+    style="FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: ES; mso-bidi-language: AR-SA"
+     lang="EN-US"><font face="Arial">To identify the services needed to perform the business processes modeled in the
+    Business Modeling Discipline, classifying them by type of service.&nbsp;To define the Services Architecture diagram
+    specified in SoaML identifying participants, services to be provided to other parties and consumed from other parties
+    based on interchanged messages, and service contracts&nbsp;to define the roles in the services
+    interaction.</font></span>
+</p>]]></Purpose>
+				</Presentation>
+				<PerformedBy>_ssT6EOM8Ed6OoK0l17K4LA</PerformedBy>
+				<AdditionallyPerformedBy>_3dMfMOM7Ed6OoK0l17K4LA</AdditionallyPerformedBy>
+				<AdditionallyPerformedBy>_x4Y9YOM8Ed6OoK0l17K4LA</AdditionallyPerformedBy>
+				<MandatoryInput>_LuLRoOMnEd6OoK0l17K4LA</MandatoryInput>
+				<MandatoryInput>_470IYOMyEd6OoK0l17K4LA</MandatoryInput>
+				<MandatoryInput>_1E2d4OMyEd6OoK0l17K4LA</MandatoryInput>
+				<MandatoryInput>_N4bXIOMxEd6OoK0l17K4LA</MandatoryInput>
+				<Output>_N4bXIOMxEd6OoK0l17K4LA</Output>
+				<Output>_1E2d4OMyEd6OoK0l17K4LA</Output>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Task" name="investigate_existing_services" briefDescription="To find services that are already implemented in the organization and can be reused in the application under development.To keep track of the services, their contracts and associated software systems (implementation) are register in a central Services Catalogue of services." id="_wrA9kOM3Ed6OoK0l17K4LA" orderingGuide="" presentationName="D3 - Investigate existing services" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:TaskDescription" name="investigate_existing_services,_wrA9kOM3Ed6OoK0l17K4LA" briefDescription="" id="-B7_HeXAE5Nm77I-HsocADA" orderingGuide="" suppressed="false" authors="Andrea Delgado " changeDate="2010-11-27T18:24:47" changeDescription="" version="1.1" externalId="">
+					<MainDescription><![CDATA[<p>
+    Existing services could be reused as if or it could be necessary to implement intermediary services for reusing other
+    services that are not completely suited to the application, which is preferable than implement them again from scratch.
+    To keep track of the services, their contracts and associated software systems (implementation) are register in a
+    central Services Catalogue of services. <span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">In the SoaML component diagram an adapter or wrapper has to be defined to relate the design service to
+    its existing implementation, which will then be linked in Activity D4. If the service can be used as it is, then the
+    functionality of the adapter will be solely to call the existing component that implements the service; if it is
+    similar then the adapter will add or modify the existing functionality to suite the new requirements for the
+    service.</span>
+</p>
+<p>
+    <span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">Example of wrapper definition taken from the SoaML standard:</span>
+</p>
+<p>
+    &nbsp;<img alt="" src="bpsom/tasks/resources/EjemploWrapper.jpg" width="557" height="280" />
+</p>]]></MainDescription>
+					<KeyConsiderations><![CDATA[An adapter or wrapped component is defined in the SoaML component diagram for the participant, to invoke the existing
+service, adding or modifying functionality if needed.]]></KeyConsiderations>
+					<Section name="Identify existing services providing the required functionality listed in the services Catalogue" briefDescription="" id="_W_sr4EiCEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Define if the existing service could be used as is or if it is necessary to implement intermediary services " briefDescription="" id="_c3XC0EiCEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="If an intermediary service has to be implemented, define the functionality it will reuse from the existing service, and the functionality that has to be added" briefDescription="" id="_3cV9YEiCEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify the location and way to invoke the existing service " briefDescription="" id="_9WtDAEiCEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Alternatives></Alternatives>
+					<Purpose><![CDATA[To find services that are already implemented in the organization and can be reused in the application under development.]]></Purpose>
+				</Presentation>
+				<PerformedBy>_ssT6EOM8Ed6OoK0l17K4LA</PerformedBy>
+				<AdditionallyPerformedBy>_3dMfMOM7Ed6OoK0l17K4LA</AdditionallyPerformedBy>
+				<MandatoryInput>_N4bXIOMxEd6OoK0l17K4LA</MandatoryInput>
+				<MandatoryInput>_TL04gOMzEd6OoK0l17K4LA</MandatoryInput>
+				<Output>_N4bXIOMxEd6OoK0l17K4LA</Output>
+				<Output>_TL04gOMzEd6OoK0l17K4LA</Output>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Task" name="assign_services_to_components" briefDescription="To define the components to be implemented for providing the specified services. For each service, it is necessary to define a component with which to implement it. This might be an atomic component, an existing component, or a composite component which uses or has several other internal components. In SoaML it means modeling the participant component diagram with which to define the implementation of participants and services. " id="_-OOD4OM3Ed6OoK0l17K4LA" orderingGuide="" presentationName="D4 - Assign services to components" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:TaskDescription" name="assign_services_to_components,_-OOD4OM3Ed6OoK0l17K4LA" briefDescription="" id="-Z5ijwAfjhz7Zk-OUyqtWEA" orderingGuide="" suppressed="false" authors="Andrea Delgado" changeDate="2010-11-27T18:33:55" changeDescription="" version="1.1" externalId="">
+					<MainDescription><![CDATA[<p>
+    To assign services to components the question of whom (which component) will be provided for the services defined by
+    the specified interfaces must be answered. The existing services also count if there are components providing the
+    required functionality, or if an intermediary service could be developed to provide it using existing services. <span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">For each service, it is necessary to define a component with which to implement it. This might be an
+    atomic component, an existing component, or a composite component which uses or has several other internal components.
+    The Architect uses the information concerning existing services found in the catalogue, and the definitions of the
+    service design to associate each component with the service that it will implement.</span> In <span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">SoaML it means modeling the participant component diagram with which to define the implementation of
+    participants and services</span><font face="Times">, defining the new components to be generated and, if the component
+    exists, defining adapters or wrappers to use it, providing the modifications needed to invoke them.</font>
+</p>
+<p>
+    <font face="Times">Example of component diagram taken from the SoaML standard:</font>
+</p>
+<img alt="" src="bpsom/tasks/resources/AsignarComponentes.jpg" width="600" height="433" /><br />]]></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Section name="Define components to be implemented for providing the specified services" briefDescription="" id="_ODBkcEiFEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Specify each component indicating the services and business rules it implements" briefDescription="" id="_uM1qcEiOEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify other components that the specified component uses " briefDescription="" id="_CuUKcEiPEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Alternatives></Alternatives>
+					<Purpose><![CDATA[To define the components to be implemented for providing the specified services. In <span
+style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+ lang="EN-US">SoaML it means modeling the participant component diagram with which to define the implementation of
+participants and services.</span>]]></Purpose>
+				</Presentation>
+				<PerformedBy>_ssT6EOM8Ed6OoK0l17K4LA</PerformedBy>
+				<AdditionallyPerformedBy>_x4Y9YOM8Ed6OoK0l17K4LA</AdditionallyPerformedBy>
+				<MandatoryInput>_N4bXIOMxEd6OoK0l17K4LA</MandatoryInput>
+				<MandatoryInput>_P1dnYOM4Ed6OoK0l17K4LA</MandatoryInput>
+				<Output>_N4bXIOMxEd6OoK0l17K4LA</Output>
+				<Output>_SDch4OM4Ed6OoK0l17K4LA</Output>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Task" name="specify_services" briefDescription="To specify services by defining for each one its contract with the interfaces it provides and its operations and parameters. To define all the information for modeling the service in SoaML using the diagrams for Service Contract, Interfaces and associated Choreograpy. " id="_l-QkIOMwEd6OoK0l17K4LA" orderingGuide="" presentationName="D2 - Specify services" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:TaskDescription" name="specify_services,_l-QkIOMwEd6OoK0l17K4LA" briefDescription="" id="-Z9KdJtq_FANdN4BHQ-9cHQ" orderingGuide="" suppressed="false" authors="Andrea Delgado" changeDate="2010-11-27T17:56:11" changeDescription="" version="1.1" externalId="">
+					<MainDescription><![CDATA[<p>
+    <span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US"><span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">The specification of services corresponds to the definition of all the information needed to further
+    implement them.</span></span> <span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">This includes all the information in the defined Service Contract: interfaces, operations, input and
+    output parameters, and pre and post conditions if needed.</span> Each operation in the interface must specify: a) name
+    of the method, b) required parameters and for each one, its name, type and description, c) return value, indicating
+    name, type and description, d) list of exceptions, e) brief description of the provided functionality, f)
+    pre-conditions for the successful execution, g) post-conditions that have to be valid after execution. <span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">The information related to the in and out messages must be specified, indicating the parameters and data
+    to be interchanged between the parties.</span>
+</p>
+<p>
+    <span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">Message Type definitions to be used in operations from the Reseller:</span>
+</p>
+<p>
+    <img alt="" src="bpsom/tasks/resources/MessagesReseller.jpg" width="521" height="266" />
+</p>
+<p>
+    <span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">The choreography defined by the Service Contract (if any) must also be specified, based on the
+    interaction between participants, interfaces, operations and parameters used.&nbsp;</span>&nbsp;Service
+    Contract&nbsp;with roles definition and corresponding choreography for the defined service ReceiveOrder of Reseller.
+    &nbsp;
+</p>
+<p>
+    &nbsp;<img alt="" src="bpsom/tasks/resources/ReceiveOrderServiceContractInterfsChoreog.jpg" width="600" height="350" />
+</p>
+<p>
+    <span
+    style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">In order for services to be generated in SoaML from the BPMN business process model with this
+    information, the Architect must provide it in the BPMN business process model for the activities marked as
+    services.</span>
+</p>
+<br />]]></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Section name="Clearly specify the functionality that the service provides " briefDescription="" id="_sWNoYEiAEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify interface/s provided by the service" briefDescription="" id="_coNecEiAEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify operations provided by each interface " briefDescription="" id="_f6tJ8EiAEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify input/output parameters in each operation indicating name, type and description" briefDescription="" id="_ly0z4EiAEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify pre-conditions for the service execution " briefDescription="" id="_2ekYcEiAEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify post-conditions for the service execution" briefDescription="" id="_5KTl8EiAEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Alternatives></Alternatives>
+					<Purpose><![CDATA[To specify services by defining for each one its contract with the interfaces it provides and its operations and
+parameters. To define all the information for modeling the service in SoaML using the diagrams for Service Contract,
+Interfaces and associated Choreograpy.]]></Purpose>
+				</Presentation>
+				<PerformedBy>_ssT6EOM8Ed6OoK0l17K4LA</PerformedBy>
+				<AdditionallyPerformedBy>_3dMfMOM7Ed6OoK0l17K4LA</AdditionallyPerformedBy>
+				<MandatoryInput>_N4bXIOMxEd6OoK0l17K4LA</MandatoryInput>
+				<Output>_N4bXIOMxEd6OoK0l17K4LA</Output>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Artifact" name="services_catalogue" briefDescription="" id="_TL04gOMzEd6OoK0l17K4LA" orderingGuide="" presentationName="Services catalogue" suppressed="false" variabilityType="na"/>
+			<ContentElement xsi:type="uma:Artifact" name="services_document" briefDescription="" id="_N4bXIOMxEd6OoK0l17K4LA" orderingGuide="" presentationName="Services document" suppressed="false" variabilityType="na"/>
+			<ContentElement xsi:type="uma:Role" name="architect" briefDescription="" id="_ssT6EOM8Ed6OoK0l17K4LA" orderingGuide="" presentationName="Architect" suppressed="false" variabilityType="na">
+				<ResponsibleFor>_N4bXIOMxEd6OoK0l17K4LA</ResponsibleFor>
+				<ResponsibleFor>_TL04gOMzEd6OoK0l17K4LA</ResponsibleFor>
+			</ContentElement>
+		</MethodPackage>
+		<MethodPackage xsi:type="uma:ContentPackage" name="business_modeling_package" briefDescription="" id="_cdVQMOMfEd6OoK0l17K4LA" orderingGuide="" suppressed="false" global="false">
+			<ContentElement xsi:type="uma:Task" name="asses_target_organization" briefDescription="The current state of the Organization in which the application will be implemented should be described, in terms of their current business processes, tools, skills of people, attitudes of people, customers, competition, technological challenges, problems and areas of improvement, among others. " id="_osAMgOMfEd6OoK0l17K4LA" orderingGuide="" presentationName="BM1 - Asses the Target Organization " suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:TaskDescription" name=",_osAMgOMfEd6OoK0l17K4LA" briefDescription="" id="-ZFcWRpJxmETaZcxKQb85YQ" orderingGuide="" suppressed="false" authors="Andrea Delgado" changeDate="2010-11-27T16:05:36" changeDescription="" version="1.1" externalId="">
+					<MainDescription><![CDATA[The current state of the Organization in which the application will be implemented should be described, in terms of their
+current business processes, tools, skills of people, attitudes of people, customers, competition, technological challenges,
+problems and areas of improvement, clearly identifying those stakeholders involved in the business modeling effort. <span
+style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+ lang="EN-US">The OMG Business Motivation Model (BMM) can also be used to express the goals, strategy and the
+organization’s other business information, which then is linked to the definition of SoaML services.</span>]]></MainDescription>
+					<KeyConsiderations><![CDATA[<span
+style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+ lang="EN-US">If the software area belongs to the organization then, if documents exist that provide the needed insight
+into the area of business, business goals, operation, employees, technologies used in the organization, among others, these
+can be used rather than their being produced again.</span>]]></KeyConsiderations>
+					<Section name="Identify business processes context" briefDescription="" id="_J9U74OMjEd6OoK0l17K4LA" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify technological contex " briefDescription="" id="_YHAzYOMjEd6OoK0l17K4LA" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify human context " briefDescription="" id="_khTw4OMjEd6OoK0l17K4LA" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify problems and improvement opportunities" briefDescription="" id="_awFHYOMjEd6OoK0l17K4LA" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify stakeholders for the business modeling effort" briefDescription="" id="_eMVy4OMjEd6OoK0l17K4LA" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Alternatives></Alternatives>
+					<Purpose><![CDATA[<p>
+    <span
+    style="WIDOWS: 2; TEXT-TRANSFORM: none; TEXT-INDENT: 0px; BORDER-COLLAPSE: separate; FONT: medium 'Times New Roman'; WHITE-SPACE: normal; ORPHANS: 2; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px"
+     class="Apple-style-span"><span style="LINE-HEIGHT: 24px; FONT-FAMILY: Arial, sans-serif; FONT-SIZE: 16px"
+    class="Apple-style-span"><span style="BACKGROUND-COLOR: rgb(255,255,255)"
+    onmouseover="this.style.backgroundColor='#ebeff9'" title="Organización."
+    onmouseout="this.style.backgroundColor='#fff'"><font size="2">To involve the project team with the organization for
+    which the development is being&nbsp; carried out, in issues such as: the area of business, operation, employees, etc.
+    of the organization.<br />
+    </font><br />
+    </span></span></span>
+</p>]]></Purpose>
+				</Presentation>
+				<PerformedBy>_3dMfMOM7Ed6OoK0l17K4LA</PerformedBy>
+				<PerformedBy>_LE63QOM9Ed6OoK0l17K4LA</PerformedBy>
+				<AdditionallyPerformedBy>_ssT6EOM8Ed6OoK0l17K4LA</AdditionallyPerformedBy>
+				<MandatoryInput>_8FE_YOMyEd6OoK0l17K4LA</MandatoryInput>
+				<Output>_7ir6cOMmEd6OoK0l17K4LA</Output>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Task" name="identify_business_processes" briefDescription="To understand and describe the business processes in the organization, mainly those related to the application being developed, specifying the business process models using the Business Process Modeling Notation (BPMN), including participants and actors involved, control flow with sequence of activities and messages between pools, flow decisions and business rules. The use of process patterns (workflow patterns) is recommended to help in various modeling aspects of business processes.
+" id="_rvHbYOMjEd6OoK0l17K4LA" orderingGuide="" presentationName="BM2 - Identify Business Processes " suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:TaskDescription" name=",_rvHbYOMjEd6OoK0l17K4LA" briefDescription="" id="-2KK-w_7pVVvaqZiQpvGKbQ" orderingGuide="" suppressed="false" authors="Andrea Delgado " changeDate="2010-11-27T16:09:48" changeDescription="" version="1.1" externalId="">
+					<MainDescription><![CDATA[<p>
+    <span
+    style="FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">The business processes description must include: including participants and actors involved, control flow
+    with sequence of activities and messages between pools, flow decisions and business rules.&nbsp;It is recommended to
+    use process patterns (workflow patterns) to help in various modeling aspects of business processes. The boundaries of
+    business are clearly stated, indicating who and what interacts with the organization, specifying processes both in
+    natural language and graphically using a Business Process Modeler tool (BizAgi, ARIS, Visual Paradigm, etc.). QVT
+    transformations are defined to generate services models specified in the OMG SoaML standard from business process
+    models specified in BPMN, that can be executed in the Eclipse environment.</span>&nbsp;
+</p>
+<p>
+    <span
+    style="FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">Example of a BPMN busines process model for a Reseller (adapted from Weske, 2007):</span>
+</p>
+<img alt="" src="bpsom/tasks/resources/ResellerBusinessProcessAchicado.jpg" width="600" height="451" /><br />
+<br />]]></MainDescription>
+					<KeyConsiderations><![CDATA[It is recommended to use process patterns (workflow patterns, van der Aalst et. al, 2003) to help in various modeling
+aspects of business processes, reusing knowledge and best solutions.]]></KeyConsiderations>
+					<Section name="Identify participants and actors involved" briefDescription="" id="_xsoQQEh8Ed-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify activities to be performed " briefDescription="" id="_F0-CEEh-Ed-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify the sequence of activities realization" briefDescription="" id="_H_W2AEh-Ed-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify decision nodes in the flow" briefDescription="" id="_TTrp8Eh-Ed-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify message interaction with other participants (if any)" briefDescription="" id="_7iemYPo5Ed-iy5x8bu83hQ" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Identify business rules" briefDescription="" id="_dR4_gEh-Ed-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Alternatives><![CDATA[<span
+style="FONT-FAMILY: 'Times','serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+ lang="EN-US">The notation used to specify the business process models from which to generate SoaML services models is
+BPMN. Other notations could be used, but the QVT transformations defined could not then be executed.</span>]]></Alternatives>
+					<Purpose><![CDATA[<p>
+    <span
+    style="FONT-FAMILY: 'Times New Roman','serif'; FONT-SIZE: 10pt; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA"
+     lang="EN-US">To understand and describe the business processes in the organization, mainly those related to the
+    application being developed, specifying the business process models using&nbsp;the Business Process Modeling Notation
+    (BPMN)</span>.
+</p>]]></Purpose>
+				</Presentation>
+				<PerformedBy>_3dMfMOM7Ed6OoK0l17K4LA</PerformedBy>
+				<PerformedBy>_LE63QOM9Ed6OoK0l17K4LA</PerformedBy>
+				<AdditionallyPerformedBy>_ssT6EOM8Ed6OoK0l17K4LA</AdditionallyPerformedBy>
+				<MandatoryInput>_7ir6cOMmEd6OoK0l17K4LA</MandatoryInput>
+				<MandatoryInput>_8FE_YOMyEd6OoK0l17K4LA</MandatoryInput>
+				<Output>_LuLRoOMnEd6OoK0l17K4LA</Output>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Artifact" name="business_processes_document" briefDescription="" id="_LuLRoOMnEd6OoK0l17K4LA" orderingGuide="" presentationName="Business Processes document" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:ArtifactDescription" name="new_artifact,_LuLRoOMnEd6OoK0l17K4LA" briefDescription="" id="-Wuue_zHqw6-P6OMKGhHb1g" orderingGuide="" suppressed="false" authors="Andrea Delgado" changeDate="2009-12-07T12:59:31" changeDescription="" version="1.0" externalId="">
+					<MainDescription></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Purpose><![CDATA[To specify business processes in the organization by means of business process models using a valid notation (Recomendded
+the Business Process Modeling Notation)]]></Purpose>
+					<ImpactOfNotHaving></ImpactOfNotHaving>
+					<ReasonsForNotNeeding></ReasonsForNotNeeding>
+					<BriefOutline></BriefOutline>
+					<RepresentationOptions></RepresentationOptions>
+					<Representation></Representation>
+					<Notation></Notation>
+				</Presentation>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Artifact" name="target_organization_assesment" briefDescription="" id="_7ir6cOMmEd6OoK0l17K4LA" orderingGuide="" presentationName="Assesment of the Target Organization" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:ArtifactDescription" name="new_artifact,_7ir6cOMmEd6OoK0l17K4LA" briefDescription="" id="-_pERkgwcESDINtiNcosZHA" orderingGuide="" suppressed="false" authors="Andrea Delgado" changeDate="2009-12-07T13:00:38" changeDescription="" version="1.0" externalId="">
+					<MainDescription></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Purpose><![CDATA[To clarify the organizational context in which the development project takes place.]]></Purpose>
+					<ImpactOfNotHaving></ImpactOfNotHaving>
+					<ReasonsForNotNeeding></ReasonsForNotNeeding>
+					<BriefOutline></BriefOutline>
+					<RepresentationOptions></RepresentationOptions>
+					<Representation></Representation>
+					<Notation></Notation>
+				</Presentation>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Template" name="business_processes_specification" briefDescription="" id="_zler8OMpEd6OoK0l17K4LA" orderingGuide="" presentationName="Business Processes Specification" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:GuidanceDescription" name="new_template,_zler8OMpEd6OoK0l17K4LA" briefDescription="" id="-Z8itL0-8aWhzEnKNUcnlRw" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="">
+					<MainDescription></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Attachment>bpsom/guidances/templates/resources/MNMODGXvY.doc</Attachment>
+				</Presentation>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Template" name="target_organization_assestment" briefDescription="" id="_I-lM8OMpEd6OoK0l17K4LA" orderingGuide="" presentationName="Assesment of the Target Organization" suppressed="false" variabilityType="na"/>
+			<ContentElement xsi:type="uma:Role" name="business_analyst" briefDescription="	" id="_LE63QOM9Ed6OoK0l17K4LA" orderingGuide="" presentationName="Business Analyst" suppressed="false" variabilityType="na">
+			</ContentElement>
+			<ContentElement xsi:type="uma:Role" name="analyst" briefDescription="" id="_3dMfMOM7Ed6OoK0l17K4LA" orderingGuide="" presentationName="Analyst" suppressed="false" variabilityType="na">
+				<ResponsibleFor>_7ir6cOMmEd6OoK0l17K4LA</ResponsibleFor>
+				<ResponsibleFor>_LuLRoOMnEd6OoK0l17K4LA</ResponsibleFor>
+			</ContentElement>
+		</MethodPackage>
+		<MethodPackage xsi:type="uma:ContentPackage" name="base_development_process_package" briefDescription="" id="_mbmVgOMyEd6OoK0l17K4LA" orderingGuide="" suppressed="false" global="false">
+			<ContentElement xsi:type="uma:Task" name="services_testing" briefDescription="" id="_bAYWYPuoEd-4HOr1nlpC9Q" orderingGuide="" presentationName="Services testing" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:TaskDescription" name=",_bAYWYPuoEd-4HOr1nlpC9Q" briefDescription="" id="-yXzFSPNY9WWQZ05jPJVeog" orderingGuide="" suppressed="false" authors="" changeDate="2010-11-29T12:05:10" changeDescription="" version="version 1.1" externalId="">
+					<MainDescription><![CDATA[According to the software base development process of the organization the&nbsp;services implemented are tested to find
+implementation errors and correct them before the deployment.]]></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Section name="Specify the testing cases according to the functionality defined for the service in the requeriments document " briefDescription="" id="_DYq94PurEd-4HOr1nlpC9Q" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Test the service implemented regarding the specified testing cases and the information in the services document" briefDescription="" id="_dO-C8PuqEd-4HOr1nlpC9Q" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Alternatives></Alternatives>
+					<Purpose><![CDATA[To test the services implemented to find errors and be able to correct them before the deployment.]]></Purpose>
+				</Presentation>
+				<PerformedBy>_m_HHUPuqEd-4HOr1nlpC9Q</PerformedBy>
+				<AdditionallyPerformedBy>_x4Y9YOM8Ed6OoK0l17K4LA</AdditionallyPerformedBy>
+				<MandatoryInput>_o6dUQEexEd-iTvGQFwAspw</MandatoryInput>
+				<MandatoryInput>_470IYOMyEd6OoK0l17K4LA</MandatoryInput>
+				<MandatoryInput>_N4bXIOMxEd6OoK0l17K4LA</MandatoryInput>
+				<Output>_62RJ4PuoEd-4HOr1nlpC9Q</Output>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Task" name="requirements_capture" briefDescription="" id="_fX0tIEfBEd-iNY7TQq4TSw" orderingGuide="" presentationName="Requirements Capture" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:TaskDescription" name="requirements_capture,_fX0tIEfBEd-iNY7TQq4TSw" briefDescription="" id="-0SIXvWJCBMtQRgE8COsW2g" orderingGuide="" suppressed="false" authors="Andrea Delgado" changeDate="2010-11-29T12:07:34" changeDescription="" version="version 1.1" externalId="">
+					<MainDescription><![CDATA[According to the software base development process of the organization the requirements for the software system under
+development are captured and documented.]]></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Alternatives></Alternatives>
+					<Purpose><![CDATA[To capture the requirements for the software system under development.]]></Purpose>
+				</Presentation>
+				<PerformedBy>_3dMfMOM7Ed6OoK0l17K4LA</PerformedBy>
+				<AdditionallyPerformedBy>_ssT6EOM8Ed6OoK0l17K4LA</AdditionallyPerformedBy>
+				<MandatoryInput>_8FE_YOMyEd6OoK0l17K4LA</MandatoryInput>
+				<MandatoryInput>_470IYOMyEd6OoK0l17K4LA</MandatoryInput>
+				<Output>_470IYOMyEd6OoK0l17K4LA</Output>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Task" name="sw_deployment" briefDescription="" id="_YPg7wEfDEd-iNY7TQq4TSw" orderingGuide="" presentationName="Software deployment" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:TaskDescription" name="sw_deployment,_YPg7wEfDEd-iNY7TQq4TSw" briefDescription="" id="--NEV1a4itVbR0RvsJ7TRtg" orderingGuide="" suppressed="false" authors="" changeDate="2010-11-29T12:07:16" changeDescription="" version="version 1.1" externalId="">
+					<MainDescription><![CDATA[According to the software base development process of the organization the software system developed (including the
+services implemented) is deployed into the clients environment. &nbsp;]]></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Alternatives></Alternatives>
+					<Purpose><![CDATA[To deploy the software system developed into the clients environment.]]></Purpose>
+				</Presentation>
+				<PerformedBy>_x4Y9YOM8Ed6OoK0l17K4LA</PerformedBy>
+				<AdditionallyPerformedBy>_ssT6EOM8Ed6OoK0l17K4LA</AdditionallyPerformedBy>
+				<AdditionallyPerformedBy>_3dMfMOM7Ed6OoK0l17K4LA</AdditionallyPerformedBy>
+				<MandatoryInput>_o6dUQEexEd-iTvGQFwAspw</MandatoryInput>
+				<MandatoryInput>_1E2d4OMyEd6OoK0l17K4LA</MandatoryInput>
+				<OptionalInput>_SDch4OM4Ed6OoK0l17K4LA</OptionalInput>
+				<Output>_kvaSMEu5Ed-vjd_3xeIJwQ</Output>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Artifact" name="requirements_document" briefDescription="" id="_470IYOMyEd6OoK0l17K4LA" orderingGuide="" presentationName="Requirements document" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:ArtifactDescription" name="requirements_document,_470IYOMyEd6OoK0l17K4LA" briefDescription="" id="-kaTY82nHG5ol5bIZxVbLMg" orderingGuide="" suppressed="false" authors="" changeDate="2010-11-29T12:09:30" changeDescription="" version="version 1.1" externalId="">
+					<MainDescription></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Purpose></Purpose>
+					<ImpactOfNotHaving></ImpactOfNotHaving>
+					<ReasonsForNotNeeding></ReasonsForNotNeeding>
+					<BriefOutline></BriefOutline>
+					<RepresentationOptions></RepresentationOptions>
+					<Representation></Representation>
+					<Notation></Notation>
+				</Presentation>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Artifact" name="testing_reports" briefDescription="" id="_62RJ4PuoEd-4HOr1nlpC9Q" orderingGuide="" presentationName="Testing reports" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:ArtifactDescription" name="new_artifact,_62RJ4PuoEd-4HOr1nlpC9Q" briefDescription="" id="-LUfPdfX7bgJk8BDYigvMrA" orderingGuide="" suppressed="false" authors="" changeDate="2010-11-29T12:09:53" changeDescription="" version="version 1.1" externalId="">
+					<MainDescription></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Purpose></Purpose>
+					<ImpactOfNotHaving></ImpactOfNotHaving>
+					<ReasonsForNotNeeding></ReasonsForNotNeeding>
+					<BriefOutline></BriefOutline>
+					<RepresentationOptions></RepresentationOptions>
+					<Representation></Representation>
+					<Notation></Notation>
+				</Presentation>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Artifact" name="implementation_document" briefDescription="" id="_SDch4OM4Ed6OoK0l17K4LA" orderingGuide="" presentationName="Implementation document" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:ArtifactDescription" name="implementation_document,_SDch4OM4Ed6OoK0l17K4LA" briefDescription="" id="-rLume0emhyX6ruCcnTadCQ" orderingGuide="" suppressed="false" authors="" changeDate="2010-11-29T12:09:21" changeDescription="" version="version 1.1" externalId="">
+					<MainDescription></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Purpose></Purpose>
+					<ImpactOfNotHaving></ImpactOfNotHaving>
+					<ReasonsForNotNeeding></ReasonsForNotNeeding>
+					<BriefOutline></BriefOutline>
+					<RepresentationOptions></RepresentationOptions>
+					<Representation></Representation>
+					<Notation></Notation>
+				</Presentation>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Artifact" name="design_document" briefDescription="" id="_P1dnYOM4Ed6OoK0l17K4LA" orderingGuide="" presentationName="Design document" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:ArtifactDescription" name="design_document,_P1dnYOM4Ed6OoK0l17K4LA" briefDescription="" id="-Dw0fc7eWM55hjk_lr1v31g" orderingGuide="" suppressed="false" authors="" changeDate="2010-11-29T12:09:14" changeDescription="" version="version 1.1" externalId="">
+					<MainDescription></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Purpose></Purpose>
+					<ImpactOfNotHaving></ImpactOfNotHaving>
+					<ReasonsForNotNeeding></ReasonsForNotNeeding>
+					<BriefOutline></BriefOutline>
+					<RepresentationOptions></RepresentationOptions>
+					<Representation></Representation>
+					<Notation></Notation>
+				</Presentation>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Artifact" name="meetings_with_clients" briefDescription="" id="_8FE_YOMyEd6OoK0l17K4LA" orderingGuide="" presentationName="Minutes of meetings with clients " suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:ArtifactDescription" name="meetings_with_clients,_8FE_YOMyEd6OoK0l17K4LA" briefDescription="" id="-rqo8TpZy1gLGY6EMpzIlqg" orderingGuide="" suppressed="false" authors="" changeDate="2010-11-29T12:09:03" changeDescription="" version="version 1.1" externalId="">
+					<MainDescription></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Purpose></Purpose>
+					<ImpactOfNotHaving></ImpactOfNotHaving>
+					<ReasonsForNotNeeding></ReasonsForNotNeeding>
+					<BriefOutline></BriefOutline>
+					<RepresentationOptions></RepresentationOptions>
+					<Representation></Representation>
+					<Notation></Notation>
+				</Presentation>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Artifact" name="software_architecture_document" briefDescription="" id="_1E2d4OMyEd6OoK0l17K4LA" orderingGuide="" presentationName="Software Architecture document" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:ArtifactDescription" name="software_architecture_document,_1E2d4OMyEd6OoK0l17K4LA" briefDescription="" id="-HUjYP1aVeN0Swv2pOR1KOg" orderingGuide="" suppressed="false" authors="" changeDate="2010-11-29T12:09:44" changeDescription="" version="version 1.1" externalId="">
+					<MainDescription></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Purpose></Purpose>
+					<ImpactOfNotHaving></ImpactOfNotHaving>
+					<ReasonsForNotNeeding></ReasonsForNotNeeding>
+					<BriefOutline></BriefOutline>
+					<RepresentationOptions></RepresentationOptions>
+					<Representation></Representation>
+					<Notation></Notation>
+				</Presentation>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Artifact" name="service_installed" briefDescription="" id="_kvaSMEu5Ed-vjd_3xeIJwQ" orderingGuide="" presentationName="Service installed" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:ArtifactDescription" name="service_installed,_kvaSMEu5Ed-vjd_3xeIJwQ" briefDescription="" id="--HYOYizyRsFCsuxPfW_oAQ" orderingGuide="" suppressed="false" authors="" changeDate="2010-11-29T12:09:37" changeDescription="" version="version 1.1" externalId="">
+					<MainDescription></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Purpose></Purpose>
+					<ImpactOfNotHaving></ImpactOfNotHaving>
+					<ReasonsForNotNeeding></ReasonsForNotNeeding>
+					<BriefOutline></BriefOutline>
+					<RepresentationOptions></RepresentationOptions>
+					<Representation></Representation>
+					<Notation></Notation>
+				</Presentation>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Role" name="tester" briefDescription="" id="_m_HHUPuqEd-4HOr1nlpC9Q" orderingGuide="" presentationName="Tester" suppressed="false" variabilityType="na">
+				<ResponsibleFor>_62RJ4PuoEd-4HOr1nlpC9Q</ResponsibleFor>
+			</ContentElement>
+		</MethodPackage>
+		<MethodPackage xsi:type="uma:ContentPackage" name="bpsom_guidance" briefDescription="" id="_1V78gEe8Ed-iNY7TQq4TSw" orderingGuide="" suppressed="false" global="false">
+			<ContentElement xsi:type="uma:SupportingMaterial" name="intro_bpsom" briefDescription="Business Process Service Oriented Methodology (BPSOM) provides a guide for service oriented development from business processes, that can be added as a plug-in to the existing base software development process of the organization. It provides guides to derive and generate services models specified in OMG SoaML standard from business process specified in OMG BPMN standard. It also provides the definition of QVT transformations to automate this derivation as much as possible, using the Eclipse environment. " id="_AG92IEe9Ed-iNY7TQq4TSw" orderingGuide="" presentationName="BPSOM introduction" suppressed="false" variabilityType="na">
+				<Presentation name="new_supporting_material,_AG92IEe9Ed-iNY7TQq4TSw" briefDescription="" id="-KyA4lnDhCql3pl5bqiC-2A" orderingGuide="" suppressed="false" authors="" changeDate="2010-11-29T11:57:54" changeDescription="" version="version 1.1" externalId="">
+					<MainDescription><![CDATA[<p>
+    Business Process Service Oriented Methodology (BPSOM) provides a guide for service oriented development from business
+    processes, that can be added as a plug-in to the existing base software development process of the organization. The
+    objective is to use the way in which people work as the basis for the software development adding specific elements to
+    guide the generation of services from business processes.
+</p>
+<p>
+    &nbsp;<img alt="" src="bpsom/guidances/supportingmaterials/resources/BPSOMandswprocess80.jpg" width="600" height="532" />
+</p>
+<p>
+    BPSOM defines activities, deliverables and roles in three key Disciplines: Business Modeling, Design and
+    Implementation, and a lifecycle based on the Unified Process (UP) to guide the development in an iterative and
+    incrementally way.
+</p>
+<p>
+    The activities defined in the Business Modeling Discipline emphasize the definition and modeling of business processes
+    (using the BPMN OMG notation standard) not only as first input for the development process but as key asset of the
+    organization.
+</p>
+<p>
+    From these models, the activities defined in the Design Discipline guide the service oriented development by
+    identifying services from activities, sub-process or complete business processes,&nbsp;specifying them including
+    interfaces provided and required, parameters,&nbsp;pre and post conditions, among&nbsp;others.&nbsp;
+</p>
+<p>
+    A specific activity is defined to reuse existing services in the organization, complete or parcially, then to assign
+    components to defined services and to specify services interaction, in choreographies or orchestrations depending on
+    the business process control flow. Finally services realizing business processes, as defined in the Design Discipline,
+    are implemented in the Implementation Discipline.
+</p>
+<p>
+    General activities from the base software development process are assumed to exist to carry out needed activities such
+    as the requirements capture, or the software testing and deployment.
+</p>]]></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+				</Presentation>
+			</ContentElement>
+		</MethodPackage>
+		<MethodPackage xsi:type="uma:ContentPackage" name="implementation_package" briefDescription="" id="_QK85wOM5Ed6OoK0l17K4LA" orderingGuide="" suppressed="false" global="false">
+			<ContentElement xsi:type="uma:Task" name="implement_services" briefDescription="" id="_hdEQcEfDEd-iNY7TQq4TSw" orderingGuide="" presentationName="I1 - Implement services" suppressed="false" variabilityType="na">
+				<Presentation xsi:type="uma:TaskDescription" name="implement_services,_hdEQcEfDEd-iNY7TQq4TSw" briefDescription="" id="-0k89H-5aWSSJjGjhjQJctQ" orderingGuide="" suppressed="false" authors="Andrea Delgado " changeDate="2010-04-15T15:13:33" changeDescription="" version="1.0" externalId="">
+					<MainDescription><![CDATA[To implement the described services&nbsp;taking into account the type of service, the designed interfaces, the interaction
+with other services (with or without a repository of services, binding in development or execution time).]]></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Section name="For each service recall the defined interfaces with its operations, parameters, pre and post conditions from the services document " briefDescription="" id="_2JK88EiQEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Implement the service defining if invocations to other services will be through a services repository or not, and the time of binding for the invocation (development, execution)" briefDescription="" id="_99qM8EiQEd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Section name="Implement the service defining how invocations to other software pieces will be handled, and the time of binding for the invocation (development, execution)" briefDescription="" id="_XqA2YEiREd-6ten92sIKgg" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+						<Description></Description>
+					</Section>
+					<Alternatives></Alternatives>
+					<Purpose><![CDATA[To implement the described services.]]></Purpose>
+				</Presentation>
+				<PerformedBy>_x4Y9YOM8Ed6OoK0l17K4LA</PerformedBy>
+				<MandatoryInput>_N4bXIOMxEd6OoK0l17K4LA</MandatoryInput>
+				<MandatoryInput>_P1dnYOM4Ed6OoK0l17K4LA</MandatoryInput>
+				<MandatoryInput>_SDch4OM4Ed6OoK0l17K4LA</MandatoryInput>
+				<Output>_o6dUQEexEd-iTvGQFwAspw</Output>
+			</ContentElement>
+			<ContentElement xsi:type="uma:Artifact" name="service_implemented" briefDescription="" id="_o6dUQEexEd-iTvGQFwAspw" orderingGuide="" presentationName="Service Implemented" suppressed="false" variabilityType="na"/>
+			<ContentElement xsi:type="uma:Role" name="developer" briefDescription="" id="_x4Y9YOM8Ed6OoK0l17K4LA" orderingGuide="" presentationName="Developer" suppressed="false" variabilityType="na">
+				<ResponsibleFor>_SDch4OM4Ed6OoK0l17K4LA</ResponsibleFor>
+			</ContentElement>
+		</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessPackage" name="Phase iteration templates" briefDescription="" id="_6IkwQONPEd6OoK0l17K4LA" orderingGuide="" suppressed="false" global="false">
+		<MethodPackage xsi:type="uma:ProcessComponent" name="Inception iteration" briefDescription="" id="_8y7dsONPEd6OoK0l17K4LA" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+				<Process xsi:type="uma:CapabilityPattern" name="Inception iteration" briefDescription="" id="_8y7dseNPEd6OoK0l17K4LA" orderingGuide="" suppressed="false" presentationName="Inception iteration" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="">
+					<Presentation xsi:type="uma:ProcessDescription" name="Inception iteration,_8y7dseNPEd6OoK0l17K4LA" briefDescription="" id="-keYz-jtUqmrcSxd4CkID6A" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+						<MainDescription></MainDescription>
+						<KeyConsiderations></KeyConsiderations>
+						<Alternatives></Alternatives>
+						<HowToStaff></HowToStaff>
+						<Purpose></Purpose>
+						<Scope></Scope>
+						<UsageNotes></UsageNotes>
+					</Presentation>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="asses_target_organization" briefDescription="" id="_gjOyUEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="BM1 - Asses the Target Organization " hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_twQvAEu2Ed-vjd_3xeIJwQ" linkType="finishToStart">_gjOyUEerEd-iTvGQFwAspw</Predecessor>
+					<Predecessor id="_uVqiIUu2Ed-vjd_3xeIJwQ" linkType="finishToStart">_gjOyUEerEd-iTvGQFwAspw</Predecessor>
+					<Task>_osAMgOMfEd6OoK0l17K4LA</Task>
+					<PerformedPrimarilyBy>_gjPZYEerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_gjPZYUerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_gjPZYkerEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_gjPZY0erEd-iTvGQFwAspw</Output>
+					<Step name="Identify business processes context" briefDescription="" id="_J9U74OMjEd6OoK0l17K4LA" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+					<Description></Description>
+					</Step>
+					<Step name="Identify technological contex " briefDescription="" id="_YHAzYOMjEd6OoK0l17K4LA" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+					<Description></Description>
+					</Step>
+					<Step name="Identify human context " briefDescription="" id="_khTw4OMjEd6OoK0l17K4LA" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+					<Description></Description>
+					</Step>
+					<Step name="Identify problems and improvement opportunities" briefDescription="" id="_awFHYOMjEd6OoK0l17K4LA" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+					<Description></Description>
+					</Step>
+					<Step name="Identify stakeholders for the business modeling effort" briefDescription="" id="_eMVy4OMjEd6OoK0l17K4LA" orderingGuide="" suppressed="false" sectionName="" variabilityType="na">
+					<Description></Description>
+					</Step>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="meetings_with_clients" briefDescription="" id="_gjPZYkerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Minutes of meetings with clients " hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_8FE_YOMyEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="target_organization_assesment" briefDescription="" id="_gjPZY0erEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Assesment of the Target Organization" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_7ir6cOMmEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="identify_business_processes" briefDescription="" id="_kSQBwEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="BM2 - Identify Business Processes " hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_xaj2gUu2Ed-vjd_3xeIJwQ" linkType="finishToStart">_kSQBwEerEd-iTvGQFwAspw</Predecessor>
+					<Task>_rvHbYOMjEd6OoK0l17K4LA</Task>
+					<PerformedPrimarilyBy>_gjPZYEerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_kSQo0EerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<AdditionallyPerformedBy>_gjPZYUerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_gjPZY0erEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_kSQo0UerEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="business_analyst" briefDescription="" id="_kSQo0EerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Business Analyst" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<Role>_LE63QOM9Ed6OoK0l17K4LA</Role>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="business_processes_document" briefDescription="" id="_kSQo0UerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Business Processes document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_LuLRoOMnEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="identify_categorize_services" briefDescription="" id="_oMNV4EerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="D1 - Identify and categorize services" hasMultipleOccurrences="false" isOptional="true" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<Task>_1u19cOMvEd6OoK0l17K4LA</Task>
+					<PerformedPrimarilyBy>_gjPZYUerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_oMNV4UerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<AdditionallyPerformedBy>_gjPZYEerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_kSQo0UerEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_oMNV4kerEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_oMNV40erEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_oMNV5EerEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="architect" briefDescription="" id="_gjPZYUerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Architect" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<Role>_ssT6EOM8Ed6OoK0l17K4LA</Role>
+					<ResponsibleFor>_oMNV5EerEd-iTvGQFwAspw</ResponsibleFor>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="developer" briefDescription="" id="_oMNV4UerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Developer" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<Role>_x4Y9YOM8Ed6OoK0l17K4LA</Role>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="requirements_document" briefDescription="" id="_oMNV4kerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Requirements document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_470IYOMyEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="software_architecture_document" briefDescription="" id="_oMNV40erEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Software Architecture document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_1E2d4OMyEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="services_document" briefDescription="" id="_oMNV5EerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Services document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_N4bXIOMxEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="requirements_capture" briefDescription="" id="_3iR0EEfDEd-iNY7TQq4TSw" orderingGuide="" suppressed="false" presentationName="Requirements Capture" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="false">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_xaj2g0u2Ed-vjd_3xeIJwQ" linkType="finishToStart">_3iR0EEfDEd-iNY7TQq4TSw</Predecessor>
+					<Task>_fX0tIEfBEd-iNY7TQq4TSw</Task>
+					<PerformedPrimarilyBy>_gjPZYEerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_gjPZYUerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_gjPZYkerEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_oMNV4kerEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_oMNV4kerEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="analyst" briefDescription="" id="_gjPZYEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Analyst" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<Role>_3dMfMOM7Ed6OoK0l17K4LA</Role>
+					<ResponsibleFor>_kSQo0UerEd-iTvGQFwAspw</ResponsibleFor>
+					<ResponsibleFor>_gjPZY0erEd-iTvGQFwAspw</ResponsibleFor>
+				</BreakdownElement>
+					<DefaultContext>_9He0YOMuEd6OoK0l17K4LA</DefaultContext>
+					<ValidContext>_9He0YOMuEd6OoK0l17K4LA</ValidContext>
+				</Process>
+			</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="Elaboration iteration" briefDescription="" id="_AKwVIONQEd6OoK0l17K4LA" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+				<Process xsi:type="uma:CapabilityPattern" name="Elaboration iteration" briefDescription="" id="_AKwVIeNQEd6OoK0l17K4LA" orderingGuide="" suppressed="false" presentationName="Elaboration iteration" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="">
+					<Presentation xsi:type="uma:ProcessDescription" name="Elaboration iteration,_AKwVIeNQEd6OoK0l17K4LA" briefDescription="" id="-VGmiEuCnQ317OdEKBir-cg" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+						<MainDescription></MainDescription>
+						<KeyConsiderations></KeyConsiderations>
+						<Alternatives></Alternatives>
+						<HowToStaff></HowToStaff>
+						<Purpose></Purpose>
+						<Scope></Scope>
+						<UsageNotes></UsageNotes>
+					</Presentation>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="identify_business_processes" briefDescription="" id="_sUuDYEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="BM2 - Identify Business Processes " hasMultipleOccurrences="false" isOptional="true" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_RRBNsEfFEd-pQsOhtyfuYw" linkType="finishToStart">_sUuDYEerEd-iTvGQFwAspw</Predecessor>
+					<Task>_rvHbYOMjEd6OoK0l17K4LA</Task>
+					<PerformedPrimarilyBy>_sUuqcEerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_sUvRgEerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<AdditionallyPerformedBy>_sUvRgUerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_sUvRgkerEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_sUvRg0erEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="analyst" briefDescription="" id="_sUuqcEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Analyst" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Role>_3dMfMOM7Ed6OoK0l17K4LA</Role>
+					<ResponsibleFor>_sUvRg0erEd-iTvGQFwAspw</ResponsibleFor>
+					<ResponsibleFor>_sUvRgkerEd-iTvGQFwAspw</ResponsibleFor>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="business_analyst" briefDescription="" id="_sUvRgEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Business Analyst" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Role>_LE63QOM9Ed6OoK0l17K4LA</Role>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="target_organization_assesment" briefDescription="" id="_sUvRgkerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Assesment of the Target Organization" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_7ir6cOMmEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="business_processes_document" briefDescription="" id="_sUvRg0erEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Business Processes document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_LuLRoOMnEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="identify_categorize_services" briefDescription="" id="_upka4EerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="D1 - Identify and categorize services" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_v-XzMEfCEd-iNY7TQq4TSw" linkType="finishToStart">_upka4EerEd-iTvGQFwAspw</Predecessor>
+					<Task>_1u19cOMvEd6OoK0l17K4LA</Task>
+					<PerformedPrimarilyBy>_sUvRgUerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_uplB8EerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<AdditionallyPerformedBy>_sUuqcEerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_sUvRg0erEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_uplB8UerEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_uplB8kerEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_uplB80erEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="requirements_document" briefDescription="" id="_uplB8UerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Requirements document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_470IYOMyEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="software_architecture_document" briefDescription="" id="_uplB8kerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Software Architecture document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_1E2d4OMyEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="services_document" briefDescription="" id="_uplB80erEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Services document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_N4bXIOMxEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="specify_services" briefDescription="" id="_wXA0IEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="D2 - Specify services" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_xBO-YUfCEd-iNY7TQq4TSw" linkType="finishToStart">_wXA0IEerEd-iTvGQFwAspw</Predecessor>
+					<Task>_l-QkIOMwEd6OoK0l17K4LA</Task>
+					<PerformedPrimarilyBy>_sUvRgUerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_sUuqcEerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_uplB80erEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_uplB80erEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="architect" briefDescription="" id="_sUvRgUerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Architect" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Role>_ssT6EOM8Ed6OoK0l17K4LA</Role>
+					<ResponsibleFor>_yabdYEerEd-iTvGQFwAspw</ResponsibleFor>
+					<ResponsibleFor>_uplB80erEd-iTvGQFwAspw</ResponsibleFor>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="investigate_existing_services" briefDescription="" id="_yaa2UEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="D3 - Investigate existing services" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_yBGf8UfCEd-iNY7TQq4TSw" linkType="finishToStart">_yaa2UEerEd-iTvGQFwAspw</Predecessor>
+					<Task>_wrA9kOM3Ed6OoK0l17K4LA</Task>
+					<PerformedPrimarilyBy>_sUvRgUerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_sUuqcEerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_uplB80erEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_yabdYEerEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_uplB80erEd-iTvGQFwAspw</Output>
+					<Output>_yabdYEerEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="services_catalogue" briefDescription="" id="_yabdYEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Services catalogue" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_TL04gOMzEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="assign_services_to_components" briefDescription="" id="_0o7VQEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="D4 - Assign services to components" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_yduxkUfCEd-iNY7TQq4TSw" linkType="finishToStart">_0o7VQEerEd-iTvGQFwAspw</Predecessor>
+					<Task>_-OOD4OM3Ed6OoK0l17K4LA</Task>
+					<PerformedPrimarilyBy>_sUvRgUerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_uplB8EerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_uplB80erEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_0o7VQUerEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_uplB80erEd-iTvGQFwAspw</Output>
+					<Output>_0o7VQkerEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="design_document" briefDescription="" id="_0o7VQUerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Design document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_P1dnYOM4Ed6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="implementation_document" briefDescription="" id="_0o7VQkerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Implementation document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_SDch4OM4Ed6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="define_services_interaction" briefDescription="" id="_2S6K0EerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="D5 - Define services interaction" hasMultipleOccurrences="false" isOptional="true" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_TWUGQUfFEd-pQsOhtyfuYw" linkType="finishToStart">_2S6K0EerEd-iTvGQFwAspw</Predecessor>
+					<Task>_diTx4OM4Ed6OoK0l17K4LA</Task>
+					<PerformedPrimarilyBy>_sUvRgUerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_sUuqcEerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<AdditionallyPerformedBy>_uplB8EerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_uplB8UerEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_sUvRg0erEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_uplB80erEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_uplB80erEd-iTvGQFwAspw</Output>
+					<Output>_0o7VQkerEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="implement_services" briefDescription="" id="_u8gREEfDEd-iNY7TQq4TSw" orderingGuide="" suppressed="false" presentationName="I1 - Implement services" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="false">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_8Cbr8PuxEd-If8QJW3dCdw" linkType="finishToStart">_u8gREEfDEd-iNY7TQq4TSw</Predecessor>
+					<Predecessor id="_E4vGcUu3Ed-vjd_3xeIJwQ" linkType="finishToStart">_u8gREEfDEd-iNY7TQq4TSw</Predecessor>
+					<Task>_hdEQcEfDEd-iNY7TQq4TSw</Task>
+					<PerformedPrimarilyBy>_uplB8EerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<MandatoryInput>_0o7VQUerEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_0o7VQkerEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_uplB80erEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_uplB80erEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="sw_deployment" briefDescription="" id="_1tNv4EfDEd-iNY7TQq4TSw" orderingGuide="" suppressed="false" presentationName="Software deployment" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="false">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Task>_YPg7wEfDEd-iNY7TQq4TSw</Task>
+					<PerformedPrimarilyBy>_uplB8EerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<MandatoryInput>_sF9O4Pu2Ed-If8QJW3dCdw</MandatoryInput>
+					<MandatoryInput>_uplB8kerEd-iTvGQFwAspw</MandatoryInput>
+					<OptionalInput>_0o7VQkerEd-iTvGQFwAspw</OptionalInput>
+					<Output>_53UtAPu2Ed-If8QJW3dCdw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="developer" briefDescription="" id="_uplB8EerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Developer" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Role>_x4Y9YOM8Ed6OoK0l17K4LA</Role>
+					<ResponsibleFor>_0o7VQkerEd-iTvGQFwAspw</ResponsibleFor>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="service_implemented" briefDescription="" id="_sF9O4Pu2Ed-If8QJW3dCdw" orderingGuide="" suppressed="false" presentationName="Service Implemented" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_o6dUQEexEd-iTvGQFwAspw</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="service_installed" briefDescription="" id="_53UtAPu2Ed-If8QJW3dCdw" orderingGuide="" suppressed="false" presentationName="Service installed" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_kvaSMEu5Ed-vjd_3xeIJwQ</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="requirements_capture" briefDescription="" id="_7zCeoEfDEd-iNY7TQq4TSw" orderingGuide="" suppressed="false" presentationName="Requirements Capture" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="false">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_RRAmoEfFEd-pQsOhtyfuYw" linkType="finishToStart">_7zCeoEfDEd-iNY7TQq4TSw</Predecessor>
+					<Task>_fX0tIEfBEd-iNY7TQq4TSw</Task>
+					<PerformedPrimarilyBy>_sUuqcEerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_sUvRgUerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_LfOiYPu4Ed--j8fJP7vAKQ</MandatoryInput>
+					<MandatoryInput>_uplB8UerEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_uplB8UerEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="meetings_with_clients" briefDescription="" id="_LfOiYPu4Ed--j8fJP7vAKQ" orderingGuide="" suppressed="false" presentationName="Minutes of meetings with clients " hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_8FE_YOMyEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="Services testing" briefDescription="" id="_UcCDIPupEd-4HOr1nlpC9Q" orderingGuide="" suppressed="false" presentationName="Services testing" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="false">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_9KKwEPuxEd-If8QJW3dCdw" linkType="finishToStart">_UcCDIPupEd-4HOr1nlpC9Q</Predecessor>
+					<Task>_bAYWYPuoEd-4HOr1nlpC9Q</Task>
+					<PerformedPrimarilyBy>_wvLcwPu2Ed-If8QJW3dCdw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_uplB8EerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_uplB8UerEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_sF9O4Pu2Ed-If8QJW3dCdw</MandatoryInput>
+					<MandatoryInput>_uplB80erEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_7s-6APupEd-4HOr1nlpC9Q</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="tester" briefDescription="" id="_wvLcwPu2Ed-If8QJW3dCdw" orderingGuide="" suppressed="false" presentationName="Tester" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Role>_m_HHUPuqEd-4HOr1nlpC9Q</Role>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="Testing reports" briefDescription="" id="_7s-6APupEd-4HOr1nlpC9Q" orderingGuide="" suppressed="false" presentationName="Testing reports" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_62RJ4PuoEd-4HOr1nlpC9Q</WorkProduct>
+				</BreakdownElement>
+					<DefaultContext>_9He0YOMuEd6OoK0l17K4LA</DefaultContext>
+					<ValidContext>_9He0YOMuEd6OoK0l17K4LA</ValidContext>
+				</Process>
+			</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="Construction iteration" briefDescription="" id="_ICXxoONQEd6OoK0l17K4LA" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+				<Process xsi:type="uma:CapabilityPattern" name="Construction iteration" briefDescription="" id="_ICXxoeNQEd6OoK0l17K4LA" orderingGuide="" suppressed="false" presentationName="Construction iteration" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="">
+					<Presentation xsi:type="uma:ProcessDescription" name="Construction iteration,_ICXxoeNQEd6OoK0l17K4LA" briefDescription="" id="-_D-DwGLVMUAoixdY6bwbQw" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+						<MainDescription></MainDescription>
+						<KeyConsiderations></KeyConsiderations>
+						<Alternatives></Alternatives>
+						<HowToStaff></HowToStaff>
+						<Purpose></Purpose>
+						<Scope></Scope>
+						<UsageNotes></UsageNotes>
+					</Presentation>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="specify_services" briefDescription="" id="_5jSWcEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="D2 - Specify services" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_jx69EEfFEd-pQsOhtyfuYw" linkType="finishToStart">_5jSWcEerEd-iTvGQFwAspw</Predecessor>
+					<Task>_l-QkIOMwEd6OoK0l17K4LA</Task>
+					<PerformedPrimarilyBy>_5jS9gEerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_5jS9gUerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_5jS9gkerEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_5jS9gkerEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="services_document" briefDescription="" id="_5jS9gkerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Services document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_N4bXIOMxEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="assign_services_to_components" briefDescription="" id="_7JGdsEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="D4 - Assign services to components" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_kSMYkEfFEd-pQsOhtyfuYw" linkType="finishToStart">_7JGdsEerEd-iTvGQFwAspw</Predecessor>
+					<Task>_-OOD4OM3Ed6OoK0l17K4LA</Task>
+					<PerformedPrimarilyBy>_5jS9gEerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_7JHEwEerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_5jS9gkerEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_7JHEwUerEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_5jS9gkerEd-iTvGQFwAspw</Output>
+					<Output>_7JHEwkerEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="architect" briefDescription="" id="_5jS9gEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Architect" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<Role>_ssT6EOM8Ed6OoK0l17K4LA</Role>
+					<ResponsibleFor>_5jS9gkerEd-iTvGQFwAspw</ResponsibleFor>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="design_document" briefDescription="" id="_7JHEwUerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Design document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_P1dnYOM4Ed6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="implementation_document" briefDescription="" id="_7JHEwkerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Implementation document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_SDch4OM4Ed6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="define_services_interaction" briefDescription="" id="_8sbRoEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="D5 - Define services interaction" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_k7In4EfFEd-pQsOhtyfuYw" linkType="finishToStart">_8sbRoEerEd-iTvGQFwAspw</Predecessor>
+					<Task>_diTx4OM4Ed6OoK0l17K4LA</Task>
+					<PerformedPrimarilyBy>_5jS9gEerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_5jS9gUerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<AdditionallyPerformedBy>_7JHEwEerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_8sb4sEerEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_8sb4sUerEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_5jS9gkerEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_5jS9gkerEd-iTvGQFwAspw</Output>
+					<Output>_7JHEwkerEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="analyst" briefDescription="" id="_5jS9gUerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Analyst" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<Role>_3dMfMOM7Ed6OoK0l17K4LA</Role>
+					<ResponsibleFor>_8sb4sUerEd-iTvGQFwAspw</ResponsibleFor>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="requirements_document" briefDescription="" id="_8sb4sEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Requirements document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_470IYOMyEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="business_processes_document" briefDescription="" id="_8sb4sUerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Business Processes document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_LuLRoOMnEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="implement_services" briefDescription="" id="_xTJYUEfDEd-iNY7TQq4TSw" orderingGuide="" suppressed="false" presentationName="I1 - Implement services" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="false">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_ZZJPcUu3Ed-vjd_3xeIJwQ" linkType="finishToStart">_xTJYUEfDEd-iNY7TQq4TSw</Predecessor>
+					<Predecessor id="_y_KUoPuxEd-If8QJW3dCdw" linkType="finishToStart">_xTJYUEfDEd-iNY7TQq4TSw</Predecessor>
+					<Task>_hdEQcEfDEd-iNY7TQq4TSw</Task>
+					<PerformedPrimarilyBy>_7JHEwEerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<MandatoryInput>_7JHEwUerEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_7JHEwkerEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_5jS9gkerEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_DjYfcPuzEd-If8QJW3dCdw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="service_implemented" briefDescription="" id="_DjYfcPuzEd-If8QJW3dCdw" orderingGuide="" suppressed="false" presentationName="Service Implemented" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_o6dUQEexEd-iTvGQFwAspw</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="sw_deployment" briefDescription="" id="_0CIuIEfDEd-iNY7TQq4TSw" orderingGuide="" suppressed="false" presentationName="Software deployment" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="false">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<Task>_YPg7wEfDEd-iNY7TQq4TSw</Task>
+					<PerformedPrimarilyBy>_7JHEwEerEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_5jS9gEerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_DjYfcPuzEd-If8QJW3dCdw</MandatoryInput>
+					<MandatoryInput>_acjIMPu2Ed-If8QJW3dCdw</MandatoryInput>
+					<OptionalInput>_7JHEwkerEd-iTvGQFwAspw</OptionalInput>
+					<Output>__hf-YPuyEd-If8QJW3dCdw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="developer" briefDescription="" id="_7JHEwEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Developer" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<Role>_x4Y9YOM8Ed6OoK0l17K4LA</Role>
+					<ResponsibleFor>_7JHEwkerEd-iTvGQFwAspw</ResponsibleFor>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="software_architecture_document" briefDescription="" id="_acjIMPu2Ed-If8QJW3dCdw" orderingGuide="" suppressed="false" presentationName="Software Architecture document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_1E2d4OMyEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="service_installed" briefDescription="" id="__hf-YPuyEd-If8QJW3dCdw" orderingGuide="" suppressed="false" presentationName="Service installed" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_kvaSMEu5Ed-vjd_3xeIJwQ</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="Services testing" briefDescription="" id="_f_gtYPupEd-4HOr1nlpC9Q" orderingGuide="" suppressed="false" presentationName="Services testing" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="false">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<Predecessor id="_1RSIQfuxEd-If8QJW3dCdw" linkType="finishToStart">_f_gtYPupEd-4HOr1nlpC9Q</Predecessor>
+					<Task>_bAYWYPuoEd-4HOr1nlpC9Q</Task>
+					<PerformedPrimarilyBy>_VuiBQPuzEd-If8QJW3dCdw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_7JHEwEerEd-iTvGQFwAspw</AdditionallyPerformedBy>
+					<MandatoryInput>_8sb4sEerEd-iTvGQFwAspw</MandatoryInput>
+					<MandatoryInput>_DjYfcPuzEd-If8QJW3dCdw</MandatoryInput>
+					<MandatoryInput>_5jS9gkerEd-iTvGQFwAspw</MandatoryInput>
+					<Output>_IdatUPuvEd-4HOr1nlpC9Q</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="tester" briefDescription="" id="_VuiBQPuzEd-If8QJW3dCdw" orderingGuide="" suppressed="false" presentationName="Tester" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<Role>_m_HHUPuqEd-4HOr1nlpC9Q</Role>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="testing_reports" briefDescription="" id="_IdatUPuvEd-4HOr1nlpC9Q" orderingGuide="" suppressed="false" presentationName="Testing reports" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_ICXxoeNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_62RJ4PuoEd-4HOr1nlpC9Q</WorkProduct>
+				</BreakdownElement>
+					<DefaultContext>_9He0YOMuEd6OoK0l17K4LA</DefaultContext>
+					<ValidContext>_9He0YOMuEd6OoK0l17K4LA</ValidContext>
+				</Process>
+			</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="Transition iteration" briefDescription="" id="_J53ewONQEd6OoK0l17K4LA" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+				<Process xsi:type="uma:CapabilityPattern" name="Transition iteration" briefDescription="" id="_J53eweNQEd6OoK0l17K4LA" orderingGuide="" suppressed="false" presentationName="Transition iteration" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="">
+					<Presentation xsi:type="uma:ProcessDescription" name="Transition iteration,_J53eweNQEd6OoK0l17K4LA" briefDescription="" id="-Jo48MmxKkY1UJSeETAIT6w" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+						<MainDescription></MainDescription>
+						<KeyConsiderations></KeyConsiderations>
+						<Alternatives></Alternatives>
+						<HowToStaff></HowToStaff>
+						<Purpose></Purpose>
+						<Scope></Scope>
+						<UsageNotes></UsageNotes>
+					</Presentation>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="implementation_document" briefDescription="" id="_WQ7X40eyEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Implementation document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_J53eweNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_SDch4OM4Ed6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="sw_deployment" briefDescription="" id="_5PF7MEfDEd-iNY7TQq4TSw" orderingGuide="" suppressed="false" presentationName="Software deployment" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="false">
+					<SuperActivity>_J53eweNQEd6OoK0l17K4LA</SuperActivity>
+					<Task>_YPg7wEfDEd-iNY7TQq4TSw</Task>
+					<PerformedPrimarilyBy>_WQ6w0UeyEd-iTvGQFwAspw</PerformedPrimarilyBy>
+					<AdditionallyPerformedBy>_252kYPu4Ed--j8fJP7vAKQ</AdditionallyPerformedBy>
+					<MandatoryInput>_MLavcPu3Ed-If8QJW3dCdw</MandatoryInput>
+					<MandatoryInput>_NPQyEPu3Ed-If8QJW3dCdw</MandatoryInput>
+					<OptionalInput>_WQ7X40eyEd-iTvGQFwAspw</OptionalInput>
+					<Output>_Qcm30Pu3Ed-If8QJW3dCdw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="developer" briefDescription="" id="_WQ6w0UeyEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Developer" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_J53eweNQEd6OoK0l17K4LA</SuperActivity>
+					<Role>_x4Y9YOM8Ed6OoK0l17K4LA</Role>
+					<ResponsibleFor>_WQ7X40eyEd-iTvGQFwAspw</ResponsibleFor>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="architect" briefDescription="" id="_252kYPu4Ed--j8fJP7vAKQ" orderingGuide="" suppressed="false" presentationName="Architect" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_J53eweNQEd6OoK0l17K4LA</SuperActivity>
+					<Role>_ssT6EOM8Ed6OoK0l17K4LA</Role>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="service_implemented" briefDescription="" id="_MLavcPu3Ed-If8QJW3dCdw" orderingGuide="" suppressed="false" presentationName="Service Implemented" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_J53eweNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_o6dUQEexEd-iTvGQFwAspw</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="software_architecture_document" briefDescription="" id="_NPQyEPu3Ed-If8QJW3dCdw" orderingGuide="" suppressed="false" presentationName="Software Architecture document" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_J53eweNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_1E2d4OMyEd6OoK0l17K4LA</WorkProduct>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="service_installed" briefDescription="" id="_Qcm30Pu3Ed-If8QJW3dCdw" orderingGuide="" suppressed="false" presentationName="Service installed" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+					<SuperActivity>_J53eweNQEd6OoK0l17K4LA</SuperActivity>
+					<WorkProduct>_kvaSMEu5Ed-vjd_3xeIJwQ</WorkProduct>
+				</BreakdownElement>
+					<DefaultContext>_9He0YOMuEd6OoK0l17K4LA</DefaultContext>
+					<ValidContext>_9He0YOMuEd6OoK0l17K4LA</ValidContext>
+				</Process>
+			</MethodPackage>
+		</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="bpsom" briefDescription="" id="_Se7xIEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+			<Process xsi:type="uma:DeliveryProcess" name="bpsom" briefDescription="" id="_Se7xIUerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="BPSOM" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="">
+				<Presentation xsi:type="uma:DeliveryProcessDescription" name="bpsom,_Se7xIUerEd-iTvGQFwAspw" briefDescription="" id="-0qCpr_XuZmMOIIaBewzAbA" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+					<MainDescription></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Alternatives></Alternatives>
+					<HowToStaff></HowToStaff>
+					<Purpose></Purpose>
+					<Scope></Scope>
+					<UsageNotes></UsageNotes>
+					<Scale></Scale>
+					<ProjectCharacteristics></ProjectCharacteristics>
+					<RiskLevel></RiskLevel>
+					<EstimatingTechnique></EstimatingTechnique>
+					<ProjectMemberExpertise></ProjectMemberExpertise>
+					<TypeOfContract></TypeOfContract>
+				</Presentation>
+				<BreakdownElement xsi:type="uma:Phase" name="Inception" briefDescription="" id="_X8DrsUesEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Inception" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+					<SuperActivity>_Se7xIUerEd-iTvGQFwAspw</SuperActivity>
+				<BreakdownElement xsi:type="uma:CapabilityPattern" name="Inception iteration" briefDescription="" id="_ab5yQUesEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Inception iteration [1..n]" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityBasedOnElement="_8y7dseNPEd6OoK0l17K4LA" variabilityType="extends" diagramURI="">
+					<SuperActivity>_X8DrsUesEd-iTvGQFwAspw</SuperActivity>
+				</BreakdownElement>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:Phase" name="Elaboration" briefDescription="" id="_cYI1cUesEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Elaboration" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+					<SuperActivity>_Se7xIUerEd-iTvGQFwAspw</SuperActivity>
+					<Predecessor id="_Sz914Ee_Ed-iNY7TQq4TSw" linkType="finishToStart">_X8DrsUesEd-iTvGQFwAspw</Predecessor>
+				<BreakdownElement xsi:type="uma:CapabilityPattern" name="Elaboration iteration" briefDescription="" id="_e-xggUesEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Elaboration iteration [1..n]" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityBasedOnElement="_AKwVIeNQEd6OoK0l17K4LA" variabilityType="extends" diagramURI="">
+					<SuperActivity>_cYI1cUesEd-iTvGQFwAspw</SuperActivity>
+				</BreakdownElement>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:Phase" name="Construction" briefDescription="" id="_hjDbIUesEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Construction" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+					<SuperActivity>_Se7xIUerEd-iTvGQFwAspw</SuperActivity>
+					<Predecessor id="_TTJsQEe_Ed-iNY7TQq4TSw" linkType="finishToStart">_cYI1cUesEd-iTvGQFwAspw</Predecessor>
+				<BreakdownElement xsi:type="uma:CapabilityPattern" name="Construction iteration" briefDescription="" id="_kAwMoUesEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Construction iteration [1..n]" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityBasedOnElement="_ICXxoeNQEd6OoK0l17K4LA" variabilityType="extends" diagramURI="">
+					<SuperActivity>_hjDbIUesEd-iTvGQFwAspw</SuperActivity>
+				</BreakdownElement>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:Phase" name="Transition" briefDescription="" id="_Y07lsUeyEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Transition" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+					<SuperActivity>_Se7xIUerEd-iTvGQFwAspw</SuperActivity>
+					<Predecessor id="_djON4Ee_Ed-iNY7TQq4TSw" linkType="finishToStart">_hjDbIUesEd-iTvGQFwAspw</Predecessor>
+				<BreakdownElement xsi:type="uma:CapabilityPattern" name="Transition iteration" briefDescription="" id="_hOw-cUeyEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Transition iteration [1..n]" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityBasedOnElement="_J53eweNQEd6OoK0l17K4LA" variabilityType="extends" diagramURI="">
+					<MethodElementProperty name="publish_ad" value="true"/>
+					<MethodElementProperty name="publish_add" value="true"/>
+					<SuperActivity>_Y07lsUeyEd-iTvGQFwAspw</SuperActivity>
+				</BreakdownElement>
+				</BreakdownElement>
+				<IncludesPattern>_8y7dseNPEd6OoK0l17K4LA</IncludesPattern>
+				<IncludesPattern>_AKwVIeNQEd6OoK0l17K4LA</IncludesPattern>
+				<IncludesPattern>_ICXxoeNQEd6OoK0l17K4LA</IncludesPattern>
+				<IncludesPattern>_J53eweNQEd6OoK0l17K4LA</IncludesPattern>
+				<DefaultContext>_9He0YOMuEd6OoK0l17K4LA</DefaultContext>
+				<ValidContext>_9He0YOMuEd6OoK0l17K4LA</ValidContext>
+			</Process>
+		</MethodPackage>
+	</MethodPlugin>
+	<MethodConfiguration name="bpsom" briefDescription="Service Oriented Methodology from Business Processes" id="_9He0YOMuEd6OoK0l17K4LA" orderingGuide="" suppressed="false" authors="" changeDescription="" version="">
+		<MethodPluginSelection>_HtQ6kOMfEd6OoK0l17K4LA</MethodPluginSelection>
+		<MethodPackageSelection>_J3AlUNK2EeWyCYG0_iINEw</MethodPackageSelection>
+		<MethodPackageSelection>_Se7xIEerEd-iTvGQFwAspw</MethodPackageSelection>
+		<MethodPackageSelection>_8y7dsONPEd6OoK0l17K4LA</MethodPackageSelection>
+		<MethodPackageSelection>_AKwVIONQEd6OoK0l17K4LA</MethodPackageSelection>
+		<MethodPackageSelection>_ICXxoONQEd6OoK0l17K4LA</MethodPackageSelection>
+		<MethodPackageSelection>_J53ewONQEd6OoK0l17K4LA</MethodPackageSelection>
+		<MethodPackageSelection>_6IkwQONPEd6OoK0l17K4LA</MethodPackageSelection>
+		<DefaultView>_X38tkOMsEd6OoK0l17K4LA</DefaultView>
+		<ProcessView>_X38tkOMsEd6OoK0l17K4LA</ProcessView>
+		<AddedCategory>_yPMuIOMsEd6OoK0l17K4LA</AddedCategory>
+		<AddedCategory>_zyC2YOMrEd6OoK0l17K4LA</AddedCategory>
+		<AddedCategory>_1q71MOMsEd6OoK0l17K4LA</AddedCategory>
+		<AddedCategory>_bBVYAOM6Ed6OoK0l17K4LA</AddedCategory>
+		<AddedCategory>_jM-MoONOEd6OoK0l17K4LA</AddedCategory>
+		<AddedCategory>_vySecOM6Ed6OoK0l17K4LA</AddedCategory>
+		<AddedCategory>_znhL8OMsEd6OoK0l17K4LA</AddedCategory>
+		<AddedCategory>_luMPwEe1Ed-iTvGQFwAspw</AddedCategory>
+		<AddedCategory>_sRwfUOMsEd6OoK0l17K4LA</AddedCategory>
+		<AddedCategory>_ICTDgOMsEd6OoK0l17K4LA</AddedCategory>
+		<AddedCategory>_HtRhqOMfEd6OoK0l17K4LA</AddedCategory>
+		<AddedCategory>_NOUnkEe1Ed-iTvGQFwAspw</AddedCategory>
+		<AddedCategory>_X38tkOMsEd6OoK0l17K4LA</AddedCategory>
+		<AddedCategory>_7ONF8OMrEd6OoK0l17K4LA</AddedCategory>
+		<AddedCategory>_4jGMwOM6Ed6OoK0l17K4LA</AddedCategory>
+	</MethodConfiguration>
+</uma:MethodLibrary>
