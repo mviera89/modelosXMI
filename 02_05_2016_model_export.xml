@@ -828,6 +828,12 @@ with other services (with or without a repository of services, binding in develo
 					<Description></Description>
 					</Step>
 				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="analyst" briefDescription="" id="_gjPZYEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Analyst" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
+					<Role>_3dMfMOM7Ed6OoK0l17K4LA</Role>
+					<ResponsibleFor>_kSQo0UerEd-iTvGQFwAspw</ResponsibleFor>
+					<ResponsibleFor>_gjPZY0erEd-iTvGQFwAspw</ResponsibleFor>
+				</BreakdownElement>
 				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="meetings_with_clients" briefDescription="" id="_gjPZYkerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Minutes of meetings with clients " hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
 					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
 					<WorkProduct>_8FE_YOMyEd6OoK0l17K4LA</WorkProduct>
@@ -896,12 +902,6 @@ with other services (with or without a repository of services, binding in develo
 					<MandatoryInput>_oMNV4kerEd-iTvGQFwAspw</MandatoryInput>
 					<Output>_oMNV4kerEd-iTvGQFwAspw</Output>
 				</BreakdownElement>
-				<BreakdownElement xsi:type="uma:RoleDescriptor" name="analyst" briefDescription="" id="_gjPZYEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Analyst" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
-					<SuperActivity>_8y7dseNPEd6OoK0l17K4LA</SuperActivity>
-					<Role>_3dMfMOM7Ed6OoK0l17K4LA</Role>
-					<ResponsibleFor>_kSQo0UerEd-iTvGQFwAspw</ResponsibleFor>
-					<ResponsibleFor>_gjPZY0erEd-iTvGQFwAspw</ResponsibleFor>
-				</BreakdownElement>
 					<DefaultContext>_9He0YOMuEd6OoK0l17K4LA</DefaultContext>
 					<ValidContext>_9He0YOMuEd6OoK0l17K4LA</ValidContext>
 				</Process>
@@ -926,12 +926,6 @@ with other services (with or without a repository of services, binding in develo
 					<AdditionallyPerformedBy>_sUvRgUerEd-iTvGQFwAspw</AdditionallyPerformedBy>
 					<MandatoryInput>_sUvRgkerEd-iTvGQFwAspw</MandatoryInput>
 					<Output>_sUvRg0erEd-iTvGQFwAspw</Output>
-				</BreakdownElement>
-				<BreakdownElement xsi:type="uma:RoleDescriptor" name="analyst" briefDescription="" id="_sUuqcEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Analyst" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
-					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
-					<Role>_3dMfMOM7Ed6OoK0l17K4LA</Role>
-					<ResponsibleFor>_sUvRg0erEd-iTvGQFwAspw</ResponsibleFor>
-					<ResponsibleFor>_sUvRgkerEd-iTvGQFwAspw</ResponsibleFor>
 				</BreakdownElement>
 				<BreakdownElement xsi:type="uma:RoleDescriptor" name="business_analyst" briefDescription="" id="_sUvRgEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Business Analyst" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
 					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
@@ -978,12 +972,6 @@ with other services (with or without a repository of services, binding in develo
 					<MandatoryInput>_uplB80erEd-iTvGQFwAspw</MandatoryInput>
 					<Output>_uplB80erEd-iTvGQFwAspw</Output>
 				</BreakdownElement>
-				<BreakdownElement xsi:type="uma:RoleDescriptor" name="architect" briefDescription="" id="_sUvRgUerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Architect" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
-					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
-					<Role>_ssT6EOM8Ed6OoK0l17K4LA</Role>
-					<ResponsibleFor>_yabdYEerEd-iTvGQFwAspw</ResponsibleFor>
-					<ResponsibleFor>_uplB80erEd-iTvGQFwAspw</ResponsibleFor>
-				</BreakdownElement>
 				<BreakdownElement xsi:type="uma:TaskDescriptor" name="investigate_existing_services" briefDescription="" id="_yaa2UEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="D3 - Investigate existing services" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
 					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
 					<Predecessor id="_yBGf8UfCEd-iNY7TQq4TSw" linkType="finishToStart">_yaa2UEerEd-iTvGQFwAspw</Predecessor>
@@ -994,6 +982,12 @@ with other services (with or without a repository of services, binding in develo
 					<MandatoryInput>_yabdYEerEd-iTvGQFwAspw</MandatoryInput>
 					<Output>_uplB80erEd-iTvGQFwAspw</Output>
 					<Output>_yabdYEerEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="architect" briefDescription="" id="_sUvRgUerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Architect" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Role>_ssT6EOM8Ed6OoK0l17K4LA</Role>
+					<ResponsibleFor>_yabdYEerEd-iTvGQFwAspw</ResponsibleFor>
+					<ResponsibleFor>_uplB80erEd-iTvGQFwAspw</ResponsibleFor>
 				</BreakdownElement>
 				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="services_catalogue" briefDescription="" id="_yabdYEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Services catalogue" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
 					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
@@ -1073,6 +1067,12 @@ with other services (with or without a repository of services, binding in develo
 					<MandatoryInput>_LfOiYPu4Ed--j8fJP7vAKQ</MandatoryInput>
 					<MandatoryInput>_uplB8UerEd-iTvGQFwAspw</MandatoryInput>
 					<Output>_uplB8UerEd-iTvGQFwAspw</Output>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:RoleDescriptor" name="analyst" briefDescription="" id="_sUuqcEerEd-iTvGQFwAspw" orderingGuide="" suppressed="false" presentationName="Analyst" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
+					<Role>_3dMfMOM7Ed6OoK0l17K4LA</Role>
+					<ResponsibleFor>_sUvRg0erEd-iTvGQFwAspw</ResponsibleFor>
+					<ResponsibleFor>_sUvRgkerEd-iTvGQFwAspw</ResponsibleFor>
 				</BreakdownElement>
 				<BreakdownElement xsi:type="uma:WorkProductDescriptor" name="meetings_with_clients" briefDescription="" id="_LfOiYPu4Ed--j8fJP7vAKQ" orderingGuide="" suppressed="false" presentationName="Minutes of meetings with clients " hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
 					<SuperActivity>_AKwVIeNQEd6OoK0l17K4LA</SuperActivity>
