@@ -947,6 +947,66 @@ with other services (with or without a repository of services, binding in develo
 					<ValidContext>_cNE-sOsVEeWqcvoXZGkk6w</ValidContext>
 				</Process>
 			</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="Elaboration iteration" briefDescription="" id="_f3RCZeseEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+				<Process xsi:type="uma:CapabilityPattern" name="Elaboration iteration" briefDescription="" id="_f3RpeOseEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" presentationName="Elaboration iteration" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="">
+					<Presentation xsi:type="uma:ProcessDescription" name="Elaboration iteration,_f3RpeOseEeWAy8cP-CDtOg" briefDescription="" id="-L5Cw3AnVV_Vt-I10zgvp8w" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+						<MainDescription></MainDescription>
+						<KeyConsiderations></KeyConsiderations>
+						<Alternatives></Alternatives>
+						<HowToStaff></HowToStaff>
+						<Purpose></Purpose>
+						<Scope></Scope>
+						<UsageNotes></UsageNotes>
+					</Presentation>
+					<DefaultContext>_cNE-sOsVEeWqcvoXZGkk6w</DefaultContext>
+					<ValidContext>_cNE-sOsVEeWqcvoXZGkk6w</ValidContext>
+				</Process>
+			</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="Construction iteration" briefDescription="" id="_f3QbUOseEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+				<Process xsi:type="uma:CapabilityPattern" name="Construction iteration" briefDescription="" id="_f3RCYOseEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" presentationName="Construction iteration" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="">
+					<Presentation xsi:type="uma:ProcessDescription" name="Construction iteration,_f3RCYOseEeWAy8cP-CDtOg" briefDescription="" id="-tsCv4sJjGPW92VOB1PbsFQ" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+						<MainDescription></MainDescription>
+						<KeyConsiderations></KeyConsiderations>
+						<Alternatives></Alternatives>
+						<HowToStaff></HowToStaff>
+						<Purpose></Purpose>
+						<Scope></Scope>
+						<UsageNotes></UsageNotes>
+					</Presentation>
+					<DefaultContext>_cNE-sOsVEeWqcvoXZGkk6w</DefaultContext>
+					<ValidContext>_cNE-sOsVEeWqcvoXZGkk6w</ValidContext>
+				</Process>
+			</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="Transition iteration" briefDescription="" id="_f3SQhuseEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+				<Process xsi:type="uma:CapabilityPattern" name="Transition iteration" briefDescription="" id="_f3S3kOseEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" presentationName="Transition iteration" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="">
+					<Presentation xsi:type="uma:ProcessDescription" name="Transition iteration,_f3S3kOseEeWAy8cP-CDtOg" briefDescription="" id="-TdsXir0SKYPXI3t_OcUxlg" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+						<MainDescription></MainDescription>
+						<KeyConsiderations></KeyConsiderations>
+						<Alternatives></Alternatives>
+						<HowToStaff></HowToStaff>
+						<Purpose></Purpose>
+						<Scope></Scope>
+						<UsageNotes></UsageNotes>
+					</Presentation>
+					<DefaultContext>_cNE-sOsVEeWqcvoXZGkk6w</DefaultContext>
+					<ValidContext>_cNE-sOsVEeWqcvoXZGkk6w</ValidContext>
+				</Process>
+			</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="Inception iteration" briefDescription="" id="_f3SQgOseEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+				<Process xsi:type="uma:CapabilityPattern" name="Inception iteration" briefDescription="" id="_f3SQg-seEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" presentationName="Inception iteration" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="">
+					<Presentation xsi:type="uma:ProcessDescription" name="Inception iteration,_f3SQg-seEeWAy8cP-CDtOg" briefDescription="" id="-3AXhDVP00cnfXkz70MvijQ" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+						<MainDescription></MainDescription>
+						<KeyConsiderations></KeyConsiderations>
+						<Alternatives></Alternatives>
+						<HowToStaff></HowToStaff>
+						<Purpose></Purpose>
+						<Scope></Scope>
+						<UsageNotes></UsageNotes>
+					</Presentation>
+					<DefaultContext>_cNE-sOsVEeWqcvoXZGkk6w</DefaultContext>
+					<ValidContext>_cNE-sOsVEeWqcvoXZGkk6w</ValidContext>
+				</Process>
+			</MethodPackage>
 		</MethodPackage>
 		<MethodPackage xsi:type="uma:ProcessComponent" name="bpsom" briefDescription="" id="_6DQc4OsYEeWqcvoXZGkk6w" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
 			<Process xsi:type="uma:DeliveryProcess" name="bpsom" briefDescription="" id="_6DQc4esYEeWqcvoXZGkk6w" orderingGuide="" suppressed="false" presentationName="bpsom" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="">
@@ -973,6 +1033,10 @@ with other services (with or without a repository of services, binding in develo
 				<IncludesPattern>_f3RCYOseEeWAy8cP-CDtOg</IncludesPattern>
 				<IncludesPattern>_f3S3kOseEeWAy8cP-CDtOg</IncludesPattern>
 				<IncludesPattern>_f3SQg-seEeWAy8cP-CDtOg</IncludesPattern>
+				<IncludesPattern>_f3RpeOseEeWAy8cP-CDtOg</IncludesPattern>
+				<IncludesPattern>_f3RCYOseEeWAy8cP-CDtOg</IncludesPattern>
+				<IncludesPattern>_f3S3kOseEeWAy8cP-CDtOg</IncludesPattern>
+				<IncludesPattern>_f3SQg-seEeWAy8cP-CDtOg</IncludesPattern>
 				<DefaultContext>_cNE-sOsVEeWqcvoXZGkk6w</DefaultContext>
 				<ValidContext>_cNE-sOsVEeWqcvoXZGkk6w</ValidContext>
 			</Process>
@@ -986,6 +1050,8 @@ with other services (with or without a repository of services, binding in develo
 		<MethodPackageSelection>_f3QbUOseEeWAy8cP-CDtOg</MethodPackageSelection>
 		<MethodPackageSelection>_f3SQhuseEeWAy8cP-CDtOg</MethodPackageSelection>
 		<MethodPackageSelection>_f3SQgOseEeWAy8cP-CDtOg</MethodPackageSelection>
+		<MethodPackageSelection>_fS8NUOseEeWAy8cP-CDtOg</MethodPackageSelection>
+		<MethodPackageSelection>_6DQc4OsYEeWqcvoXZGkk6w</MethodPackageSelection>
 		<MethodPackageSelection>_fS8NUOseEeWAy8cP-CDtOg</MethodPackageSelection>
 		<MethodPackageSelection>_6DQc4OsYEeWqcvoXZGkk6w</MethodPackageSelection>
 		<MethodPackageSelection>_fS8NUOseEeWAy8cP-CDtOg</MethodPackageSelection>
