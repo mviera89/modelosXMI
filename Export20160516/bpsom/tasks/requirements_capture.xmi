@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0" xmi:id="-iN7FmPR_05zfUeJ4dpOEWw"
+    name=",_eYkjoOvKEeW3MJIMM8_7UQ" guid="-iN7FmPR_05zfUeJ4dpOEWw" changeDate="2016-03-16T19:58:12.195-0300"
+    version="version 1.1">
+  <mainDescription>According to the software base development process of the organization the requirements for the software system under&#xD;
+development are captured and documented.</mainDescription>
+  <purpose>To capture the requirements for the software system under development.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0" xmi:id="-VzTtxDqS5DVLJG_HkUuHrA"
+    name=",_pQMNcOvKEeW3MJIMM8_7UQ" guid="-VzTtxDqS5DVLJG_HkUuHrA" changeDate="2016-03-16T19:59:20.157-0300"
+    version="version 1.1">
+  <mainDescription>According to the software base development process of the organization the&amp;nbsp;services implemented are tested to find&#xD;
+implementation errors and correct them before the deployment.</mainDescription>
+  <sections xmi:id="_SwTmoPAVEeWvO5pgCiF2Uw" name="Specify the testing cases according to the functionality defined for the service in the requeriments document "
+      guid="_SwTmoPAVEeWvO5pgCiF2Uw"/>
+  <sections xmi:id="_T6zq4PAVEeWvO5pgCiF2Uw" name="Test the service implemented regarding the specified testing cases and the information in the services document"
+      guid="_T6zq4PAVEeWvO5pgCiF2Uw"/>
+  <sections xmi:id="_Vn7UAPAVEeWvO5pgCiF2Uw" name="New Step" guid="_Vn7UAPAVEeWvO5pgCiF2Uw"/>
+  <purpose>To test the services implemented to find errors and be able to correct them before the deployment.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

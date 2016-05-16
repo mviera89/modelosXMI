@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_f6gjoOseEeWAy8cP-CDtOg"
+      guid="_f6gjoOseEeWAy8cP-CDtOg">
+    <resourceDescriptors xmi:id="_f6gjoeseEeWAy8cP-CDtOg" id="-L5Cw3AnVV_Vt-I10zgvp8w"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_f3RCZeseEeWAy8cP-CDtOg" name="Elaboration iteration"
+      guid="_f3RCZeseEeWAy8cP-CDtOg">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_f3RCZ-seEeWAy8cP-CDtOg"
+        name="BM2 - Identify Business Processes" guid="_f3RCZ-seEeWAy8cP-CDtOg" presentationName="BM2 - Identify Business Processes"
+        superActivities="_f3RpeOseEeWAy8cP-CDtOg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_f3RCZuseEeWAy8cP-CDtOg"
+        name="Requeriments Capture" guid="_f3RCZuseEeWAy8cP-CDtOg" presentationName="Requeriments Capture"
+        superActivities="_f3RpeOseEeWAy8cP-CDtOg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_f3RpdOseEeWAy8cP-CDtOg"
+        name="D1 - Identify and categorize services" guid="_f3RpdOseEeWAy8cP-CDtOg"
+        presentationName="D1 - Identify and categorize services" superActivities="_f3RpeOseEeWAy8cP-CDtOg"
+        linkToPredecessor="_HeWqoOvKEeW3MJIMM8_7UQ _HeWqoevKEeW3MJIMM8_7UQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_f3RpceseEeWAy8cP-CDtOg"
+        name="D2 - Specify services" guid="_f3RpceseEeWAy8cP-CDtOg" presentationName="D2 - Specify services"
+        superActivities="_f3RpeOseEeWAy8cP-CDtOg" linkToPredecessor="_IksAkOvKEeW3MJIMM8_7UQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_f3RpdeseEeWAy8cP-CDtOg"
+        name="D3 - Investigate existing services" guid="_f3RpdeseEeWAy8cP-CDtOg" presentationName="D3 - Investigate existing services"
+        superActivities="_f3RpeOseEeWAy8cP-CDtOg" linkToPredecessor="_I8s38OvKEeW3MJIMM8_7UQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_f3Rpc-seEeWAy8cP-CDtOg"
+        name="D4 - Assign services to components" guid="_f3Rpc-seEeWAy8cP-CDtOg" presentationName="D4 - Assign services to components"
+        superActivities="_f3RpeOseEeWAy8cP-CDtOg" linkToPredecessor="_Jdq3AOvKEeW3MJIMM8_7UQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_f3RpcuseEeWAy8cP-CDtOg"
+        name="D5 - Define services interaction" guid="_f3RpcuseEeWAy8cP-CDtOg" presentationName="D5 - Define services interaction"
+        superActivities="_f3RpeOseEeWAy8cP-CDtOg" linkToPredecessor="_J3zOQOvKEeW3MJIMM8_7UQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_f3Rpd-seEeWAy8cP-CDtOg"
+        name="I1 - Implement services" guid="_f3Rpd-seEeWAy8cP-CDtOg" presentationName="I1 - Implement services"
+        superActivities="_f3RpeOseEeWAy8cP-CDtOg" linkToPredecessor="_KN5aEOvKEeW3MJIMM8_7UQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_f3RpduseEeWAy8cP-CDtOg"
+        name="Services testing" guid="_f3RpduseEeWAy8cP-CDtOg" presentationName="Services testing"
+        superActivities="_f3RpeOseEeWAy8cP-CDtOg" linkToPredecessor="_K-tL8OvKEeW3MJIMM8_7UQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_f3RpcOseEeWAy8cP-CDtOg"
+        name="Software deployment" guid="_f3RpcOseEeWAy8cP-CDtOg" presentationName="Software deployment"
+        superActivities="_f3RpeOseEeWAy8cP-CDtOg" linkToPredecessor="_Lh6msOvKEeW3MJIMM8_7UQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_HeWqoOvKEeW3MJIMM8_7UQ"
+        guid="_HeWqoOvKEeW3MJIMM8_7UQ" pred="_f3RCZ-seEeWAy8cP-CDtOg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_HeWqoevKEeW3MJIMM8_7UQ"
+        guid="_HeWqoevKEeW3MJIMM8_7UQ" pred="_f3RCZuseEeWAy8cP-CDtOg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_IksAkOvKEeW3MJIMM8_7UQ"
+        guid="_IksAkOvKEeW3MJIMM8_7UQ" pred="_f3RpdOseEeWAy8cP-CDtOg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_I8s38OvKEeW3MJIMM8_7UQ"
+        guid="_I8s38OvKEeW3MJIMM8_7UQ" pred="_f3RpceseEeWAy8cP-CDtOg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Jdq3AOvKEeW3MJIMM8_7UQ"
+        guid="_Jdq3AOvKEeW3MJIMM8_7UQ" pred="_f3RpdeseEeWAy8cP-CDtOg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_J3zOQOvKEeW3MJIMM8_7UQ"
+        guid="_J3zOQOvKEeW3MJIMM8_7UQ" pred="_f3Rpc-seEeWAy8cP-CDtOg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_KN5aEOvKEeW3MJIMM8_7UQ"
+        guid="_KN5aEOvKEeW3MJIMM8_7UQ" pred="_f3RpcuseEeWAy8cP-CDtOg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_K-tL8OvKEeW3MJIMM8_7UQ"
+        guid="_K-tL8OvKEeW3MJIMM8_7UQ" pred="_f3Rpd-seEeWAy8cP-CDtOg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Lh6msOvKEeW3MJIMM8_7UQ"
+        guid="_Lh6msOvKEeW3MJIMM8_7UQ" pred="_f3RpduseEeWAy8cP-CDtOg"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_f3RpeOseEeWAy8cP-CDtOg"
+        name="Elaboration iteration" guid="_f3RpeOseEeWAy8cP-CDtOg" presentationName="Elaboration iteration"
+        processLineName="process" breakdownElements="_f3RCZ-seEeWAy8cP-CDtOg _f3RCZuseEeWAy8cP-CDtOg _f3RpdOseEeWAy8cP-CDtOg _f3RpceseEeWAy8cP-CDtOg _f3RpdeseEeWAy8cP-CDtOg _f3Rpc-seEeWAy8cP-CDtOg _f3RpcuseEeWAy8cP-CDtOg _f3Rpd-seEeWAy8cP-CDtOg _f3RpduseEeWAy8cP-CDtOg _f3RpcOseEeWAy8cP-CDtOg">
+      <presentation xmi:id="-L5Cw3AnVV_Vt-I10zgvp8w" href="uma://-L5Cw3AnVV_Vt-I10zgvp8w#-L5Cw3AnVV_Vt-I10zgvp8w"/>
+      <defaultContext href="uma://_MK8X0OsVEeWqcvoXZGkk6w#_cNE-sOsVEeWqcvoXZGkk6w"/>
+      <validContext href="uma://_MK8X0OsVEeWqcvoXZGkk6w#_cNE-sOsVEeWqcvoXZGkk6w"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_eF-aAOsVEeWqcvoXZGkk6w"
+      guid="_eF-aAOsVEeWqcvoXZGkk6w">
+    <subManagers xmi:id="_i60CAOsVEeWqcvoXZGkk6w" href="uma://_i5gacOsVEeWqcvoXZGkk6w#_i60CAOsVEeWqcvoXZGkk6w"/>
+    <subManagers xmi:id="_AqynAOsYEeWqcvoXZGkk6w" href="uma://_Ap_80OsYEeWqcvoXZGkk6w#_AqynAOsYEeWqcvoXZGkk6w"/>
+    <subManagers xmi:id="_jHwxgOsYEeWqcvoXZGkk6w" href="uma://_jHLisOsYEeWqcvoXZGkk6w#_jHwxgOsYEeWqcvoXZGkk6w"/>
+    <subManagers xmi:id="_zeGGwOsYEeWqcvoXZGkk6w" href="uma://_zdg38OsYEeWqcvoXZGkk6w#_zeGGwOsYEeWqcvoXZGkk6w"/>
+    <subManagers xmi:id="_6EFjUOsYEeWqcvoXZGkk6w" href="uma://_6DQc4OsYEeWqcvoXZGkk6w#_6EFjUOsYEeWqcvoXZGkk6w"/>
+    <resourceDescriptors xmi:id="_eHMiAOsVEeWqcvoXZGkk6w" id="-5q1ZXLKeHAFNW2G9DG3pDQ"
+        uri="activities/process.xmi"/>
+    <resourceDescriptors xmi:id="_i5i2sOsVEeWqcvoXZGkk6w" id="_i5gacOsVEeWqcvoXZGkk6w"
+        uri="capabilitypatterns/Construction%20iteration/model.xmi"/>
+    <resourceDescriptors xmi:id="_AqMKEOsYEeWqcvoXZGkk6w" id="_Ap_80OsYEeWqcvoXZGkk6w"
+        uri="capabilitypatterns/Elaboration%20iteration/model.xmi"/>
+    <resourceDescriptors xmi:id="_jHOmAOsYEeWqcvoXZGkk6w" id="_jHLisOsYEeWqcvoXZGkk6w"
+        uri="capabilitypatterns/Inception%20iteration/model.xmi"/>
+    <resourceDescriptors xmi:id="_zdjUMOsYEeWqcvoXZGkk6w" id="_zdg38OsYEeWqcvoXZGkk6w"
+        uri="capabilitypatterns/Transition%20iteration/model.xmi"/>
+    <resourceDescriptors xmi:id="_6DS5IOsYEeWqcvoXZGkk6w" id="_6DQc4OsYEeWqcvoXZGkk6w"
+        uri="deliveryprocesses/bpsom/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessLineComponent xmi:id="_eF5hgOsVEeWqcvoXZGkk6w" name="process"
+      guid="_eF5hgOsVEeWqcvoXZGkk6w">
+    <childPackages xsi:type="org.eclipse.epf.uma:VariantsPackage" xmi:id="_eJiEUOsVEeWqcvoXZGkk6w"
+        name="VariantsPackage" guid="_eJiEUOsVEeWqcvoXZGkk6w"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:TailoredProcessesPackage" xmi:id="_eKUugOsVEeWqcvoXZGkk6w"
+        name="TailoredPackage" guid="_eKUugOsVEeWqcvoXZGkk6w"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:CoreProcessPackage" xmi:id="_eb6NwOsVEeWqcvoXZGkk6w"
+        name="vCapabilityPatterns" guid="_eb6NwOsVEeWqcvoXZGkk6w">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_i5gacOsVEeWqcvoXZGkk6w"
+          href="uma://_i5gacOsVEeWqcvoXZGkk6w#_i5gacOsVEeWqcvoXZGkk6w"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_Ap_80OsYEeWqcvoXZGkk6w"
+          href="uma://_Ap_80OsYEeWqcvoXZGkk6w#_Ap_80OsYEeWqcvoXZGkk6w"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_jHLisOsYEeWqcvoXZGkk6w"
+          href="uma://_jHLisOsYEeWqcvoXZGkk6w#_jHLisOsYEeWqcvoXZGkk6w"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_zdg38OsYEeWqcvoXZGkk6w"
+          href="uma://_zdg38OsYEeWqcvoXZGkk6w#_zdg38OsYEeWqcvoXZGkk6w"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:CoreProcessPackage" xmi:id="_ecFz8OsVEeWqcvoXZGkk6w"
+        name="vDeliveryProcesses" guid="_ecFz8OsVEeWqcvoXZGkk6w">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_6DQc4OsYEeWqcvoXZGkk6w"
+          href="uma://_6DQc4OsYEeWqcvoXZGkk6w#_6DQc4OsYEeWqcvoXZGkk6w"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:VarPointsPackage" xmi:id="_ecVEgOsVEeWqcvoXZGkk6w"
+        name="VarPointsPackage" guid="_ecVEgOsVEeWqcvoXZGkk6w"/>
+    <processLine xsi:type="org.eclipse.epf.uma:LineProcess" xmi:id="_eF5hgesVEeWqcvoXZGkk6w"
+        name="process" guid="_eF5hgesVEeWqcvoXZGkk6w" presentationName="process">
+      <presentation xmi:id="-5q1ZXLKeHAFNW2G9DG3pDQ" href="uma://-5q1ZXLKeHAFNW2G9DG3pDQ#-5q1ZXLKeHAFNW2G9DG3pDQ"/>
+      <defaultContext href="uma://_MK8X0OsVEeWqcvoXZGkk6w#_cNE-sOsVEeWqcvoXZGkk6w"/>
+      <validContext href="uma://_MK8X0OsVEeWqcvoXZGkk6w#_cNE-sOsVEeWqcvoXZGkk6w"/>
+    </processLine>
+  </org.eclipse.epf.uma:ProcessLineComponent>
+</xmi:XMI>

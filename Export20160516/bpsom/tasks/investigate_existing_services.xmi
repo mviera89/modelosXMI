@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0" xmi:id="-_yLwzbS-iulZFB_RQ3vgFw"
+    name=",_QjnCIOvOEeW3MJIMM8_7UQ" guid="-_yLwzbS-iulZFB_RQ3vgFw" changeDate="2016-03-16T20:25:18.662-0300"
+    version="1.1">
+  <mainDescription>&lt;p>&#xD;
+    Existing services could be reused as if or it could be necessary to implement intermediary services for reusing other&#xD;
+    services that are not completely suited to the application, which is preferable than implement them again from scratch.&#xD;
+    To keep track of the services, their contracts and associated software systems (implementation) are register in a&#xD;
+    central Services Catalogue of services. &lt;span lang=&quot;EN-US&quot;&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Times','serif'; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;>In&#xD;
+    the SoaML component diagram an adapter or wrapper has to be defined to relate the design service to its existing&#xD;
+    implementation, which will then be linked in Activity D4. If the service can be used as it is, then the functionality&#xD;
+    of the adapter will be solely to call the existing component that implements the service; if it is similar then the&#xD;
+    adapter will add or modify the existing functionality to suite the new requirements for the service.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span lang=&quot;EN-US&quot;&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Times','serif'; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: DE; mso-bidi-language: AR-SA&quot;>Example&#xD;
+    of wrapper definition taken from the SoaML standard:&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;./resources/EjemploWrapper.jpg&quot; width=&quot;557&quot; height=&quot;280&quot; />&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>An adapter or wrapped component is defined in the SoaML component diagram for the participant, to invoke the existing&#xD;
+service, adding or modifying functionality if needed.</keyConsiderations>
+  <sections xmi:id="_0EFb0PASEeWvO5pgCiF2Uw" name="Identify existing services providing the required functionality listed in the services Catalogue"
+      guid="_0EFb0PASEeWvO5pgCiF2Uw"/>
+  <sections xmi:id="_1Rd08PASEeWvO5pgCiF2Uw" name="Define if the existing service could be used as is or if it is necessary to implement intermediary services "
+      guid="_1Rd08PASEeWvO5pgCiF2Uw"/>
+  <sections xmi:id="_3TvOsPASEeWvO5pgCiF2Uw" name="If an intermediary service has to be implemented, define the functionality it will reuse from the existing service, and the functionality that has to be added"
+      guid="_3TvOsPASEeWvO5pgCiF2Uw"/>
+  <sections xmi:id="_5a_2IPASEeWvO5pgCiF2Uw" name="Identify the location and way to invoke the existing service "
+      guid="_5a_2IPASEeWvO5pgCiF2Uw"/>
+  <sections xmi:id="_7gkbgPASEeWvO5pgCiF2Uw" name="New Step" guid="_7gkbgPASEeWvO5pgCiF2Uw"/>
+  <purpose>To find services that are already implemented in the organization and can be reused in the application under development.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

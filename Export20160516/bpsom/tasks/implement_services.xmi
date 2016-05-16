@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0" xmi:id="-dx8mhCYMq5uqHVdwgCGl0Q"
+    name=",_EV6gwOvPEeW3MJIMM8_7UQ" guid="-dx8mhCYMq5uqHVdwgCGl0Q" changeDate="2016-03-16T20:30:54.296-0300"
+    version="1.0">
+  <mainDescription>To implement the described services&amp;nbsp;taking into account the type of service, the designed interfaces, the interaction&#xD;
+with other services (with or without a repository of services, binding in development or execution time).</mainDescription>
+  <sections xmi:id="_VvUx8PAUEeWvO5pgCiF2Uw" name="For each service recall the defined interfaces with its operations, parameters, pre and post conditions from the services document "
+      guid="_VvUx8PAUEeWvO5pgCiF2Uw"/>
+  <sections xmi:id="_XmB04PAUEeWvO5pgCiF2Uw" name="Implement the service defining if invocations to other services will be through a services repository or not, and the time of binding for the invocation (development, execution)"
+      guid="_XmB04PAUEeWvO5pgCiF2Uw"/>
+  <sections xmi:id="_ZvFMEPAUEeWvO5pgCiF2Uw" name="Implement the service defining how invocations to other software pieces will be handled, and the time of binding for the invocation (development, execution)"
+      guid="_ZvFMEPAUEeWvO5pgCiF2Uw"/>
+  <sections xmi:id="_boF8IPAUEeWvO5pgCiF2Uw" name="New Step" guid="_boF8IPAUEeWvO5pgCiF2Uw"/>
+  <purpose>To implement the described services.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

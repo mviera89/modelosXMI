@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_jHwxgOsYEeWqcvoXZGkk6w"
+      guid="_jHwxgOsYEeWqcvoXZGkk6w">
+    <resourceDescriptors xmi:id="_jHwxgesYEeWqcvoXZGkk6w" id="-9FSQ6EwU1rnA3FJx8QmuAA"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_jHLisOsYEeWqcvoXZGkk6w" name="Inception iteration"
+      guid="_jHLisOsYEeWqcvoXZGkk6w">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_lkiV8OsYEeWqcvoXZGkk6w"
+        name="BM1 - " guid="_lkiV8OsYEeWqcvoXZGkk6w" presentationName="BM1 - Asses the Target Organization"
+        superActivities="_jHLisesYEeWqcvoXZGkk6w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_pCiG0OsYEeWqcvoXZGkk6w"
+        name="BM2 - Identify Business Processes" guid="_pCiG0OsYEeWqcvoXZGkk6w" presentationName="BM2 - Identify Business Processes"
+        superActivities="_jHLisesYEeWqcvoXZGkk6w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sYQsgOsYEeWqcvoXZGkk6w"
+        name="Requeriments Capture" guid="_sYQsgOsYEeWqcvoXZGkk6w" presentationName="Requeriments Capture"
+        superActivities="_jHLisesYEeWqcvoXZGkk6w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_uAq0wOsYEeWqcvoXZGkk6w"
+        name="D1 - Identify and categorize services" guid="_uAq0wOsYEeWqcvoXZGkk6w"
+        presentationName="D1 - Identify and categorize services" superActivities="_jHLisesYEeWqcvoXZGkk6w"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_jHLisesYEeWqcvoXZGkk6w"
+        name="Inception iteration" guid="_jHLisesYEeWqcvoXZGkk6w" presentationName="Inception iteration"
+        processLineName="process" breakdownElements="_lkiV8OsYEeWqcvoXZGkk6w _pCiG0OsYEeWqcvoXZGkk6w _sYQsgOsYEeWqcvoXZGkk6w _uAq0wOsYEeWqcvoXZGkk6w">
+      <presentation xmi:id="-9FSQ6EwU1rnA3FJx8QmuAA" href="uma://-9FSQ6EwU1rnA3FJx8QmuAA#-9FSQ6EwU1rnA3FJx8QmuAA"/>
+      <defaultContext href="uma://_MK8X0OsVEeWqcvoXZGkk6w#_cNE-sOsVEeWqcvoXZGkk6w"/>
+      <validContext href="uma://_MK8X0OsVEeWqcvoXZGkk6w#_cNE-sOsVEeWqcvoXZGkk6w"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

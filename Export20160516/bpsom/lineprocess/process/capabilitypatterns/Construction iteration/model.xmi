@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_i60CAOsVEeWqcvoXZGkk6w"
+      guid="_i60CAOsVEeWqcvoXZGkk6w">
+    <resourceDescriptors xmi:id="_i60pEOsVEeWqcvoXZGkk6w" id="-TKgwLb8wYwSlVGlSkRhalQ"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_i5gacOsVEeWqcvoXZGkk6w" name="Construction iteration"
+      guid="_i5gacOsVEeWqcvoXZGkk6w">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_oIckgOsVEeWqcvoXZGkk6w"
+        name="D2 " guid="_oIckgOsVEeWqcvoXZGkk6w" presentationName="D2 - Specify services"
+        superActivities="_i5gacesVEeWqcvoXZGkk6w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_tyv04OsVEeWqcvoXZGkk6w"
+        name="D4 - Assign services to components" guid="_tyv04OsVEeWqcvoXZGkk6w" presentationName="D4 - Assign services to components"
+        superActivities="_i5gacesVEeWqcvoXZGkk6w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_xLZLsOsVEeWqcvoXZGkk6w"
+        name="D5 -  Define services iteraction" guid="_xLZLsOsVEeWqcvoXZGkk6w" presentationName="D5 -  Define services iteraction"
+        superActivities="_i5gacesVEeWqcvoXZGkk6w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_0yrbcOsVEeWqcvoXZGkk6w"
+        name="I1 - Implementing services" guid="_0yrbcOsVEeWqcvoXZGkk6w" presentationName="I1 - Implementing services"
+        superActivities="_i5gacesVEeWqcvoXZGkk6w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_3cpuYOsVEeWqcvoXZGkk6w"
+        name="Services testing" guid="_3cpuYOsVEeWqcvoXZGkk6w" presentationName="Services testing"
+        superActivities="_i5gacesVEeWqcvoXZGkk6w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="__E3c8OsVEeWqcvoXZGkk6w"
+        name="Software deplyment" guid="__E3c8OsVEeWqcvoXZGkk6w" presentationName="Software deplyment"
+        superActivities="_i5gacesVEeWqcvoXZGkk6w"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_i5gacesVEeWqcvoXZGkk6w"
+        name="Construction iteration" guid="_i5gacesVEeWqcvoXZGkk6w" presentationName="Construction iteration"
+        processLineName="process" breakdownElements="_oIckgOsVEeWqcvoXZGkk6w _tyv04OsVEeWqcvoXZGkk6w _xLZLsOsVEeWqcvoXZGkk6w _0yrbcOsVEeWqcvoXZGkk6w _3cpuYOsVEeWqcvoXZGkk6w __E3c8OsVEeWqcvoXZGkk6w">
+      <presentation xmi:id="-TKgwLb8wYwSlVGlSkRhalQ" href="uma://-TKgwLb8wYwSlVGlSkRhalQ#-TKgwLb8wYwSlVGlSkRhalQ"/>
+      <defaultContext href="uma://_MK8X0OsVEeWqcvoXZGkk6w#_cNE-sOsVEeWqcvoXZGkk6w"/>
+      <validContext href="uma://_MK8X0OsVEeWqcvoXZGkk6w#_cNE-sOsVEeWqcvoXZGkk6w"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

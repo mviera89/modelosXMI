@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.4/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.2.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_zeGGwOsYEeWqcvoXZGkk6w"
+      guid="_zeGGwOsYEeWqcvoXZGkk6w">
+    <resourceDescriptors xmi:id="_zeGGwesYEeWqcvoXZGkk6w" id="-r-c0BRQ5ZzLlVKNxmmaSpg"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_zdg38OsYEeWqcvoXZGkk6w" name="Transition iteration"
+      guid="_zdg38OsYEeWqcvoXZGkk6w">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_15nG8OsYEeWqcvoXZGkk6w"
+        name="Software deployment" guid="_15nG8OsYEeWqcvoXZGkk6w" presentationName="Software deployment"
+        superActivities="_zdg38esYEeWqcvoXZGkk6w"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_zdg38esYEeWqcvoXZGkk6w"
+        name="Transition iteration" guid="_zdg38esYEeWqcvoXZGkk6w" presentationName="Transition iteration"
+        processLineName="process" breakdownElements="_15nG8OsYEeWqcvoXZGkk6w">
+      <presentation xmi:id="-r-c0BRQ5ZzLlVKNxmmaSpg" href="uma://-r-c0BRQ5ZzLlVKNxmmaSpg#-r-c0BRQ5ZzLlVKNxmmaSpg"/>
+      <defaultContext href="uma://_MK8X0OsVEeWqcvoXZGkk6w#_cNE-sOsVEeWqcvoXZGkk6w"/>
+      <validContext href="uma://_MK8X0OsVEeWqcvoXZGkk6w#_cNE-sOsVEeWqcvoXZGkk6w"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>
