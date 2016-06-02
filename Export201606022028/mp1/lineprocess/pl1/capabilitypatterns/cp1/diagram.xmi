@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML">
+  <uml:Activity xmi:id="_4Css0CXQEeaZI6JbOHEuYA" name="cp1">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4Css0SXQEeaZI6JbOHEuYA" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4Css0iXQEeaZI6JbOHEuYA"
+          key="uri" value="uma://_w2830CXQEeaZI6JbOHEuYA#_w2830SXQEeaZI6JbOHEuYA"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4Css0yXQEeaZI6JbOHEuYA"
+          key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_4DCEACXQEeaZI6JbOHEuYA" name="Task3"
+        outgoing="_4DCECCXQEeaZI6JbOHEuYA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4DCEASXQEeaZI6JbOHEuYA"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4DCEAiXQEeaZI6JbOHEuYA"
+            key="uri" value="uma://_w2830CXQEeaZI6JbOHEuYA#_zTmgcCXQEeaZI6JbOHEuYA"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4DCEAyXQEeaZI6JbOHEuYA"
+            key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_4DCEBCXQEeaZI6JbOHEuYA" name="Task4"
+        incoming="_4DCECCXQEeaZI6JbOHEuYA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4DCEBSXQEeaZI6JbOHEuYA"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4DCEBiXQEeaZI6JbOHEuYA"
+            key="uri" value="uma://_w2830CXQEeaZI6JbOHEuYA#_2FCtUCXQEeaZI6JbOHEuYA"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4DCEByXQEeaZI6JbOHEuYA"
+            key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4DCECCXQEeaZI6JbOHEuYA" source="_4DCEACXQEeaZI6JbOHEuYA"
+        target="_4DCEBCXQEeaZI6JbOHEuYA"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_4Css1CXQEeaZI6JbOHEuYA" type="AD" element="_4Css0CXQEeaZI6JbOHEuYA"
+      name="cp1" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_4Css1SXQEeaZI6JbOHEuYA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_4Css1iXQEeaZI6JbOHEuYA"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_4Css1yXQEeaZI6JbOHEuYA"/>
+  </notation:Diagram>
+</xmi:XMI>
