@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uma:MethodLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uma="http://www.eclipse.org/epf/uma/1.0.3" name="Library7" briefDescription="" id="_ePV48CXPEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" tool="epf=1.2.0">
+	<MethodPlugin name="mp1" briefDescription="" id="_-i78ICXPEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" userChangeable="true">
+		<MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_J3AlUNK2EeWyCYG0_iINEw">
+		</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessPackage" name="CapabilityPatterns" briefDescription="" id="_-i78LiXPEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" global="false">
+		<MethodPackage xsi:type="uma:ProcessComponent" name="cpp1" briefDescription="" id="_IOpMcCXQEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+				<Process xsi:type="uma:CapabilityPattern" name="cpp1" briefDescription="" id="_IOpMcSXQEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" presentationName="cpp1" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="mp1/capabilitypatterns/cpp1/diagram.xmi">
+					<Presentation xsi:type="uma:ProcessDescription" name="cpp1,_IOpMcSXQEeaZI6JbOHEuYA" briefDescription="" id="-KGZTDYsghO4mukEXl0ubRA" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+						<MainDescription></MainDescription>
+						<KeyConsiderations></KeyConsiderations>
+						<Alternatives></Alternatives>
+						<HowToStaff></HowToStaff>
+						<Purpose></Purpose>
+						<Scope></Scope>
+						<UsageNotes></UsageNotes>
+					</Presentation>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="Task1" briefDescription="" id="_JpbIYCXQEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" presentationName="Task1" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+					<SuperActivity>_IOpMcSXQEeaZI6JbOHEuYA</SuperActivity>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:TaskDescriptor" name="Task2" briefDescription="" id="_KlOpUCXQEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" presentationName="Task2" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+					<SuperActivity>_IOpMcSXQEeaZI6JbOHEuYA</SuperActivity>
+					<Predecessor id="_LMZ-ECXQEeaZI6JbOHEuYA" linkType="finishToStart">_JpbIYCXQEeaZI6JbOHEuYA</Predecessor>
+				</BreakdownElement>
+					<DefaultContext>_9gQXICXPEeaZI6JbOHEuYA</DefaultContext>
+					<ValidContext>_9gQXICXPEeaZI6JbOHEuYA</ValidContext>
+				</Process>
+			</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="cpp1" briefDescription="" id="_IOpMcCXQEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+				<Process xsi:type="uma:CapabilityPattern" name="cpp1" briefDescription="" id="_IOpMcSXQEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" presentationName="cpp1" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="mp1/capabilitypatterns/cpp1/diagram.xmi">
+					<Presentation xsi:type="uma:ProcessDescription" name="cpp1,_IOpMcSXQEeaZI6JbOHEuYA" briefDescription="" id="-KGZTDYsghO4mukEXl0ubRA" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+						<MainDescription></MainDescription>
+						<KeyConsiderations></KeyConsiderations>
+						<Alternatives></Alternatives>
+						<HowToStaff></HowToStaff>
+						<Purpose></Purpose>
+						<Scope></Scope>
+						<UsageNotes></UsageNotes>
+					</Presentation>
+					<DefaultContext>_9gQXICXPEeaZI6JbOHEuYA</DefaultContext>
+					<ValidContext>_9gQXICXPEeaZI6JbOHEuYA</ValidContext>
+				</Process>
+			</MethodPackage>
+		</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="dp1" briefDescription="" id="_A_znMCXQEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+			<Process xsi:type="uma:DeliveryProcess" name="dp1" briefDescription="" id="_A_znMSXQEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" presentationName="dp1" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="mp1/deliveryprocesses/dp1/diagram.xmi">
+				<Presentation xsi:type="uma:DeliveryProcessDescription" name="dp1,_A_znMSXQEeaZI6JbOHEuYA" briefDescription="" id="-ZvNjlu_LUh5gqtiQ17_KVw" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+					<MainDescription></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Alternatives></Alternatives>
+					<HowToStaff></HowToStaff>
+					<Purpose></Purpose>
+					<Scope></Scope>
+					<UsageNotes></UsageNotes>
+					<Scale></Scale>
+					<ProjectCharacteristics></ProjectCharacteristics>
+					<RiskLevel></RiskLevel>
+					<EstimatingTechnique></EstimatingTechnique>
+					<ProjectMemberExpertise></ProjectMemberExpertise>
+					<TypeOfContract></TypeOfContract>
+				</Presentation>
+				<BreakdownElement xsi:type="uma:Phase" name="Phase1" briefDescription="" id="_CtOLQSXQEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" presentationName="Phase1" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+					<SuperActivity>_A_znMSXQEeaZI6JbOHEuYA</SuperActivity>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:Phase" name="Phase2" briefDescription="" id="_DauxgSXQEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" presentationName="Phase2" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+					<SuperActivity>_A_znMSXQEeaZI6JbOHEuYA</SuperActivity>
+					<Predecessor id="_PcTF8CXQEeaZI6JbOHEuYA" linkType="finishToStart">_CtOLQSXQEeaZI6JbOHEuYA</Predecessor>
+				<BreakdownElement xsi:type="uma:CapabilityPattern" name="cpp1" briefDescription="" id="_Ov2PoSXQEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" presentationName="" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityBasedOnElement="_IOpMcSXQEeaZI6JbOHEuYA" variabilityType="extends" diagramURI="">
+					<SuperActivity>_DauxgSXQEeaZI6JbOHEuYA</SuperActivity>
+				</BreakdownElement>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:Phase" name="VarPhase1" briefDescription="" id="_JrjZ4CXREeaZI6JbOHEuYA" orderingGuide="" suppressed="false" presentationName="VarPhase1" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+					<SuperActivity>_A_znMSXQEeaZI6JbOHEuYA</SuperActivity>
+					<Predecessor id="_IG2F4CXREeaZI6JbOHEuYA1" linkType="finishToStart">_DauxgSXQEeaZI6JbOHEuYA</Predecessor>
+				</BreakdownElement>
+				<BreakdownElement xsi:type="uma:Phase" name="VarPhase2" briefDescription="" id="_MxoaASXREeaZI6JbOHEuYA" orderingGuide="" suppressed="false" presentationName="VarPhase2" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+					<SuperActivity>_A_znMSXQEeaZI6JbOHEuYA</SuperActivity>
+					<Predecessor id="_IG2F4CXREeaZI6JbOHEuYA2" linkType="finishToStart">_DauxgSXQEeaZI6JbOHEuYA</Predecessor>
+				</BreakdownElement>
+				<IncludesPattern>_IOpMcSXQEeaZI6JbOHEuYA</IncludesPattern>
+				<IncludesPattern>_IOpMcSXQEeaZI6JbOHEuYA</IncludesPattern>
+				<DefaultContext>_9gQXICXPEeaZI6JbOHEuYA</DefaultContext>
+				<ValidContext>_9gQXICXPEeaZI6JbOHEuYA</ValidContext>
+			</Process>
+		</MethodPackage>
+	</MethodPlugin>
+	<MethodConfiguration name="mc1" briefDescription="" id="_9gQXICXPEeaZI6JbOHEuYA" orderingGuide="" suppressed="false" authors="" changeDescription="" version="">
+		<MethodPluginSelection>_-i78ICXPEeaZI6JbOHEuYA</MethodPluginSelection>
+		<MethodPackageSelection>_J3AlUNK2EeWyCYG0_iINEw</MethodPackageSelection>
+		<MethodPackageSelection>_A_znMCXQEeaZI6JbOHEuYA</MethodPackageSelection>
+		<MethodPackageSelection>_IOpMcCXQEeaZI6JbOHEuYA</MethodPackageSelection>
+		<MethodPackageSelection>_-i78LiXPEeaZI6JbOHEuYA</MethodPackageSelection>
+		<DefaultView></DefaultView>
+	</MethodConfiguration>
+</uma:MethodLibrary>
