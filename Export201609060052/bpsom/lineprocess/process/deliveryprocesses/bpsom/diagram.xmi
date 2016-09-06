@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML">
+  <uml:Activity xmi:id="_z4xwQOsbEeWqcvoXZGkk6w" name="bpsom">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z4yXUOsbEeWqcvoXZGkk6w" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z4yXUesbEeWqcvoXZGkk6w"
+          key="uri" value="uma://_6DQc4OsYEeWqcvoXZGkk6w#_6DQc4esYEeWqcvoXZGkk6w"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z4yXUusbEeWqcvoXZGkk6w"
+          key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_z5pS8OsbEeWqcvoXZGkk6w" name="Inception">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z5pS8esbEeWqcvoXZGkk6w"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z5pS8usbEeWqcvoXZGkk6w"
+            key="uri" value="uma://_6DQc4OsYEeWqcvoXZGkk6w#_93duUOsYEeWqcvoXZGkk6w"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z5pS8-sbEeWqcvoXZGkk6w"
+            key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_z5p6AOsbEeWqcvoXZGkk6w" name="Elaboration">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z5p6AesbEeWqcvoXZGkk6w"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z5p6AusbEeWqcvoXZGkk6w"
+            key="uri" value="uma://_6DQc4OsYEeWqcvoXZGkk6w#__aC7YesYEeWqcvoXZGkk6w"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z5p6A-sbEeWqcvoXZGkk6w"
+            key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_z5p6BOsbEeWqcvoXZGkk6w" name="Construction">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z5p6BesbEeWqcvoXZGkk6w"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z5p6BusbEeWqcvoXZGkk6w"
+            key="uri" value="uma://_6DQc4OsYEeWqcvoXZGkk6w#_AulFYesZEeWqcvoXZGkk6w"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z5p6B-sbEeWqcvoXZGkk6w"
+            key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_z5p6COsbEeWqcvoXZGkk6w" name="Transition">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z5p6CesbEeWqcvoXZGkk6w"
+          source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z5p6CusbEeWqcvoXZGkk6w"
+            key="uri" value="uma://_6DQc4OsYEeWqcvoXZGkk6w#_COyT4OsZEeWqcvoXZGkk6w"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z5p6C-sbEeWqcvoXZGkk6w"
+            key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_z4yXU-sbEeWqcvoXZGkk6w" type="AD" element="_z4xwQOsbEeWqcvoXZGkk6w"
+      name="bpsom" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_z4yXVOsbEeWqcvoXZGkk6w"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_z4yXVesbEeWqcvoXZGkk6w"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_z4yXVusbEeWqcvoXZGkk6w"/>
+  </notation:Diagram>
+</xmi:XMI>
