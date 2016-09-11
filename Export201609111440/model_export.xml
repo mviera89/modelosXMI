@@ -40,6 +40,45 @@
 </p>]]></MainDescription>
 					<KeyConsiderations></KeyConsiderations>
 				</Presentation>
+		<MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_J3AlUNK2EeWyCYG0_iINEw">
+			<ContentCategory xsi:type="uma:CustomCategory" name="bpsom" briefDescription="Business Process Service Oriented Methodology (BPSOM) provides a guide for service oriented development from business processes, that can be added as a plug-in to the existing base software development process of the organization. It provides guides to derive and generate services models specified in OMG SoaML standard from business process specified in OMG BPMN standard. It also provides the definition of QVT transformations to automate this derivation as much as possible, using the Eclipse environment. " id="_kFPmEOsbEeWqcvoXZGkk6w" orderingGuide="" suppressed="false" presentationName="BPSOM" variabilityType="na">
+				<Presentation name="new_custom_category,_kFPmEOsbEeWqcvoXZGkk6w" briefDescription="" id="-TFZi_BQp8rSSZp4B3pOyZg" orderingGuide="" suppressed="false" authors="" changeDate="2016-03-15T23:06:14" changeDescription="" version="version 1.1" externalId="">
+					<MainDescription><![CDATA[<p>
+    Business Process Service Oriented Methodology (BPSOM) provides a guide for service oriented development from business
+    processes, that can be added as a plug-in to the existing base software development process of the organization. The
+    objective is to use the way in which people work as the basis for the software development adding specific elements to
+    guide the generation of services from business processes.
+</p>
+<p>
+    &nbsp;<img alt="" src="bpsom/customcategories/resources/BPSOMandswprocess80.jpg" width="600" height="532" />
+</p>
+<p>
+    BPSOM defines activities, deliverables and roles in three key Disciplines: Business Modeling, Design and
+    Implementation, and a lifecycle based on the Unified Process (UP) to guide the development in an iterative and
+    incrementally way.
+</p>
+<p>
+    The activities defined in the Business Modeling Discipline emphasize the definition and modeling of business processes
+    (using the BPMN OMG notation standard) not only as first input for the development process but as key asset of the
+    organization.
+</p>
+<p>
+    From these models, the activities defined in the Design Discipline guide the service oriented development by
+    identifying services from activities, sub-process or complete business processes,&nbsp;specifying them including
+    interfaces provided and required, parameters,&nbsp;pre and post conditions, among&nbsp;others.&nbsp;
+</p>
+<p>
+    A specific activity is defined to reuse existing services in the organization, complete or parcially, then to assign
+    components to defined services and to specify services interaction, in choreographies or orchestrations depending on
+    the business process control flow. Finally services realizing business processes, as defined in the Design Discipline,
+    are implemented in the Implementation Discipline.
+</p>
+<p>
+    General activities from the base software development process are assumed to exist to carry out needed activities such
+    as the requirements capture, or the software testing and deployment.
+</p>]]></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+				</Presentation>
 				<CategorizedElement>_vyeZQOvLEeW3MJIMM8_7UQ</CategorizedElement>
 				<CategorizedElement>_-nvpYPB2EeWvO5pgCiF2Uw</CategorizedElement>
 				<CategorizedElement>_E-8cAPB3EeWvO5pgCiF2Uw</CategorizedElement>
@@ -771,6 +810,7 @@ with other services (with or without a repository of services, binding in develo
 				</Presentation>
 			</ContentElement>
 		</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessPackage" name="Phase iteration templates" briefDescription="" id="_fS8NUOseEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" global="false">
 		<MethodPackage xsi:type="uma:ProcessComponent" name="Inception iteration" briefDescription="" id="_f3SQgOseEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
 				<Process xsi:type="uma:CapabilityPattern" name="Inception iteration" briefDescription="" id="_f3SQg-seEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" presentationName="Inception iteration" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="bpsom/capabilitypatterns/Inception iteration/diagram.xmi">
 					<Presentation xsi:type="uma:ProcessDescription" name="Inception iteration,_f3SQg-seEeWAy8cP-CDtOg" briefDescription="" id="-3AXhDVP00cnfXkz70MvijQ" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
@@ -1283,6 +1323,67 @@ with other services (with or without a repository of services, binding in develo
 					<ValidContext>_cNE-sOsVEeWqcvoXZGkk6w</ValidContext>
 				</Process>
 			</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="Inception iteration" briefDescription="" id="_f3SQgOseEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+				<Process xsi:type="uma:CapabilityPattern" name="Inception iteration" briefDescription="" id="_f3SQg-seEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" presentationName="Inception iteration" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="bpsom/capabilitypatterns/Inception iteration/diagram.xmi">
+					<Presentation xsi:type="uma:ProcessDescription" name="Inception iteration,_f3SQg-seEeWAy8cP-CDtOg" briefDescription="" id="-3AXhDVP00cnfXkz70MvijQ" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+						<MainDescription></MainDescription>
+						<KeyConsiderations></KeyConsiderations>
+						<Alternatives></Alternatives>
+						<HowToStaff></HowToStaff>
+						<Purpose></Purpose>
+						<Scope></Scope>
+						<UsageNotes></UsageNotes>
+					</Presentation>
+					<DefaultContext>_cNE-sOsVEeWqcvoXZGkk6w</DefaultContext>
+					<ValidContext>_cNE-sOsVEeWqcvoXZGkk6w</ValidContext>
+				</Process>
+			</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="Elaboration iteration" briefDescription="" id="_kbcAkEk2Eea_LO_zRCKUBA" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+				<Process xsi:type="uma:CapabilityPattern" name="Elaboration iteration" briefDescription="" id="_kbcAkUk2Eea_LO_zRCKUBA" orderingGuide="" suppressed="false" presentationName="Elaboration iteration" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="bpsom/capabilitypatterns/Elaboration iteration/diagram.xmi">
+					<Presentation xsi:type="uma:ProcessDescription" name="Elaboration iteration,_kbcAkUk2Eea_LO_zRCKUBA" briefDescription="" id="-_A4KZ7nv0UJ-80QKtCUKAg" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+						<MainDescription></MainDescription>
+						<KeyConsiderations></KeyConsiderations>
+						<Alternatives></Alternatives>
+						<HowToStaff></HowToStaff>
+						<Purpose></Purpose>
+						<Scope></Scope>
+						<UsageNotes></UsageNotes>
+					</Presentation>
+					<DefaultContext>_cNE-sOsVEeWqcvoXZGkk6w</DefaultContext>
+					<ValidContext>_cNE-sOsVEeWqcvoXZGkk6w</ValidContext>
+				</Process>
+			</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="Construction iteration" briefDescription="" id="_f3QbUOseEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+				<Process xsi:type="uma:CapabilityPattern" name="Construction iteration" briefDescription="" id="_f3RCYOseEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" presentationName="Construction iteration" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="bpsom/capabilitypatterns/Construction iteration/diagram.xmi">
+					<Presentation xsi:type="uma:ProcessDescription" name="Construction iteration,_f3RCYOseEeWAy8cP-CDtOg" briefDescription="" id="-tsCv4sJjGPW92VOB1PbsFQ" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+						<MainDescription></MainDescription>
+						<KeyConsiderations></KeyConsiderations>
+						<Alternatives></Alternatives>
+						<HowToStaff></HowToStaff>
+						<Purpose></Purpose>
+						<Scope></Scope>
+						<UsageNotes></UsageNotes>
+					</Presentation>
+					<DefaultContext>_cNE-sOsVEeWqcvoXZGkk6w</DefaultContext>
+					<ValidContext>_cNE-sOsVEeWqcvoXZGkk6w</ValidContext>
+				</Process>
+			</MethodPackage>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="Transition iteration" briefDescription="" id="_f3SQhuseEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+				<Process xsi:type="uma:CapabilityPattern" name="Transition iteration" briefDescription="" id="_f3S3kOseEeWAy8cP-CDtOg" orderingGuide="" suppressed="false" presentationName="Transition iteration" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="bpsom/capabilitypatterns/Transition iteration/diagram.xmi">
+					<Presentation xsi:type="uma:ProcessDescription" name="Transition iteration,_f3S3kOseEeWAy8cP-CDtOg" briefDescription="" id="-TdsXir0SKYPXI3t_OcUxlg" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+						<MainDescription></MainDescription>
+						<KeyConsiderations></KeyConsiderations>
+						<Alternatives></Alternatives>
+						<HowToStaff></HowToStaff>
+						<Purpose></Purpose>
+						<Scope></Scope>
+						<UsageNotes></UsageNotes>
+					</Presentation>
+					<DefaultContext>_cNE-sOsVEeWqcvoXZGkk6w</DefaultContext>
+					<ValidContext>_cNE-sOsVEeWqcvoXZGkk6w</ValidContext>
+				</Process>
+			</MethodPackage>
+		</MethodPackage>
 		<MethodPackage xsi:type="uma:ProcessComponent" name="bpsom" briefDescription="" id="_6DQc4OsYEeWqcvoXZGkk6w" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
 			<Process xsi:type="uma:DeliveryProcess" name="bpsom" briefDescription="" id="_6DQc4esYEeWqcvoXZGkk6w" orderingGuide="" suppressed="false" presentationName="BPSOM" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="bpsom/deliveryprocesses/bpsom/diagram.xmi">
 				<Presentation xsi:type="uma:DeliveryProcessDescription" name="bpsom,_6DQc4esYEeWqcvoXZGkk6w" briefDescription="" id="-43ZCo05h91sNXMDWq9YW0g" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
@@ -1362,11 +1463,32 @@ with other services (with or without a repository of services, binding in develo
 					<SuperActivity>_6DQc4esYEeWqcvoXZGkk6w</SuperActivity>
 					<Role>_6V7w8OvLEeW3MJIMM8_7UQ</Role>
 				</BreakdownElement>
+		<MethodPackage xsi:type="uma:ProcessComponent" name="bpsom" briefDescription="" id="_6DQc4OsYEeWqcvoXZGkk6w" orderingGuide="" suppressed="false" global="false" authors="" changeDescription="" version="">
+			<Process xsi:type="uma:DeliveryProcess" name="bpsom" briefDescription="" id="_6DQc4esYEeWqcvoXZGkk6w" orderingGuide="" suppressed="false" presentationName="BPSOM" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="bpsom/deliveryprocesses/bpsom/diagram.xmi">
+				<Presentation xsi:type="uma:DeliveryProcessDescription" name="bpsom,_6DQc4esYEeWqcvoXZGkk6w" briefDescription="" id="-43ZCo05h91sNXMDWq9YW0g" orderingGuide="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+					<MainDescription></MainDescription>
+					<KeyConsiderations></KeyConsiderations>
+					<Alternatives></Alternatives>
+					<HowToStaff></HowToStaff>
+					<Purpose></Purpose>
+					<Scope></Scope>
+					<UsageNotes></UsageNotes>
+					<Scale></Scale>
+					<ProjectCharacteristics></ProjectCharacteristics>
+					<RiskLevel></RiskLevel>
+					<EstimatingTechnique></EstimatingTechnique>
+					<ProjectMemberExpertise></ProjectMemberExpertise>
+					<TypeOfContract></TypeOfContract>
+				</Presentation>
 				<IncludesPattern>_f3SQg-seEeWAy8cP-CDtOg</IncludesPattern>
 				<IncludesPattern>_kbcAkUk2Eea_LO_zRCKUBA</IncludesPattern>
 				<IncludesPattern>_f3RCYOseEeWAy8cP-CDtOg</IncludesPattern>
 				<IncludesPattern>_f3S3kOseEeWAy8cP-CDtOg</IncludesPattern>
 				<IncludesPattern>_kbcAkUk2Eea_LO_zRCKUBA</IncludesPattern>
+				<IncludesPattern>_f3SQg-seEeWAy8cP-CDtOg</IncludesPattern>
+				<IncludesPattern>_kbcAkUk2Eea_LO_zRCKUBA</IncludesPattern>
+				<IncludesPattern>_f3RCYOseEeWAy8cP-CDtOg</IncludesPattern>
+				<IncludesPattern>_f3S3kOseEeWAy8cP-CDtOg</IncludesPattern>
 				<DefaultContext>_cNE-sOsVEeWqcvoXZGkk6w</DefaultContext>
 				<ValidContext>_cNE-sOsVEeWqcvoXZGkk6w</ValidContext>
 			</Process>
@@ -1380,6 +1502,8 @@ with other services (with or without a repository of services, binding in develo
 		<MethodPackageSelection>_kbcAkEk2Eea_LO_zRCKUBA</MethodPackageSelection>
 		<MethodPackageSelection>_f3QbUOseEeWAy8cP-CDtOg</MethodPackageSelection>
 		<MethodPackageSelection>_f3SQhuseEeWAy8cP-CDtOg</MethodPackageSelection>
+		<MethodPackageSelection>_6DQc4OsYEeWqcvoXZGkk6w</MethodPackageSelection>
+		<MethodPackageSelection>_fS8NUOseEeWAy8cP-CDtOg</MethodPackageSelection>
 		<MethodPackageSelection>_g_jAcOsbEeWqcvoXZGkk6w</MethodPackageSelection>
 		<MethodPackageSelection>_Qm1soOsbEeWqcvoXZGkk6w</MethodPackageSelection>
 		<MethodPackageSelection>_X7-uMOsbEeWqcvoXZGkk6w</MethodPackageSelection>
